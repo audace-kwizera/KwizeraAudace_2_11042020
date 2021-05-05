@@ -1,0 +1,232 @@
+/*  General */
+
+body,
+header,  
+footer {
+    margin: 2.7rem;
+}
+
+body, 
+.buttonRechercher, 
+#recherche {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+#titre img {
+    width: 8rem;
+    padding: 0.8rem 0 0 0;
+}
+
+#menu li:nth-child(1) a,
+#menu li:nth-child(2) a {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#recherche, 
+.icons {
+    padding: 0.8rem 1.3rem 0.8rem 1.3rem; 
+    border: 2px solid #F2F2F2;
+    font-size: 1.4rem;
+}
+
+#hebergements, 
+aside, 
+footer {
+    background-color: #F2F2F2;
+} 
+
+footer, 
+#activites {
+    width: 100%;
+}
+
+#slogan {
+    flex-direction: column;
+}
+
+#filtres, 
+.infoIcon {
+    padding: 1em 0 1em 0;
+}
+
+
+#filtres, 
+.infoIcon {
+    align-items: center;
+}
+
+section, 
+aside {
+    padding: 2em 0 2em 0;
+}
+
+.buttonFiltres li {
+    margin: 0.8em;
+}
+
+/*  L'en-tête   */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.1rem 0 0;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#menu li {
+    margin-left: 6rem;
+    margin-right: 0;
+    font-size: 1.2rem;
+}
+
+#menu li a {
+    color: #0065FC;
+}
+
+.sloganTitre {
+    margin-bottom: 0;
+}
+
+.sloganParagraphe {
+    padding-top: 0.2em;
+    margin-top: 0;
+}
+
+    /*  Barre de Recherche  */
+.champDeRecherche {
+    display: flex;
+    margin: 0 0 1.4rem 0;
+}
+
+.icons {
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+}
+
+#recherche {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.buttonRechercher {
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.3rem 0.8rem 1.5rem;
+    border-radius: 0 15px 15px 0;
+}
+
+    /*  icones des filtres  */
+.icone {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 0.8em;
+}
+
+#filtres ul li span {
+    position: relative;
+}
+
+#filtres ul li span svg {
+    width: 1.6rem;
+    height: 1.3rem;
+}
+
+#filtres ul li:nth-child(1) span svg {
+    width: 1.21rem;
+}
+
+    /*  filtres  */
+#filtres {
+    display: flex;
+}
+
+#filtres h2 {
+    font-size: 1.4rem;
+    padding: 0 0 0 1.3rem;
+}
+
+.buttonfiltres {
+    padding: 0.55em 0.85em 0.55em 2.1em;
+    border-top: 0.2em solid #f2f2f2;
+    border-right: 0.2em solid #f2f2f2;
+    border-bottom: 0.2em solid #f2f2f2;
+    border-radius: 0 50px 50px 0;
+    margin-left: -2rem;
+    color: black;
+}
+
+#filtres ul {
+    display: flex;
+    list-style: none;
+}
+
+#filtres li {
+    margin-right: 2rem;
+    font-size: 1.47rem;
+}
+
+/*  Le corps de page */
+
+    /*  icone d'info    */
+.infoIcon {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.infoIconRecherche {
+    padding: 0.2rem 0.75rem 0.2rem 0.75rem;
+    margin: 0.7rem 0.8em 0.7rem 0.3rem;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+}
+
+.svg-inline--fa.fa-w-6 {
+    width: 0.33rem;
+    color: #0065FC;
+}
+
+    /*  icone hebergement    */
+
+main {
+    padding: 0 2em 0 2em;
+    justify-content: space-between;
+}
+
+#hebergements {
+    width: 64.7%;
+    margin: 1.2em;
+}
+
+    /*  icone les plus populaires    */
+
+aside {
+    width: 30.4%;
+    margin: 1.22em;
+}
+
+    /*  icone les activités    */
+
+
+/*  Le pied de page */
+
+
+
