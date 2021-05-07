@@ -207,13 +207,134 @@ header {
     /*  icone hebergement    */
 
 main {
-    padding: 0 2em 0 2em;
+    padding: 0 1.2rem 0 2rem;
     justify-content: space-between;
 }
 
+    /* Section hebergements */
+
 #hebergements {
-    width: 64.7%;
-    margin: 1.2em;
+    display: flex;
+    flex-direction: column;
+    width: 65.3%;
+    border-radius: 25px;
+}
+
+    /* Titre section hebergement */
+
+#hebergements h2 {
+    padding: 0 0 0 3.1rem;
+    font-size: 1.9rem;
+}
+
+    /* carte section hebergement */
+
+
+.cartesHebergements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    object-fit: cover;
+    height: 16rem;
+    border: thin #c0c0c0 solid;
+    flex-flow: column;
+    padding: 0.3rem;
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: white;
+    border-color: white;
+}
+
+    /* Les cartes */
+
+#hebergements article a:nth-child(1),
+#hebergements article a:nth-child(2),
+#hebergements article a:nth-child(3),
+#hebergements article a:nth-child(4),
+#hebergements article a:nth-child(5),
+#hebergements article a:nth-child(6)
+ {
+    width: 27%;
+    margin-bottom: 3rem;
+}
+
+#hebergements article a:nth-child(1),
+#hebergements article a:nth-child(4) {
+    padding: 0 0 0 2rem;
+}
+
+#hebergements article a:nth-child(2),
+#hebergements article a:nth-child(5) {
+    padding: 0;
+}
+
+#hebergements article a:nth-child(3),
+#hebergements article a:nth-child(6) {
+    padding: 0 3rem 0 0;
+}
+
+#hebergements article a:nth-child(1) figure img,
+#hebergements article a:nth-child(2) figure img,
+#hebergements article a:nth-child(3) figure img,
+#hebergements article a:nth-child(4) figure img,
+#hebergements article a:nth-child(5) figure img,
+#hebergements article a:nth-child(6) figure img {
+    width: auto;
+    object-position: 0 -1.5rem;
+    border-radius: 25px 25px 0 0;
+    height: 69%;
+}
+
+#hebergements article a:nth-child(1) figure figcaption,
+#hebergements article a:nth-child(2) figure figcaption,
+#hebergements article a:nth-child(3) figure figcaption,
+#hebergements article a:nth-child(4) figure figcaption,
+#hebergements article a:nth-child(5) figure figcaption,
+#hebergements article a:nth-child(2) figure figcaption,
+#hebergements article a:nth-child(6) figure figcaption {
+    background-color: #fff;
+    color: black;
+    padding: 0;
+    text-align: left;
+}
+
+#hebergements article a:nth-child(1) figure figcaption div,
+#hebergements article a:nth-child(2) figure figcaption div,
+#hebergements article a:nth-child(3) figure figcaption div,
+#hebergements article a:nth-child(4) figure figcaption div,
+#hebergements article a:nth-child(5) figure figcaption div,
+#hebergements article a:nth-child(6) figure figcaption div {
+    font-size: 0.75rem;
+    padding: 0 0 0 0.5rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
+
+#hebergements article a:nth-child(1) figure figcaption h3,
+#hebergements article a:nth-child(2) figure figcaption h3,
+#hebergements article a:nth-child(3) figure figcaption h3,
+#hebergements article a:nth-child(4) figure figcaption h3,
+#hebergements article a:nth-child(5) figure figcaption h3,
+#hebergements article a:nth-child(6) figure figcaption h3 {
+    margin: -1rem 0 0 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+#hebergements article a:nth-child(1) figure figcaption p,
+#hebergements article a:nth-child(2) figure figcaption p,
+#hebergements article a:nth-child(3) figure figcaption p,
+#hebergements article a:nth-child(4) figure figcaption p,
+#hebergements article a:nth-child(5) figure figcaption p,
+#hebergements article a:nth-child(6) figure figcaption p {
+    margin: 0.2rem 0 0.2rem 0;
+    font-size: 0.8rem;
+    padding: 0 0 0 0.5rem;
 }
 
     /*  icone les plus populaires    */
