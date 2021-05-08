@@ -8,7 +8,10 @@ footer {
 
 body, 
 .buttonRechercher, 
-#recherche {
+#recherche,
+section,
+aside,
+footer {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
@@ -260,13 +263,13 @@ main {
 #hebergements article a:nth-child(5),
 #hebergements article a:nth-child(6)
  {
-    width: 27%;
+    width: 27.4%;
     margin-bottom: 3rem;
 }
 
 #hebergements article a:nth-child(1),
 #hebergements article a:nth-child(4) {
-    padding: 0 0 0 2rem;
+    padding: 0 0 0 1.2rem;
 }
 
 #hebergements article a:nth-child(2),
@@ -276,8 +279,10 @@ main {
 
 #hebergements article a:nth-child(3),
 #hebergements article a:nth-child(6) {
-    padding: 0 3rem 0 0;
+    padding: 0 1.5rem 0 0;
 }
+
+        /*  Les images des hebergements */
 
 #hebergements article a:nth-child(1) figure img,
 #hebergements article a:nth-child(2) figure img,
@@ -290,6 +295,8 @@ main {
     border-radius: 25px 25px 0 0;
     height: 69%;
 }
+
+        /*  Les descriptions des hebergements */
 
 #hebergements article a:nth-child(1) figure figcaption,
 #hebergements article a:nth-child(2) figure figcaption,
@@ -304,25 +311,15 @@ main {
     text-align: left;
 }
 
-#hebergements article a:nth-child(1) figure figcaption div,
-#hebergements article a:nth-child(2) figure figcaption div,
-#hebergements article a:nth-child(3) figure figcaption div,
-#hebergements article a:nth-child(4) figure figcaption div,
-#hebergements article a:nth-child(5) figure figcaption div,
-#hebergements article a:nth-child(6) figure figcaption div {
-    font-size: 0.75rem;
-    padding: 0 0 0 0.5rem;
-    margin: 0.2rem 0 0.2rem 0;
-}
-
-#hebergements article a:nth-child(1) figure figcaption h3,
-#hebergements article a:nth-child(2) figure figcaption h3,
-#hebergements article a:nth-child(3) figure figcaption h3,
-#hebergements article a:nth-child(4) figure figcaption h3,
-#hebergements article a:nth-child(5) figure figcaption h3,
-#hebergements article a:nth-child(6) figure figcaption h3 {
+#hebergements article a:nth-child(1) figure figcaption h4,
+#hebergements article a:nth-child(2) figure figcaption h4,
+#hebergements article a:nth-child(3) figure figcaption h4,
+#hebergements article a:nth-child(4) figure figcaption h4,
+#hebergements article a:nth-child(5) figure figcaption h4,
+#hebergements article a:nth-child(6) figure figcaption h4 {
     margin: -1rem 0 0 0.5rem;
-    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    font-size: 1.32rem;
     font-weight: 700;
 }
 
@@ -332,11 +329,81 @@ main {
 #hebergements article a:nth-child(4) figure figcaption p,
 #hebergements article a:nth-child(5) figure figcaption p,
 #hebergements article a:nth-child(6) figure figcaption p {
-    margin: 0.2rem 0 0.2rem 0;
-    font-size: 0.8rem;
-    padding: 0 0 0 0.5rem;
+    margin: 0.4rem 0 0.5rem 0;
+    font-size: 1.15rem;
+    font-weight: 300;
+    padding-left: 1.1rem;
 }
 
+        /*  Les etoiles des hebergements    */
+
+#hebergements article a:nth-child(1) figure figcaption div,
+#hebergements article a:nth-child(2) figure figcaption div,
+#hebergements article a:nth-child(3) figure figcaption div,
+#hebergements article a:nth-child(4) figure figcaption div,
+#hebergements article a:nth-child(5) figure figcaption div,
+#hebergements article a:nth-child(6) figure figcaption div {
+    font-size: 1rem;
+    padding: 0 0 0 0.5rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
+
+            /*  Les etoiles des carte    */
+
+#hebergements > article > a:nth-child(1) > figure > figcaption > div{
+    font-size: 1rem;
+    padding: 0 0 0 0.rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
+
+                /*  1ere carte, 3ème et 5ème carte  */
+
+#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(1),
+#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(2),
+#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(3),
+#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(4),
+#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(1),
+#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(2),
+#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(3),
+#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(4),
+#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(1),
+#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(2),
+#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(3),
+#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(4) {
+    color: #0065FC;
+}
+#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(5),
+#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(5),
+#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(5),
+#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(5) {
+    color: #DEEBFF;
+}
+
+                /*  2eme carte et 6ème carte  */
+#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(1),
+#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(3),
+#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(2),
+#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(4),
+#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(5),
+#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(1),
+#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(2),
+#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(3),
+#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(4),
+#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(5) {
+    color: #0065FC;
+}
+
+                /*  4ème carte  */
+#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(1),
+#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(3),
+#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(2) {
+        color: #0065FC;
+    }
+#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(4) {
+    color: #DEEBFF;
+}
+
+        
     /*  icone les plus populaires    */
 
 aside {
