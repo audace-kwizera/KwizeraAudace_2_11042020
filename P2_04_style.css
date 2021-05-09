@@ -564,10 +564,85 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     color: #f2f2f2;
 }
 
+    /*  Les activités   */
+
+#activites {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#activites article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activiteColonnesCartes {
+    display: flex;
+    flex-direction: column;
+}
 
 
-   /*  icone les activités    */
+        /*  Titre les activités    */
 
+#activites h3 {
+    margin-left: -0.7rem;
+    font-size: 1.8rem;
+}
+
+        /*  Les cartes des activites    */
+
+.activiteColonnesCartes,
+#activites article a:nth-child(1),
+#activites article a:nth-child(3) {
+    width: 20%;
+} 
+
+#activites article a:nth-child(1) figure,
+#activites article a:nth-child(3) figure  {
+    display: flex;
+    object-fit: cover;
+    height: 37rem;
+    border: thin #c0c0c0 solid;
+    flex-flow: column;
+    padding: 0.2rem;
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: white;
+    border-color: black;
+}   
+
+#activites article a:nth-child(2) figure,
+#activites article a:nth-child(4) figure {
+    display: flex;
+    object-fit: cover;
+    height: 16rem;
+    border: thin #c0c0c0 solid;
+    flex-flow: column;
+    padding: 0.2rem;
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: white;
+    border-color: black;
+}
+
+#activites article a:nth-child(3) figure,
+#activites article a:nth-child(5) figure {
+    display: flex;
+    object-fit: cover;
+    height: 16rem;
+    border: thin #c0c0c0 solid;
+    flex-flow: column;
+    padding: 0.2rem;
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: white;
+    border-color: black;
+}
 
 /*  Le pied de page */
 
