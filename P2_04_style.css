@@ -600,7 +600,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 } 
 
 #activites article a:nth-child(1) figure,
-#activites article a:nth-child(3) figure  {
+#activites article a:nth-child(3) figure {
     display: flex;
     object-fit: cover;
     height: 37rem;
@@ -614,8 +614,8 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     border-color: black;
 }   
 
-#activites article a:nth-child(2) figure,
-#activites article a:nth-child(4) figure {
+#activites article div:nth-child(2) a:nth-child(1) figure,
+#activites > article > div:nth-child(4) > a:nth-child(2) > figure {
     display: flex;
     object-fit: cover;
     height: 16rem;
@@ -629,8 +629,8 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     border-color: black;
 }
 
-#activites article a:nth-child(3) figure,
-#activites article a:nth-child(5) figure {
+#activites > article > div:nth-child(2) > a:nth-child(2) > figure,
+#activites > article > div:nth-child(4) > a:nth-child(1) > figure {
     display: flex;
     object-fit: cover;
     height: 16rem;
@@ -644,6 +644,11 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     border-color: black;
 }
 
+    /*  Images activités  */
+
+#activites article a:nth-child(3) figure img {
+
+}
 /*  Le pied de page */
 
 
