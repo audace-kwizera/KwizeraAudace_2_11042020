@@ -254,7 +254,7 @@ main {
     height: 16rem;
     border: thin #c0c0c0 solid;
     flex-flow: column;
-    padding: 0.20rem;
+    padding: 0.2rem;
     width: 100%;
     margin: auto;
     border-radius: 25px;
@@ -302,6 +302,7 @@ main {
     object-position: 0 -1.5rem;
     border-radius: 25px 25px 0 0;
     height: 69%;
+    padding: 0.5% 0.5% 0 0.5%;
 }
 
         /*  Les descriptions des hebergements */
@@ -326,7 +327,7 @@ main {
 #hebergements article a:nth-child(5) figure figcaption h4,
 #hebergements article a:nth-child(6) figure figcaption h4 {
     margin: -1rem 0 0 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 0.6rem;
     font-size: 1.32rem;
     font-weight: 700;
 }
@@ -345,6 +346,8 @@ main {
 
         /*  Les etoiles des hebergements    */
 
+            /*  Les etoiles des carte    */
+
 #hebergements article a:nth-child(1) figure figcaption div,
 #hebergements article a:nth-child(2) figure figcaption div,
 #hebergements article a:nth-child(3) figure figcaption div,
@@ -352,15 +355,7 @@ main {
 #hebergements article a:nth-child(5) figure figcaption div,
 #hebergements article a:nth-child(6) figure figcaption div {
     font-size: 1rem;
-    padding: 0 0 0 0.5rem;
-    margin: 0.2rem 0 0.2rem 0;
-}
-
-            /*  Les etoiles des carte    */
-
-#hebergements > article > a:nth-child(1) > figure > figcaption > div{
-    font-size: 1rem;
-    padding: 0 0 0 0.rem;
+    padding: 0 0 0 1rem;
     margin: 0.2rem 0 0.2rem 0;
 }
 
@@ -430,6 +425,30 @@ aside {
     width: 28.4%;
     margin: 1rem 1rem 0 2.2rem;
     border-radius: 25px;
+    padding: 0;
+}
+
+    /*  Titre les plus populaires   */
+
+.asideTitle {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 3.3rem;
+}
+
+body main div.sectionAsideSection aside div h3 {
+    margin-top: 4rem;
+    font-size: 1.78rem;
+    margin-bottom: -1rem;
+}
+
+    /*  Logo les plus populaires   */
+
+body main div.sectionAsideSection aside div div {
+    position: relative;
+    left: 3.1rem;
+    margin: 4rem 3rem -1em 5.5rem;
+    font-size: 1.4rem;
 }
 
     /*  Les cartes les plus populaires  */
@@ -441,8 +460,9 @@ body main aside article a:nth-child(3) figure {
     object-fit: cover;
     border: thin #c0c0c0 solid;
     flex-flow: row;
-    padding: 0.20rem;
-    width: 75%;
+    margin: 3.05rem;
+    width: 80%;
+    height: 11rem;
     border-radius: 25px;
     background-color: white;
     border-color: white;
@@ -453,13 +473,100 @@ body main aside article a:nth-child(3) figure {
 body main aside article a:nth-child(1) figure img,
 body main aside article a:nth-child(3) figure img, 
 body main aside article a:nth-child(2) figure img {
-    width: 10rem;
-    object-position: -5rem;
+    width: auto;
     border-radius: 25px 0 0 25px;
-    height: 0rem;
+    height: 98%;
+    padding: 0.5%;
     }
 
-    /*  icone les activités    */
+body main aside article a:nth-child(1) figure img,
+body main aside article a:nth-child(2) figure img {
+    width: 45%;
+    object-position: -2rem;
+}
+
+body main aside article a:nth-child(3) figure img {
+    width: 40.5%;
+    object-position: -1rem;
+}
+
+    /*  contenu cartes les plus populaires  */
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4 {
+    margin-bottom: 0;
+    font-size: 1.34rem;
+    font-weight: 700;
+    color: black;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
+    margin-bottom: 0;
+    padding-left: 1rem;
+    font-size: 1.34rem;
+    font-weight: 700;
+    color: black;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p {
+    margin: 0.4rem 0 0.5rem 0;
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: black;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
+    margin: 0.4rem 0 0.5rem 0;
+    font-size: 1.15rem;
+    font-weight: 300;
+    padding-left: 1.1rem;
+    color: black;
+}
+
+    /*  etoiles cartes les plus populaires  */
+
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
+    font-size: 1rem;
+    margin-top: 2.5em;
+    
+}
+
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
+    padding-left: 1.1rem;
+    margin-top: 2.5em;
+}
+
+        /*  1ere carte  */
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div svg:nth-child(1),
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div svg:nth-child(2),
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div svg:nth-child(3),
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div svg:nth-child(4),
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div svg:nth-child(5) {
+    color: #0065FC;
+}
+
+        /*  2eme et 3eme carte  */
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div svg:nth-child(3),
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div svg:nth-child(2),
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div svg:nth-child(1),
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div svg:nth-child(4),
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div svg:nth-child(1),
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div svg:nth-child(2),
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div svg:nth-child(3),
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div svg:nth-child(4) {
+    color: #0065FC;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div svg:nth-child(5),
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div svg:nth-child(5) {
+    color: #f2f2f2;
+}
+
+
+
+   /*  icone les activités    */
 
 
 /*  Le pied de page */
