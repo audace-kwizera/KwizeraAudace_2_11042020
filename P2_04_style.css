@@ -207,6 +207,13 @@ header {
     color: #0065FC;
 }
 
+    /*  placement body  */
+
+.sectionAsideSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
     /*  icone hebergement    */
 
 main {
@@ -219,15 +226,16 @@ main {
 #hebergements {
     display: flex;
     flex-direction: column;
-    width: 65.3%;
+    width: 60%;
+    margin: 1rem 1rem 0 -0.9rem;
     border-radius: 25px;
 }
 
     /* Titre section hebergement */
 
-#hebergements h2 {
-    padding: 0 0 0 3.1rem;
-    font-size: 1.9rem;
+#hebergements h3 {
+    padding: 0 0 0 3.3rem;
+    font-size: 1.78rem;
 }
 
     /* carte section hebergement */
@@ -246,7 +254,7 @@ main {
     height: 16rem;
     border: thin #c0c0c0 solid;
     flex-flow: column;
-    padding: 0.3rem;
+    padding: 0.20rem;
     width: 100%;
     margin: auto;
     border-radius: 25px;
@@ -403,13 +411,53 @@ main {
     color: #DEEBFF;
 }
 
+    /*  "afficher plus" section hebergement    */
+
+#hebergements div {
+    padding: 1rem 0 1rem 0;
+    margin-bottom: 0.6rem;
+}
+
+#hebergements div a {
+    padding: 3.5rem;
+    font-size: 1.45rem;
+    color: black;
+}
         
     /*  icone les plus populaires    */
 
 aside {
-    width: 30.4%;
-    margin: 1.22em;
+    width: 28.4%;
+    margin: 1rem 1rem 0 2.2rem;
+    border-radius: 25px;
 }
+
+    /*  Les cartes les plus populaires  */
+
+body main aside article a:nth-child(1) figure,
+body main aside article a:nth-child(2) figure,
+body main aside article a:nth-child(3) figure {
+    display: flex;
+    object-fit: cover;
+    border: thin #c0c0c0 solid;
+    flex-flow: row;
+    padding: 0.20rem;
+    width: 75%;
+    border-radius: 25px;
+    background-color: white;
+    border-color: white;
+}
+
+    /*  Images les plus populaires  */
+
+body main aside article a:nth-child(1) figure img,
+body main aside article a:nth-child(3) figure img, 
+body main aside article a:nth-child(2) figure img {
+    width: 10rem;
+    object-position: -5rem;
+    border-radius: 25px 0 0 25px;
+    height: 0rem;
+    }
 
     /*  icone les activités    */
 
