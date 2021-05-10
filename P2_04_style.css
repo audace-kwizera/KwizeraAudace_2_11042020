@@ -594,6 +594,8 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
 .activiteColonnesCartes,
 .activitegrandecarte {
+    display: flex;
+    flex-direction: column;
     width: 22%;
     padding: 1.3%;
     height: 37rem;
@@ -602,7 +604,15 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     background-color: white;
 } 
 
+
+
         /*  Taille Grandes cartes   */
+
+#activites article div:nth-child(1) a,
+#activites article div:nth-child(3) a {
+    height: 100%;
+}
+
 #activites article a:nth-child(1) figure,
 #activites article a:nth-child(3) figure {
     width: 98%;
@@ -610,6 +620,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     height: 98%;
     border-radius: 25px;
     background-color: black;
+    
 }
 
 
@@ -632,11 +643,35 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     border-color: black;
 }   
 
-            /*  Taille Moyennes cartes  */
+            /*  Taille des Cartes colonnes  */
 
 #activites article div:nth-child(2) a:nth-child(1) figure,
-#activites article div:nth-child(2) a:nth-child(2) figure {}
+#activites article div:nth-child(2) a:nth-child(2) figure,
+#activites article div:nth-child(4) a:nth-child(1) figure,
+#activites article div:nth-child(4) a:nth-child(2) figure {
+    width: 98%;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: black;
+}
 
+            /*  Taille Moyennes cartes  */
+
+                /*  2eme carte et 6eme carte    */
+#activites article div:nth-child(2) a:nth-child(1) {
+    height: 55%;
+    margin-bottom: 5%;
+}
+
+#activites article div:nth-child(4) a:nth-child(2) {
+    height: 55%;
+    margin-top: 5%;
+}
+
+#activites article div:nth-child(2) a:nth-child(2) figure,
+#activites article div:nth-child(4) a:nth-child(2) figure {
+    height: 98%;
+}
             /*
 
 #activites article div:nth-child(2) a:nth-child(1) {
@@ -658,8 +693,23 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     border-color: black;
 }
 
-            /*  Taille Petites cartes  
+            /*  Taille Petites cartes  */
 
+#activites article div:nth-child(2) a:nth-child(2) {
+    height: 45%;
+    margin-top: 5%;
+}
+
+#activites article div:nth-child(4) a:nth-child(1) {
+    height: 45%;
+    margin-bottom: 5%;
+}
+
+#activites article div:nth-child(2) a:nth-child(2) figure,
+#activites article div:nth-child(4) a:nth-child(1) figure {
+    height: 81%;
+}
+/*
 #activites > article > div:nth-child(2) > a:nth-child(2) > figure,
 #activites > article > div:nth-child(4) > a:nth-child(1) > figure {
     display: flex;
@@ -676,6 +726,9 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 }
 
     /*  Images activités  */
+
+
+    /**
 
         /*  Grandes carte  
 #activites article a:nth-child(1) figure img {
@@ -695,7 +748,19 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     object-position: 0rem;
     object-fit: cover;
 }
-        /*  Moyennes cartes  
+        /*  Moyennes cartes  */
+
+#activites article div:nth-child(2) a:nth-child(1) figure img {
+    border-radius: 25px 25px 0 0;
+    height: 75%;
+    padding: 1%;
+    width: 98%;
+    object-position: 0rem;
+    object-fit: cover;
+}
+
+/*
+
 #activites article div:nth-child(2) a:nth-child(1),
 #activites article div:nth-child(4) a:nth-child(2) {
     width: 100%;
@@ -712,7 +777,18 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     object-fit: cover;
 }
 
-        /*  Petites cartes  
+        /*  Petites cartes  */
+
+#activites article div:nth-child(2) a:nth-child(2) figure img {
+    border-radius: 25px 25px 0 0;
+    height: 45%;
+    padding: 1%;
+    width: 98%;
+    object-position: 0rem;
+    object-fit: cover;
+}
+
+/*
 #activites article div:nth-child(2) a:nth-child(2) figure img,
 #activites article div:nth-child(4) a:nth-child(1) figure img {
     border-radius: 25px 25px 0 0;
