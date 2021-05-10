@@ -574,7 +574,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
 #activites article {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -596,8 +596,9 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 .activiteColonnesCartes,
 #activites article a:nth-child(1),
 #activites article a:nth-child(3) {
-    width: 20%;
+    width: 22%;
 } 
+            /*  Taille Grandes cartes  */
 
 #activites article a:nth-child(1) figure,
 #activites article a:nth-child(3) figure {
@@ -614,11 +615,13 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     border-color: black;
 }   
 
+            /*  Taille Moyennes cartes  */
+
 #activites article div:nth-child(2) a:nth-child(1) figure,
 #activites > article > div:nth-child(4) > a:nth-child(2) > figure {
     display: flex;
     object-fit: cover;
-    height: 16rem;
+    height: 56%;
     border: thin #c0c0c0 solid;
     flex-flow: column;
     padding: 0.2rem;
@@ -629,11 +632,13 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     border-color: black;
 }
 
+            /*  Taille Petites cartes  */
+
 #activites > article > div:nth-child(2) > a:nth-child(2) > figure,
 #activites > article > div:nth-child(4) > a:nth-child(1) > figure {
     display: flex;
     object-fit: cover;
-    height: 16rem;
+    height: 40%;
     border: thin #c0c0c0 solid;
     flex-flow: column;
     padding: 0.2rem;
@@ -646,9 +651,52 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
     /*  Images activités  */
 
-#activites article a:nth-child(3) figure img {
-
+        /*  Grandes carte  */
+#activites article a:nth-child(1) figure img {
+    border-radius: 25px 25px 0 0;
+    height: 98%;
+    padding: 1%;
+    width: 98%;
+    object-position: 0rem;
+    object-fit: cover;
 }
+
+#activites article a:nth-child(3) figure img {
+    border-radius: 25px 25px 0 0;
+    height: 90%;
+    padding: 1%;
+    width: 98%;
+    object-position: 0rem;
+    object-fit: cover;
+}
+        /*  Moyennes cartes  */
+#activites article div:nth-child(2) a:nth-child(1),
+#activites article div:nth-child(4) a:nth-child(2) {
+    width: 100%;
+    height: 60%;
+}
+
+#activites article div:nth-child(2) a:nth-child(1) figure img,
+#activites article div:nth-child(4) a:nth-child(2) figure img {
+    border-radius: 25px 25px 0 0;
+    height: 77%;
+    padding: 1%;
+    width: 98%;
+    object-position: 0rem;
+    object-fit: cover;
+}
+
+        /*  Petites cartes  */
+#activites article div:nth-child(2) a:nth-child(2) figure img,
+#activites article div:nth-child(4) a:nth-child(1) figure img {
+    border-radius: 25px 25px 0 0;
+    height: 63%;
+    padding: 1%;
+    width: 98%;
+    object-position: 0rem -1.5rem;
+    object-fit: cover;
+}
+
 /*  Le pied de page */
 
 
