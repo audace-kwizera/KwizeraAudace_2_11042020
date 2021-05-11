@@ -374,6 +374,7 @@ main {
 #hebergements article a:nth-child(5) figure figcaption div svg:nth-child(4) {
     color: #0065FC;
 }
+
 #hebergements article a:nth-child(1) figure figcaption div svg:nth-child(5),
 #hebergements article a:nth-child(3) figure figcaption div svg:nth-child(5),
 #hebergements article a:nth-child(4) figure figcaption div svg:nth-child(5),
@@ -569,6 +570,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 1.1%;
 }
 
 #activites article {
@@ -604,6 +606,20 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     background-color: white;
 } 
 
+        /*  Titre des cartes    */
+
+#activites article div:nth-child(1) a figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
+#activites article div:nth-child(3) a figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
+    margin-bottom: 0;
+    padding-left: 1rem;
+    font-size: 1.34rem;
+    font-weight: 700;
+    color: black;
+}
 
 
         /*  Taille Grandes cartes   */
@@ -623,25 +639,15 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     
 }
 
+#activites article a:nth-child(1) figure {
+    height: 97.5%;
+}
 
-
+#activites article a:nth-child(3) figure {
+    height: 97.5%;
+}
 
             /*  Taille Grandes cartes  
-
-#activites article a:nth-child(1) figure,
-#activites article a:nth-child(3) figure {
-    display: flex;
-    object-fit: cover;
-    height: 100%;
-    border: thin #c0c0c0 solid;
-    flex-flow: column;
-    padding: 0.2rem;
-    width: 100%;
-    margin: auto;
-    border-radius: 25px;
-    background-color: white;
-    border-color: black;
-}   
 
             /*  Taille des Cartes colonnes  */
 
@@ -665,40 +671,21 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
 #activites article div:nth-child(4) a:nth-child(2) {
     height: 55%;
-    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
-#activites article div:nth-child(2) a:nth-child(2) figure,
+#activites article div:nth-child(2) a:nth-child(1) figure {
+    height: 95%;
+}
+
 #activites article div:nth-child(4) a:nth-child(2) figure {
-    height: 90%;
-}
-
-
-            /*
-
-#activites article div:nth-child(2) a:nth-child(1) {
-    height: 40%;
-}
-
-#activites article div:nth-child(2) a:nth-child(1) figure,
-#activites article div:nth-child(4) a:nth-child(2) figure {
-    display: flex;
-    object-fit: cover;
-    height: 100%;
-    border: thin #c0c0c0 solid;
-    flex-flow: column;
-    padding: 0.2rem;
-    width: 100%;
-    margin: auto;
-    border-radius: 25px;
-    background-color: white;
-    border-color: black;
+    height: 83%;
 }
 
             /*  Taille Petites cartes  */
 
 #activites article div:nth-child(2) a:nth-child(2) {
-    height: 45%;
+    height: 55%;
     margin-top: 5%;
 }
 
@@ -707,35 +694,18 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     margin-bottom: 5%;
 }
 
-#activites article div:nth-child(2) a:nth-child(2) figure,
-#activites article div:nth-child(4) a:nth-child(1) figure {
-    height: 81%;
-}
-/*
-#activites > article > div:nth-child(2) > a:nth-child(2) > figure,
-#activites > article > div:nth-child(4) > a:nth-child(1) > figure {
-    display: flex;
-    object-fit: cover;
-    height: 100%;
-    border: thin #c0c0c0 solid;
-    flex-flow: column;
-    padding: 0.2rem;
-    width: 100%;
-    margin: auto;
-    border-radius: 25px;
-    background-color: white;
-    border-color: black;
+#activites article div:nth-child(2) a:nth-child(2) figure {
+    height: 66%;
 }
 
-    /*  Images activités  */
-
-
-    /**
+#activites article div:nth-child(4) a:nth-child(1) figure{
+    height: 95%;
+}
 
         /*  Grandes carte   */  
 #activites article a:nth-child(1) figure img {
     border-radius: 25px 25px 0 0;
-    height: 89%;
+    height: 87%;
     padding: 1%;
     width: 98%;
     object-position: -20rem;
@@ -744,7 +714,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
 #activites article a:nth-child(3) figure img {
     border-radius: 25px 25px 0 0;
-    height: 90%;
+    height: 87.5%;
     padding: 1%;
     width: 98%;
     object-position: 0rem;
@@ -754,7 +724,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
 #activites article div:nth-child(2) a:nth-child(1) figure img {
     border-radius: 25px 25px 0 0;
-    height: 79%;
+    height: 75%;
     padding: 1%;
     width: 98%;
     object-position: 0rem;
@@ -763,36 +733,17 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
 #activites article div:nth-child(4) a:nth-child(2) figure img {
     border-radius: 25px 25px 0 0;
-    height: 61%;
+    height: 73%;
     padding: 1%;
     width: 98%;
     object-position: 0rem;
     object-fit: cover;
 }
-
-/*
-
-#activites article div:nth-child(2) a:nth-child(1),
-#activites article div:nth-child(4) a:nth-child(2) {
-    width: 100%;
-    height: 60%;
-}
-
-#activites article div:nth-child(2) a:nth-child(1) figure img,
-#activites article div:nth-child(4) a:nth-child(2) figure img {
-    border-radius: 25px 25px 0 0;
-    height: 77%;
-    padding: 1%;
-    width: 98%;
-    object-position: 0rem;
-    object-fit: cover;
-}
-
         /*  Petites cartes  */
 
 #activites article div:nth-child(2) a:nth-child(2) figure img {
     border-radius: 25px 25px 0 0;
-    height: 82%;
+    height: 65%;
     padding: 1%;
     width: 98%;
     object-position: 0rem;
@@ -801,21 +752,10 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
 #activites article div:nth-child(4) a:nth-child(1) figure img {
     border-radius: 25px 25px 0 0;
-    height: 61%;
+    height: 70%;
     padding: 1%;
     width: 98%;
     object-position: 0rem;
-    object-fit: cover;
-}
-
-/*
-#activites article div:nth-child(2) a:nth-child(2) figure img,
-#activites article div:nth-child(4) a:nth-child(1) figure img {
-    border-radius: 25px 25px 0 0;
-    height: 63%;
-    padding: 1%;
-    width: 98%;
-    object-position: 0rem -1.5rem;
     object-fit: cover;
 }
 
