@@ -276,7 +276,6 @@ main {
     display: flex;
     object-fit: cover;
     height: 16rem;
-    border: thin #c0c0c0 solid;
     flex-flow: column;
     padding: 0.2rem;
     width: 100%;
@@ -284,6 +283,7 @@ main {
     border-radius: 25px;
     background-color: white;
     border-color: white;
+    box-shadow: 2px 3px 13px rgba(128, 128, 128, 0.1), -4px -3px 13px rgba(128, 128, 128, .1);
 }
 
     /* Les cartes */
@@ -301,7 +301,7 @@ main {
 
 #hebergements article a:nth-child(1),
 #hebergements article a:nth-child(4) {
-    padding: 0 0 0 1.2rem;
+    padding: 0 0 0 1.7rem;
 }
 
 #hebergements article a:nth-child(2),
@@ -311,8 +311,17 @@ main {
 
 #hebergements article a:nth-child(3),
 #hebergements article a:nth-child(6) {
-    padding: 0 1.5rem 0 0;
+    padding: 0 2rem 0 0;
 }
+
+#hebergements article a:nth-child(1) figure,
+#hebergements article a:nth-child(3) figure,
+#hebergements article a:nth-child(2) figure,
+#hebergements article a:nth-child(4) figure,
+#hebergements article a:nth-child(5) figure,
+#hebergements article a:nth-child(6) figure {
+    border: none;
+} 
 
         /*  Les images des hebergements */
 
@@ -484,7 +493,7 @@ body main aside article a:nth-child(2) figure,
 body main aside article a:nth-child(3) figure {
     display: flex;
     object-fit: cover;
-    border: thin #c0c0c0 solid;
+    border: none;
     flex-flow: row;
     margin: 3.05rem;
     width: 80%;
@@ -628,7 +637,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     display: flex;
     flex-direction: column;
     width: 23%;
-    padding: 0.5%;
+    padding: 0;
     height: 38rem;
     flex-flow: column;
     background-color: white;
@@ -660,17 +669,19 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article a:nth-child(1) figure,
 #activites article a:nth-child(3) figure {
     width: 98%;
-    padding: 1%;
+    padding: 0;
     height: 98%;
     border-radius: 25px;
 }
 
 #activites article a:nth-child(1) figure {
     height: 97.5%;
+    padding: 0%;
 }
 
 #activites article a:nth-child(3) figure {
     height: 97.5%;
+    padding: 0%;
 }
 
             /*  Taille Grandes cartes  
@@ -682,7 +693,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article div:nth-child(4) a:nth-child(1) figure,
 #activites article div:nth-child(4) a:nth-child(2) figure {
     width: 98%;
-    padding: 1%;
+    padding: 0;
     border-radius: 25px;
 }
 
@@ -731,8 +742,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article a:nth-child(1) figure img {
     border-radius: 25px 25px 0 0;
     height: 87%;
-    padding: 1%;
-    width: 98%;
+    width: 100%;
     object-position: -20rem;
     object-fit: cover;
 }
@@ -740,8 +750,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article a:nth-child(3) figure img {
     border-radius: 25px 25px 0 0;
     height: 87.5%;
-    padding: 1%;
-    width: 98%;
+    width: 100%;
     object-position: 0rem;
     object-fit: cover;
 }
@@ -750,8 +759,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article div:nth-child(2) a:nth-child(1) figure img {
     border-radius: 25px 25px 0 0;
     height: 75%;
-    padding: 1%;
-    width: 98%;
+    width: 100%;
     object-position: 0rem;
     object-fit: cover;
 }
@@ -759,8 +767,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article div:nth-child(4) a:nth-child(2) figure img {
     border-radius: 25px 25px 0 0;
     height: 73%;
-    padding: 1%;
-    width: 98%;
+    width: 100%;
     object-position: 0rem;
     object-fit: cover;
 }
@@ -769,8 +776,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article div:nth-child(2) a:nth-child(2) figure img {
     border-radius: 25px 25px 0 0;
     height: 65%;
-    padding: 1%;
-    width: 98%;
+    width: 100%;
     object-position: 0rem;
     object-fit: cover;
 }
@@ -778,8 +784,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites article div:nth-child(4) a:nth-child(1) figure img {
     border-radius: 25px 25px 0 0;
     height: 70%;
-    padding: 1%;
-    width: 98%;
+    width: 100%;
     object-position: 0rem;
     object-fit: cover;
 }
