@@ -89,7 +89,7 @@ header {
 }
 
 #titre {
-    padding: 2.7rem 3.5rem;
+    padding: 3rem 3.5rem;
 }
 
 #menu {
@@ -120,11 +120,13 @@ body header nav {
 .sloganTitre {
     margin-bottom: 0;
     font-size: 1.6em;
+    padding-left: 1%;
 }
 
 .sloganParagraphe {
     padding-top: 0.2em;
     margin-top: 0;
+    padding-left: 1%;
 }
 
     /*  Barre de Recherche  */
@@ -132,7 +134,7 @@ body header nav {
     display: flex;
     margin: 0 0 1.4rem 0;
     padding-right: 1%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .icons {
@@ -181,6 +183,7 @@ body header nav {
     display: flex;
     padding-left: 1%;
     padding-right: 1%;
+    padding-left: 2%;
 }
 
 #filtres h2 {
@@ -215,7 +218,7 @@ body header nav {
     display: flex;
     font-size: 1.3rem;
     padding-right: 1%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .infoIconRecherche {
@@ -606,6 +609,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 1.1%;
+    padding-left: 1.5%;
 }
 
 #activites article {
