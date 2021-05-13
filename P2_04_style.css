@@ -924,6 +924,10 @@ body main div.infoIcon {
 
     /*  Les hebergement */ 
 
+#hebergements {
+    height: 100%;
+}
+
 #hebergements h3 {
     font-size: 1.3rem;
     padding-left: 4%;
@@ -935,10 +939,58 @@ body main div.infoIcon {
     padding: 2rem;
 }
 
+        /*  Les cartes  */
+
+#hebergements > article > a:nth-child(1),
+#hebergements > article > a:nth-child(2),
+#hebergements > article > a:nth-child(3),
+#hebergements > article > a:nth-child(4),
+#hebergements > article > a:nth-child(5),
+#hebergements > article > a:nth-child(6) {
+    margin-bottom: 2rem;
+}
+
+#hebergements article a figure {
+    height: 12rem;
+}
+
+#hebergements article a:nth-child(1) figure figcaption h4,
+#hebergements article a:nth-child(2) figure figcaption h4,
+#hebergements article a:nth-child(3) figure figcaption h4,
+#hebergements article a:nth-child(4) figure figcaption h4,
+#hebergements article a:nth-child(5) figure figcaption h4,
+#hebergements article a:nth-child(6) figure figcaption h4 {
+    font-size: 1rem;
+}
+
+#hebergements article a:nth-child(1) figure figcaption p,
+#hebergements article a:nth-child(2) figure figcaption p,
+#hebergements article a:nth-child(3) figure figcaption p,
+#hebergements article a:nth-child(4) figure figcaption p,
+#hebergements article a:nth-child(5) figure figcaption p,
+#hebergements article a:nth-child(6) figure figcaption p {
+    font-size: 0.9rem;
+}
+
+        /*  Les etoiles */
+
+#hebergements article a:nth-child(1) figure figcaption div,
+#hebergements article a:nth-child(2) figure figcaption div,
+#hebergements article a:nth-child(3) figure figcaption div,
+#hebergements article a:nth-child(4) figure figcaption div,
+#hebergements article a:nth-child(5) figure figcaption div,
+#hebergements article a:nth-child(6) figure figcaption div {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
     /*  Les plus populaires */
 
+body main div.sectionAsideSection aside article {
+    height: 100%;
+}
+
 body main div.sectionAsideSection aside div {
-    padding-left: 5%;
     justify-content: space-around;
 }
 
@@ -951,6 +1003,30 @@ body main div.sectionAsideSection aside div div {
     margin-top: 2.5rem;
 }
 
+        /*  Les cartes  */
+body main div.sectionAsideSection aside article a figure {
+    height: 8rem;
+    margin-bottom: -0.5rem;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
+    font-size: 1rem;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
+    font-size: 0.9rem;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
+    font-size: 0.9rem;
+    margin-top: 1em;
+}
     /*  Les activités */
 
 #activites h3 {
@@ -958,12 +1034,27 @@ body main div.sectionAsideSection aside div div {
     padding-left: 0;
 }
 
+
 #activites article div:nth-child(1),
-#activites article div:nth-child(3) {
+#activites article div:nth-child(2),
+#activites article div:nth-child(3),
+#activites article div:nth-child(4) {
     height: 28.5rem;
 }
 
-#activites article div a figure figcaption h4 {
+        /*  Les cartes  */
+
+#activites article div:nth-child(1) a figure img,
+#activites article div:nth-child(3) a figure img {
+    object-position: -8rem;
+}
+
+#activites article div:nth-child(1) a figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
+#activites article div:nth-child(3) a figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
     font-size: 1rem;
 }
 
@@ -984,7 +1075,7 @@ body footer div ul a {
 	
 	
 	/*===========================*/
-/*(min-width: 1024px) and (max-width: 1280px) */
+/*(min-width: 1024px) and (max-width: 1600px) */
 /*===========================*/
 
 /*=============================*/
