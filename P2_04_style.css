@@ -836,3 +836,155 @@ body footer div a {
     font-weight: 300;
     color: black;
 }
+
+/*===================   RESPONSIVE  =========================*/
+/*=============================*/
+
+/*===========================*/
+/*
+**  Laptop
+**  Tablette
+** LP Responsiveness
+**  Smartphone big and tablette
+ */
+/*===========================*/
+@media (min-width: 1025px) and (max-width: 1600px) {
+
+    /*  En  tête    */
+#titre {
+        padding: 2rem 3rem;
+    }
+
+#titre img {
+    width: 6.5rem;
+}
+
+body header nav {
+    padding: 2.5rem 3rem 2.5rem 0;
+    width: 5;
+}
+
+#menu li {
+    font-size: 1.1rem;
+    margin-left: 4rem;
+}
+
+/*  Le corps de page */
+#slogan h1 {
+    font-size: 1.22em
+}
+
+#slogan p {
+    font-size: 1rem;
+}
+
+    /*  Formulaire de recherche */
+
+body main form div div {
+    width: 0.2rem;
+}
+
+body main form div div svg {
+    width: 0.75rem;
+}
+
+#recherche {
+    width: 14.2rem;
+    font-size: 1.1rem;
+}
+
+.buttonRechercher {
+    font-size: 1rem;
+    padding: 1%;
+    width: 8rem;
+}
+
+    /*  Filtres */
+
+#filtres > h2 {
+    font-size: 1.1rem;
+    padding-left: 0rem;
+}
+
+#filtres ul {
+    padding-left: 1.5rem;
+}
+
+#filtres ul li {
+    font-size: 1.2rem;
+}
+
+#filtres ul li span {
+    padding: 0.8rem;
+}
+
+body main div.infoIcon {
+    font-size: 1rem;
+}
+
+    /*  Les hebergement */ 
+
+#hebergements h3 {
+    font-size: 1.3rem;
+    padding-left: 4%;
+    margin-top: 0;
+}
+
+#hebergements div a {
+    font-size: 1.1rem;
+    padding: 2rem;
+}
+
+    /*  Les plus populaires */
+
+body main div.sectionAsideSection aside div {
+    padding-left: 5%;
+    justify-content: space-around;
+}
+
+body main div.sectionAsideSection aside div h3 {
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+}
+
+body main div.sectionAsideSection aside div div {
+    margin-top: 2.5rem;
+}
+
+    /*  Les activités */
+
+#activites h3 {
+    font-size: 1.4rem;
+    padding-left: 0;
+}
+
+#activites article div:nth-child(1),
+#activites article div:nth-child(3) {
+    height: 28.5rem;
+}
+
+#activites article div a figure figcaption h4 {
+    font-size: 1rem;
+}
+
+    /*  Pied de page    */
+
+body footer div h5 {
+    font-size: 1.1rem;
+}
+
+body footer div ul li {
+    margin-bottom: 0.5rem;
+}
+
+body footer div ul a {
+    font-size: 1rem;
+}
+}
+	
+	
+	/*===========================*/
+/*(min-width: 1024px) and (max-width: 1280px) */
+/*===========================*/
+
+/*=============================*/
