@@ -1307,7 +1307,8 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure {
 
 .activiteColonnesCartes,
 .activitegrandecarte {
-    width: 100%;
+    width: 92%;
+    padding: 4%;
 }
 
 .activiteColonnesCartes {
@@ -1315,27 +1316,60 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure {
 }
 
 #activites article div:nth-child(2) a:nth-child(1), 
-#activites article div:nth-child(2) a:nth-child(2) {
-    height: 48%;
-    margin: 2%;
+#activites article div:nth-child(2) a:nth-child(2),
+#activites article div:nth-child(4) a:nth-child(1), 
+#activites article div:nth-child(4) a:nth-child(2)  {
+    height: 50%;
+    padding-top: 0;
 }
 
+#activites article div:nth-child(2) a:nth-child(1),
+#activites article div:nth-child(4) a:nth-child(1) {
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 .activitegrandecarte {
-    height: 10rem;
+    height: 12rem;
+    padding: 4%;
 }
 
-#activites article div:nth-child(1) a,
-#activites article div:nth-child(3) a {
-    height: 98%;
-    margin: 2%;
-}
-
+#activites article div:nth-child(1) a figure,
 #activites article div:nth-child(3) a figure {
-    height: 95%;
+    height: 100%;
+    width: 100%;
 }
 
+#activites article div:nth-child(2) a:nth-child(1) figure,
+#activites article div:nth-child(2) a:nth-child(2) figure,
+#activites article div:nth-child(4) a:nth-child(1) figure,
+#activites article div:nth-child(4) a:nth-child(2) figure {
+    height: 92%;
+    width: 100%; 
+}
 
+#activites article div:nth-child(1) a figure img,
+#activites article div:nth-child(3) a figure img {
+    height: 67%;
+    object-position: 0rem;
+}
+
+#activites article div:nth-child(2) a:nth-child(1) figure img,
+#activites article div:nth-child(2) a:nth-child(2) figure img,
+#activites article div:nth-child(4) a:nth-child(1) figure img,
+#activites article div:nth-child(4) a:nth-child(2) figure img {
+    height: 65%;
+    object-position: 0rem;
+}
+
+#activites article div:nth-child(1) a figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
+#activites article div:nth-child(3) a figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
+    font-size: 1.1rem;
+}
 
         /*  footer  */
 footer {
