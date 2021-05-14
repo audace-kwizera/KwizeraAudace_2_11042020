@@ -1103,7 +1103,7 @@ body footer div ul a {
 
 #titre {
     padding: 1rem;
-    position: fixed;
+    position: relative;
 }
 
 #titre img {
@@ -1122,11 +1122,17 @@ body header nav {
 
 /*  Le corps    */
 
+body main {
+    padding: 0;
+    margin: 0;
+}
+
     /*  slogan  */
 
 #slogan {
     font-size: 0.9rem;
     margin-bottom: 10%;
+    padding-left: 5%;
 }
 
 #slogan h1 {
@@ -1134,6 +1140,10 @@ body header nav {
 } 
 
     /*  Recherche   */
+
+body main form {
+    padding-left: 5%;
+}
 
 .buttonRechercher {
     display: none;
@@ -1148,7 +1158,7 @@ body header nav {
 }
 
 #recherche {
-    padding: 0.5rem 0 0.5rem 0.9rem;
+    padding: 0.5% 0 0.5rem 0.5rem;
     width: 14rem;
     border-right: 0;
     font-size: 1.1rem;
@@ -1157,7 +1167,7 @@ body header nav {
     /*  Filtres */
 
 #filtres {
-    padding: 0;
+    padding-left: 5%;
     margin: 0;
     flex-wrap: wrap;
 }
@@ -1166,6 +1176,7 @@ body header nav {
     margin: 0;
     font-size: 1rem;
     width: 100%;
+    padding: 0;
 }
 
 #filtres ul {
@@ -1193,9 +1204,143 @@ body header nav {
     width: 100%;
 }
 
+    /*  Infos dans le header    */
+
+.infoIcon {
+    padding: 0 1% 5% 5%;
+}
+
 body main div.infoIcon p {
     font-size: 0.8rem;
 }
+
+    /*  section */
+
+body main div.sectionAsideSection {
+    flex-direction: column;
+}
+
+        /*  hebergements    */
+
+#hebergements {
+    flex-direction: column;
+    width: 100%;
+    order: 2;
+    margin: 0;
+}
+
+
+            /*  Les cartes  */
+
+#hebergements article {
+    flex-direction: column;
+    padding: 0%;
+}
+
+#hebergements article a:nth-child(1),
+#hebergements article a:nth-child(2),
+#hebergements article a:nth-child(3),
+#hebergements article a:nth-child(4),
+#hebergements article a:nth-child(5),
+#hebergements article a:nth-child(6) {
+    padding: 4%;
+    width: 92%;
+    margin: 0;
+}
+
+        /*  Les plus populaires */
+
+body main div.sectionAsideSection aside article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body main div.sectionAsideSection aside {
+    width: 100%;
+    order: 1;
+    margin: 0;
+}
+
+body main div.sectionAsideSection aside div {
+    padding: 5%;
+}
+
+body main div.sectionAsideSection aside div div {
+    position: static;
+}
+
+body main div.sectionAsideSection aside article a:nth-child(1),
+body main div.sectionAsideSection aside article a:nth-child(2),
+body main div.sectionAsideSection aside article a:nth-child(3) {
+    width: 92%;
+    padding: 4%;
+}
+
+            /*  Les cartes  */
+
+body main div.sectionAsideSection aside article a:nth-child(1) figure,
+body main div.sectionAsideSection aside article a:nth-child(2) figure,
+body main div.sectionAsideSection aside article a:nth-child(3) figure {
+    margin: 0;
+    width: 100%;
+}
+
+        /*  Les activités   */
+
+#activites {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    order: 3;
+    margin: 0;
+}
+
+#activites article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+            /*  Les cartes  */
+
+.activiteColonnesCartes,
+.activitegrandecarte {
+    width: 100%;
+}
+
+.activiteColonnesCartes {
+    height: 26rem;
+}
+
+#activites article div:nth-child(2) a:nth-child(1), 
+#activites article div:nth-child(2) a:nth-child(2) {
+    height: 48%;
+    margin: 2%;
+}
+
+
+.activitegrandecarte {
+    height: 10rem;
+}
+
+#activites article div:nth-child(1) a,
+#activites article div:nth-child(3) a {
+    height: 98%;
+    margin: 2%;
+}
+
+#activites article div:nth-child(3) a figure {
+    height: 95%;
+}
+
+
+
+        /*  footer  */
+footer {
+    flex-direction: column;
+}       
 }
 	
 	
