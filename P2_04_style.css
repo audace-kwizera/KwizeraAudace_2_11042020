@@ -693,7 +693,6 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     padding: 0%;
 }
 
-            /*  Taille Grandes cartes  
 
             /*  Taille des Cartes colonnes  */
 
@@ -853,7 +852,7 @@ body footer div a {
 **  Smartphone big and tablette
  */
 /*===========================*/
-@media (min-width: 1025px) and (max-width: 1439px) {
+@media (min-width: 1440px) and (max-width: 1600px) {
 
     /*  En  tête    */
 #titre {
@@ -1041,6 +1040,7 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 #activites h3 {
     font-size: 1.4rem;
     padding-left: 0;
+    padding-bottom: 4%;
 }
 
 
@@ -1053,18 +1053,29 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 
         /*  Les cartes  */
 
+#activites article div:nth-child(2) a:nth-child(1) figure {
+    height: 90%;
+}
+        
+#activites article div:nth-child(2) a:nth-child(2) figure {
+    height: 73.5%;
+}
+
 #activites article div:nth-child(4) a:nth-child(1) figure {
-    height: 91%;
+    height: 90%;
 }
 
 #activites article div:nth-child(4) a:nth-child(2) figure {
-    height: 79.5%;
+    height: 89.5%;
 }
 
-#activites article div:nth-child(1) a figure,
-#activites article div:nth-child(3) a figure {
-    height: 92.5%;
+#activites article div:nth-child(1) a figure {
+    height: 101%;
 }       
+
+#activites article div:nth-child(3) a figure {
+    height: 101%;
+}
 
 #activites article div:nth-child(1) a figure img,
 #activites article div:nth-child(3) a figure img {
@@ -1097,7 +1108,7 @@ body footer div ul a {
 	
 	
 	/*===========================*/
-/*(min-width: 1025px) and (max-width: 1439px) */
+/*(min-width: 1440px) and (max-width: 1600px) */
 /*===========================*/
 
 
@@ -1820,8 +1831,7 @@ body footer div ul a {
 /*===========================*/
 /*mobile responsive
 ## LP Responsiveness
-/* Smartphone
- * iPhone 6/7/8 */
+*/
 /*===========================*/	
 @media (min-width: 768px) and (max-width: 839px) {
 
@@ -2267,6 +2277,7 @@ body footer div li {
     /*===========================*/
     
     /*=============================*/
+    
 
 /*===========================*/
 /*mobile responsive
