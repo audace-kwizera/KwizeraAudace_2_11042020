@@ -1258,6 +1258,7 @@ body main div.sectionAsideSection {
     order: 2;
     margin: 0;
     background-color: transparent;
+    padding-bottom: 0;
 }
     
 #hebergements h3 {
@@ -1411,99 +1412,95 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
     
             /*  Les activités   */
     
-    #activites {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        order: 3;
-        margin: 0;
-    }
+#activites {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    order: 3;
+    margin: 0;
+}
     
-    #activites h3 {
-        margin-top: 0;
-        font-size: 1.3rem;
-        padding: 0 0 1rem 1.5rem;
-    }
+#activites h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    padding: 0 0 1rem 1.5rem;
+}
     
-    #activites article {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;
-    }
+#activites article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
     
                 /*  Les cartes  */
     
-    .activiteColonnesCartes,
-    .activitegrandecarte {
-        width: 92%;
-        padding: 4%;
-    }
+.activiteColonnesCartes,
+.activitegrandecarte {
+    width: 92%;
+    padding: 4%;
+    width: 40%;
+    height: 25rem;
+}
     
-    .activitegrandecarte {
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
+#activites article div:nth-child(1) a figure,
+#activites article div:nth-child(3) a figure {
+    width: 100%;
+    height: 100%;
+}
+
+#activites article div:nth-child(2) a:nth-child(1), 
+#activites article div:nth-child(2) a:nth-child(2),
+#activites article div:nth-child(4) a:nth-child(1), 
+#activites article div:nth-child(4) a:nth-child(2)  {
+    height: 50%;
+    padding-top: 0;
+    width: 100%;
+}
     
-    .activiteColonnesCartes {
-        height: 25rem;
-    }
+#activites article div:nth-child(2) a:nth-child(1),
+#activites article div:nth-child(4) a:nth-child(1) {
+    margin-bottom: 0;
+    margin-top: 0;
+}
     
-    #activites article div:nth-child(2) a:nth-child(1), 
-    #activites article div:nth-child(2) a:nth-child(2),
-    #activites article div:nth-child(4) a:nth-child(1), 
-    #activites article div:nth-child(4) a:nth-child(2)  {
-        height: 50%;
-        padding-top: 0;
-    }
+#activites article div:nth-child(1) a figure,
+#activites article div:nth-child(3) a figure {
+    height: 100%;
+    width: 100%;
+}
     
-    #activites article div:nth-child(2) a:nth-child(1),
-    #activites article div:nth-child(4) a:nth-child(1) {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
+#activites article div:nth-child(2) a:nth-child(1) figure,
+#activites article div:nth-child(2) a:nth-child(2) figure,
+#activites article div:nth-child(4) a:nth-child(1) figure,
+#activites article div:nth-child(4) a:nth-child(2) figure {
+    height: 92%;
+    width: 100%; 
+}
     
-    .activitegrandecarte {
-        height: 12rem;
-        padding: 4%;
-    }
+#activites article div:nth-child(1) a figure img,
+#activites article div:nth-child(3) a figure img {
+    height: 84%;
+    object-position: 0rem;
+}
     
-    #activites article div:nth-child(1) a figure,
-    #activites article div:nth-child(3) a figure {
-        height: 100%;
-        width: 100%;
-    }
+#activites article div:nth-child(2) a:nth-child(1) figure img,
+#activites article div:nth-child(2) a:nth-child(2) figure img,
+#activites article div:nth-child(4) a:nth-child(1) figure img,
+#activites article div:nth-child(4) a:nth-child(2) figure img {
+    height: 65%;
+    object-position: 0rem;
+}
     
-    #activites article div:nth-child(2) a:nth-child(1) figure,
-    #activites article div:nth-child(2) a:nth-child(2) figure,
-    #activites article div:nth-child(4) a:nth-child(1) figure,
-    #activites article div:nth-child(4) a:nth-child(2) figure {
-        height: 92%;
-        width: 100%; 
-    }
-    
-    #activites article div:nth-child(1) a figure img,
-    #activites article div:nth-child(3) a figure img {
-        height: 67%;
-        object-position: 0rem;
-    }
-    
-    #activites article div:nth-child(2) a:nth-child(1) figure img,
-    #activites article div:nth-child(2) a:nth-child(2) figure img,
-    #activites article div:nth-child(4) a:nth-child(1) figure img,
-    #activites article div:nth-child(4) a:nth-child(2) figure img {
-        height: 65%;
-        object-position: 0rem;
-    }
-    
-    #activites article div:nth-child(1) a figure figcaption h4,
-    #activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
-    #activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
-    #activites article div:nth-child(3) a figure figcaption h4,
-    #activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
-    #activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
-        font-size: 1.1rem;
-    }
+#activites article div:nth-child(1) a figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
+#activites article div:nth-child(3) a figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
+#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
+    font-size: 1.1rem;
+}
     
             /*  footer  */
     footer {
