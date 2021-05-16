@@ -1236,183 +1236,178 @@ display: none;
     
         /*  Infos dans le header    */
     
-    .infoIcon {
+.infoIcon {
         padding: 0 1% 5% 5%;
-    }
+}
     
-    body main div.infoIcon p {
+body main div.infoIcon p {
         font-size: 0.8rem;
-    }
+}
     
         /*  section */
     
-    body main div.sectionAsideSection {
-        flex-direction: column;
-    }
+body main div.sectionAsideSection {
+    flex-direction: column;
+}
     
             /*  hebergements    */
     
-    #hebergements {
-        flex-direction: column;
-        width: 100%;
-        order: 2;
-        margin: 0;
-        background-color: transparent;
-    }
+#hebergements {
+    flex-direction: column;
+    width: 100%;
+    order: 2;
+    margin: 0;
+    background-color: transparent;
+}
     
-    #hebergements h3 {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1.3rem;
-        padding: 0 0 1rem 1.5rem;
+#hebergements h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    padding: 0 0 1rem 1.5rem;
     }
     
     
                 /*  Les cartes  */
     
-    #hebergements article {
-        flex-direction: column;
-        padding: 0%;
-    }
+#hebergements article a:nth-child(1),
+#hebergements article a:nth-child(2),
+#hebergements article a:nth-child(3),
+#hebergements article a:nth-child(4),
+#hebergements article a:nth-child(5),
+#hebergements article a:nth-child(6) {
+    padding: 5%;
+    width: 40%;
+    margin: 0;
+    height: 13rem;
+}
     
-    #hebergements article a:nth-child(1),
-    #hebergements article a:nth-child(2),
-    #hebergements article a:nth-child(3),
-    #hebergements article a:nth-child(4),
-    #hebergements article a:nth-child(5),
-    #hebergements article a:nth-child(6) {
-        padding: 5%;
-        width: 90%;
-        margin: 0;
-        height: 13rem;
-    }
-    
-    #hebergements article a:nth-child(1) figure,
-    #hebergements article a:nth-child(2) figure,
-    #hebergements article a:nth-child(3) figure,
-    #hebergements article a:nth-child(4) figure,
-    #hebergements article a:nth-child(5) figure,
-    #hebergements article a:nth-child(6) figure {
-        height: 100%;
-    }
+#hebergements article a:nth-child(1) figure,
+#hebergements article a:nth-child(2) figure,
+#hebergements article a:nth-child(3) figure,
+#hebergements article a:nth-child(4) figure,
+#hebergements article a:nth-child(5) figure,
+#hebergements article a:nth-child(6) figure {
+    height: 100%;
+}
     
     
-    #hebergements article a:nth-child(1) figure figcaption h4,
-    #hebergements article a:nth-child(2) figure figcaption h4,
-    #hebergements article a:nth-child(3) figure figcaption h4,
-    #hebergements article a:nth-child(4) figure figcaption h4,
-    #hebergements article a:nth-child(5) figure figcaption h4,
-    #hebergements article a:nth-child(6) figure figcaption h4 {
-        font-size: 1.1rem;
-    }
+#hebergements article a:nth-child(1) figure figcaption h4,
+#hebergements article a:nth-child(2) figure figcaption h4,
+#hebergements article a:nth-child(3) figure figcaption h4,
+#hebergements article a:nth-child(4) figure figcaption h4,
+#hebergements article a:nth-child(5) figure figcaption h4,
+#hebergements article a:nth-child(6) figure figcaption h4 {
+    font-size: 1.1rem;
+}
     
-    #hebergements article a:nth-child(1) figure figcaption p,
-    #hebergements article a:nth-child(2) figure figcaption p,
-    #hebergements article a:nth-child(3) figure figcaption p,
-    #hebergements article a:nth-child(4) figure figcaption p,
-    #hebergements article a:nth-child(5) figure figcaption p,
-    #hebergements article a:nth-child(6) figure figcaption p {
-        font-size: 0.95rem;
-    }
+#hebergements article a:nth-child(1) figure figcaption p,
+#hebergements article a:nth-child(2) figure figcaption p,
+#hebergements article a:nth-child(3) figure figcaption p,
+#hebergements article a:nth-child(4) figure figcaption p,
+#hebergements article a:nth-child(5) figure figcaption p,
+#hebergements article a:nth-child(6) figure figcaption p {
+    font-size: 0.95rem;
+}
     
                 /*  Les étoiles */
     
-    #hebergements article a:nth-child(1) figure figcaption div,
-    #hebergements article a:nth-child(2) figure figcaption div,
-    #hebergements article a:nth-child(3) figure figcaption div,
-    #hebergements article a:nth-child(4) figure figcaption div,
-    #hebergements article a:nth-child(5) figure figcaption div,
-    #hebergements article a:nth-child(6) figure figcaption div {
-        padding-left: 5%;
-        font-size: 0.8rem;
-        margin-top: 0.7rem;
-    }
+#hebergements article a:nth-child(1) figure figcaption div,
+#hebergements article a:nth-child(2) figure figcaption div,
+#hebergements article a:nth-child(3) figure figcaption div,
+#hebergements article a:nth-child(4) figure figcaption div,
+#hebergements article a:nth-child(5) figure figcaption div,
+#hebergements article a:nth-child(6) figure figcaption div {
+    padding-left: 5%;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+}
     
                 /*  Les liens   */
     
-    #hebergements div {
-        padding-bottom: 0%;
-    }
+#hebergements div {
+    padding-bottom: 0%;
+}
     
-    #hebergements div a {
-        padding: 3.5rem 1.5rem;
-        font-size: 1.1rem;
-    }
+#hebergements div a {
+    padding: 3.5rem 1.5rem;
+    font-size: 1.1rem;
+}
     
             /*  Les plus populaires */
     
-    aside {
-        border-radius: 0;
-    }
+aside {
+    border-radius: 0;
+}
     
-    body main div.sectionAsideSection aside article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 4%;
-    }
+body main div.sectionAsideSection aside article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4%;
+}
     
-    body main div.sectionAsideSection aside {
-        width: 100%;
-        order: 1;
-        margin: 0;
-    }
+body main div.sectionAsideSection aside {
+    width: 100%;
+    order: 1;
+    margin: 0;
+}
     
-    body main div.sectionAsideSection aside div {
-        justify-content: space-between;
-        padding: 5% 5% 2% 5%;
-    }
+body main div.sectionAsideSection aside div {
+    justify-content: space-between;
+    padding: 3% 5% 0 5%;
+}
     
-    body main div.sectionAsideSection aside div h3 {
-        margin-top: 0;
-        font-size: 1.3rem;
-        padding: 1rem;
-    }
+body main div.sectionAsideSection aside div h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
     
-    body main div.sectionAsideSection aside div div {
-        position: static;
-        margin: 0;
-    }
+body main div.sectionAsideSection aside div div {
+    position: static;
+    margin: 0;
+}
     
-    body main div.sectionAsideSection aside article a:nth-child(1),
-    body main div.sectionAsideSection aside article a:nth-child(2),
-    body main div.sectionAsideSection aside article a:nth-child(3) {
-        width: 92%;
-        padding: 4%;
-        height: 8rem;
-    }
+body main div.sectionAsideSection aside article a:nth-child(1),
+body main div.sectionAsideSection aside article a:nth-child(2),
+body main div.sectionAsideSection aside article a:nth-child(3) {
+    width: 42%;
+    padding: 4%;
+    height: 8rem;
+}
     
                 /*  Les cartes  */
     
-    body main div.sectionAsideSection aside article a:nth-child(1) figure,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure {
-        margin: 0;
-        width: 100%;
-        height: 108%;
-    }
+body main div.sectionAsideSection aside article a:nth-child(1) figure,
+body main div.sectionAsideSection aside article a:nth-child(2) figure,
+body main div.sectionAsideSection aside article a:nth-child(3) figure {
+    margin: 0;
+    width: 100%;
+    height: 108%;
+}
     
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
-        font-size: 1.05rem;
-    }
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
+    font-size: 1.05rem;
+}
     
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
-        font-size: 0.95rem;
-    }
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
+    font-size: 0.95rem;
+}
     
                 /*  Les étoiles */
     
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
-        padding: 0;
-        font-size: 0.7rem;
-        margin-top: 2.5em;
-    }           
+body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
+body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
+body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
+    padding: 0;
+    font-size: 0.7rem;
+    margin-top: 2.5em;
+}           
     
             /*  Les activités   */
     
