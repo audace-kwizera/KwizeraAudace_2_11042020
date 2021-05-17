@@ -498,12 +498,6 @@ aside .etoilesCarteBasPolpulaire {
     padding-right: 1.8%;
 }
 
-.activiteColonnesCartes {
-    display: flex;
-    flex-direction: column;
-}
-
-
         /*  Titre les activités    */
 
 #activites h3 {
@@ -527,12 +521,7 @@ aside .etoilesCarteBasPolpulaire {
 
         /*  Titre des cartes    */
 
-#activites article div:nth-child(1) a figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
-#activites article div:nth-child(3) a figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
+#activites h4 {
     margin-bottom: 0;
     padding-left: 1rem;
     font-size: 1.34rem;
@@ -543,36 +532,21 @@ aside .etoilesCarteBasPolpulaire {
 
         /*  Taille Grandes cartes   */
 
-#activites article div:nth-child(1) a,
-#activites article div:nth-child(3) a {
+#activites .tailleGrandeCarte {
     height: 100%;
 }
 
-#activites article a:nth-child(1) figure,
-#activites article a:nth-child(3) figure {
+#activites .lesGrandesCartes{
     width: 98%;
     padding: 0;
-    height: 98%;
+    height: 100%;
     border-radius: 25px;
-}
-
-#activites article a:nth-child(1) figure {
-    height: 97.5%;
-    padding: 0%;
-}
-
-#activites article a:nth-child(3) figure {
-    height: 97.5%;
-    padding: 0%;
 }
 
 
             /*  Taille des Cartes colonnes  */
 
-#activites article div:nth-child(2) a:nth-child(1) figure,
-#activites article div:nth-child(2) a:nth-child(2) figure,
-#activites article div:nth-child(4) a:nth-child(1) figure,
-#activites article div:nth-child(4) a:nth-child(2) figure {
+#activites .cartesColonnes{
     width: 98%;
     padding: 0;
     border-radius: 25px;
@@ -581,93 +555,83 @@ aside .etoilesCarteBasPolpulaire {
             /*  Taille Moyennes cartes  */
 
                 /*  2eme carte et 6eme carte    */
-#activites article div:nth-child(2) a:nth-child(1) {
-    height: 55%;
-    margin-bottom: 5%;
+
+#activites .deuxiemeCarte {
+    height: 60%;
 }
 
-#activites article div:nth-child(4) a:nth-child(2) {
-    height: 55%;
-    margin-top: 5%;
+#activites .sixiemeCarte {
+    height: 53%;
 }
 
-#activites article div:nth-child(2) a:nth-child(1) figure {
-    height: 95%;
+.deuxiemeCarte figure {
+    height: 100%;
 }
 
-#activites article div:nth-child(4) a:nth-child(2) figure {
-    height: 83%;
+.sixiemeCarte figure {
+    height: 100%;
 }
 
             /*  Taille Petites cartes  */
 
-#activites article div:nth-child(2) a:nth-child(2) {
+#activites .troisiemeCarte {
+    height: 60.5%;
+    margin-top: 1%;
+}
+
+#activites .cinquiemeCarte {
     height: 55%;
-    margin-top: 5%;
 }
 
-#activites article div:nth-child(4) a:nth-child(1) {
-    height: 45%;
-    margin-bottom: 5%;
+.troisiemeCarte figure {
+    height: 100%;
 }
 
-#activites article div:nth-child(2) a:nth-child(2) figure {
-    height: 66%;
-}
-
-#activites article div:nth-child(4) a:nth-child(1) figure{
-    height: 95%;
+.cinquiemeCarte figure{
+    height: 100%;
 }
 
         /*  Grandes carte   */  
-#activites article a:nth-child(1) figure img {
+
+#activites img {
     border-radius: 25px 25px 0 0;
-    height: 87%;
     width: 100%;
-    object-position: -20rem;
     object-fit: cover;
 }
 
-#activites article a:nth-child(3) figure img {
-    border-radius: 25px 25px 0 0;
-    height: 87.5%;
-    width: 100%;
-    object-position: 0rem;
-    object-fit: cover;
+.premiereCarte {
+    height: 87%;
+    object-position: -20rem;
 }
+
+.quatriemeCarte {
+    height: 87.5%; 
+    object-position: 0rem;
+}
+
         /*  Moyennes cartes  */
 
-#activites article div:nth-child(2) a:nth-child(1) figure img {
-    border-radius: 25px 25px 0 0;
-    height: 75%;
-    width: 100%;
+.deuxiemeImageCarte {
     object-position: 0rem;
-    object-fit: cover;
+    height: 75%;
 }
 
-#activites article div:nth-child(4) a:nth-child(2) figure img {
-    border-radius: 25px 25px 0 0;
+.sixiemeImageCarte {
     height: 73%;
-    width: 100%;
     object-position: 0rem;
-    object-fit: cover;
 }
+
         /*  Petites cartes  */
 
-#activites article div:nth-child(2) a:nth-child(2) figure img {
-    border-radius: 25px 25px 0 0;
-    height: 65%;
-    width: 100%;
+.troisiemeImageCarte {
+    height: 69%;
     object-position: 0rem;
-    object-fit: cover;
 }
 
-#activites article div:nth-child(4) a:nth-child(1) figure img {
+.cinquiemeImageCarte {
     border-radius: 25px 25px 0 0;
     height: 70%;
-    width: 100%;
     object-position: 0rem;
-    object-fit: cover;
 }
 
 /*  Le pied de page */
