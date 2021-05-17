@@ -557,11 +557,13 @@ aside .etoilesCarteBasPolpulaire {
                 /*  2eme carte et 6eme carte    */
 
 #activites .deuxiemeCarte {
-    height: 60%;
+    height: 50%;
+    padding-bottom: 7.5%;
 }
 
 #activites .sixiemeCarte {
-    height: 53%;
+    height: 50%;
+    padding-top: 7%;
 }
 
 .deuxiemeCarte figure {
@@ -575,12 +577,13 @@ aside .etoilesCarteBasPolpulaire {
             /*  Taille Petites cartes  */
 
 #activites .troisiemeCarte {
-    height: 60.5%;
-    margin-top: 1%;
+    height: 40%;
+    padding-top: 7%;
 }
 
 #activites .cinquiemeCarte {
-    height: 55%;
+    height: 40%;
+    padding-bottom: 7.5%;
 }
 
 .troisiemeCarte figure {
@@ -617,7 +620,7 @@ aside .etoilesCarteBasPolpulaire {
 }
 
 .sixiemeImageCarte {
-    height: 73%;
+    height: 76%;
     object-position: 0rem;
 }
 
@@ -643,17 +646,15 @@ footer {
 
     /*  les listes  */
 
-body footer div:nth-child(1) {
+.aPropos {
     margin-left: 3%;
-}
-
-body footer div:nth-child(1) {
     margin-right: 17%;
 }
 
-body footer div:nth-child(2) {
+.hebergements {
     margin-right: 20%;
 }
+
         /*  Les titres  */
 
 footer h5 {
@@ -663,16 +664,16 @@ footer h5 {
     color: black;
 }
 
-body footer div ul {
+footer ul {
     padding-left: 0;
     list-style: none;
 }
 
-body footer div li {
+footer li {
     margin-bottom: 1rem;
 }
 
-body footer div a {
+body footer a {
     font-size: 1.3rem;
     font-weight: 300;
     color: black;
