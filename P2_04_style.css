@@ -788,7 +788,7 @@ body header nav {
 }
 
 .cartesHebergements figure {
-    height: 13rem;
+    height: 14rem;
 }
 
 #hebergements h4 {
@@ -808,48 +808,42 @@ body header nav {
 
     /*  Les plus populaires */
 
-body main div.sectionAsideSection aside article {
+.cartesLesPlusPopulaires {
     height: 100%;
 }
 
-body main div.sectionAsideSection aside div {
+.asideTitle {
     justify-content: center;
 }
 
-body main div.sectionAsideSection aside div h3 {
+.asideTitle h3 {
     font-size: 1.3rem;
     margin-top: 2.5rem;
     width: 80%;
 }
 
-body main div.sectionAsideSection aside div div {
+.asideTitle .logoLink {
     margin: 2.5rem 0 0 0;
     padding: 0;
     width: 34%;
 }
 
         /*  Les cartes  */
-body main div.sectionAsideSection aside article a figure {
+.cartesLesPlusPopulaires figure {
     height: 8rem;
     margin-bottom: -0.5rem;
     margin: 10%;
 }
 
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
+.cartesLesPlusPopulaires h4 {
     font-size: 1rem;
 }
 
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
+.cartesLesPlusPopulaires p {
     font-size: 0.9rem;
 }
 
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
+.cartesLesPlusPopulaires .etoiles {
     font-size: 0.9rem;
     margin-top: 1em;
 }
@@ -862,50 +856,37 @@ body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption
 }
 
 
-#activites article div:nth-child(1),
-#activites article div:nth-child(2),
-#activites article div:nth-child(3),
-#activites article div:nth-child(4) {
+#activites div {
     height: 28.5rem;
 }
 
         /*  Les cartes  */
 
-#activites article div:nth-child(2) a:nth-child(1) figure {
+.deuxiemeCarte figure {
     height: 90%;
 }
         
-#activites article div:nth-child(2) a:nth-child(2) figure {
+.troisiemeCarte figure {
     height: 73.5%;
 }
 
-#activites article div:nth-child(4) a:nth-child(1) figure {
+.cinquiemeCarte figure {
     height: 90%;
 }
 
-#activites article div:nth-child(4) a:nth-child(2) figure {
+.sixiemeCarte figure {
     height: 89.5%;
 }
 
-#activites article div:nth-child(1) a figure {
+.tailleGrandeCarte figure {
     height: 101%;
 }       
 
-#activites article div:nth-child(3) a figure {
-    height: 101%;
-}
-
-#activites article div:nth-child(1) a figure img,
-#activites article div:nth-child(3) a figure img {
+.tailleGrandeCarte img {
     object-position: -8rem;
 }
 
-#activites article div:nth-child(1) a figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
-#activites article div:nth-child(3) a figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
+#activites h4 {
     font-size: 1rem;
 }
 
