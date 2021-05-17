@@ -776,52 +776,32 @@ body header nav {
     margin-top: 0;
 }
 
-#hebergements div a {
+.link a {
     font-size: 1.1rem;
     padding: 2rem;
 }
 
         /*  Les cartes  */
 
-#hebergements > article > a:nth-child(1),
-#hebergements > article > a:nth-child(2),
-#hebergements > article > a:nth-child(3),
-#hebergements > article > a:nth-child(4),
-#hebergements > article > a:nth-child(5),
-#hebergements > article > a:nth-child(6) {
+.cartesHebergements a {
     margin-bottom: 2rem;
 }
 
-#hebergements article a figure {
-    height: 12rem;
+.cartesHebergements figure {
+    height: 13rem;
 }
 
-#hebergements article a:nth-child(1) figure figcaption h4,
-#hebergements article a:nth-child(2) figure figcaption h4,
-#hebergements article a:nth-child(3) figure figcaption h4,
-#hebergements article a:nth-child(4) figure figcaption h4,
-#hebergements article a:nth-child(5) figure figcaption h4,
-#hebergements article a:nth-child(6) figure figcaption h4 {
+#hebergements h4 {
     font-size: 1rem;
 }
 
-#hebergements article a:nth-child(1) figure figcaption p,
-#hebergements article a:nth-child(2) figure figcaption p,
-#hebergements article a:nth-child(3) figure figcaption p,
-#hebergements article a:nth-child(4) figure figcaption p,
-#hebergements article a:nth-child(5) figure figcaption p,
-#hebergements article a:nth-child(6) figure figcaption p {
+#hebergements p {
     font-size: 0.9rem;
 }
 
         /*  Les etoiles */
 
-#hebergements article a:nth-child(1) figure figcaption div,
-#hebergements article a:nth-child(2) figure figcaption div,
-#hebergements article a:nth-child(3) figure figcaption div,
-#hebergements article a:nth-child(4) figure figcaption div,
-#hebergements article a:nth-child(5) figure figcaption div,
-#hebergements article a:nth-child(6) figure figcaption div {
+.etoiles {
     font-size: 0.9rem;
     margin: 0;
 }
