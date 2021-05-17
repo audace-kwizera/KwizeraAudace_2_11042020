@@ -296,89 +296,54 @@ main {
 
     /* Les cartes */
 
-#hebergements article a:nth-child(1),
-#hebergements article a:nth-child(2),
-#hebergements article a:nth-child(3),
-#hebergements article a:nth-child(4),
-#hebergements article a:nth-child(5),
-#hebergements article a:nth-child(6)
- {
+.cartesHebergements a {
     width: 27.4%;
     margin-bottom: 3rem;
 }
 
-#hebergements article a:nth-child(1),
-#hebergements article a:nth-child(4) {
+.card .gauche {
     padding: 0 0 0 1.7rem;
 }
 
-#hebergements article a:nth-child(2),
-#hebergements article a:nth-child(5) {
+.card .center {
     padding: 0;
 }
 
-#hebergements article a:nth-child(3),
-#hebergements article a:nth-child(6) {
+.card .droite {
     padding: 0 2rem 0 0;
 }
 
-#hebergements article a:nth-child(1) figure,
-#hebergements article a:nth-child(3) figure,
-#hebergements article a:nth-child(2) figure,
-#hebergements article a:nth-child(4) figure,
-#hebergements article a:nth-child(5) figure,
-#hebergements article a:nth-child(6) figure {
+#hebergements figure {
     border: none;
 } 
 
         /*  Les images des hebergements */
 
-#hebergements article a:nth-child(1) figure img,
-#hebergements article a:nth-child(2) figure img,
-#hebergements article a:nth-child(3) figure img,
-#hebergements article a:nth-child(4) figure img,
-#hebergements article a:nth-child(5) figure img,
-#hebergements article a:nth-child(6) figure img {
+#hebergements img {
     width: auto;
-    object-position: 0 -1.5rem;
     border-radius: 25px 25px 0 0;
-    height: 69%;
-    padding: 0.5% 0.5% 0 0.5%;
+    height: 60%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    object-fit: cover;
 }
 
         /*  Les descriptions des hebergements */
 
-#hebergements article a:nth-child(1) figure figcaption,
-#hebergements article a:nth-child(2) figure figcaption,
-#hebergements article a:nth-child(3) figure figcaption,
-#hebergements article a:nth-child(4) figure figcaption,
-#hebergements article a:nth-child(5) figure figcaption,
-#hebergements article a:nth-child(2) figure figcaption,
-#hebergements article a:nth-child(6) figure figcaption {
+#hebergements figcaption {
     background-color: #fff;
     color: black;
     padding: 0;
     text-align: left;
 }
 
-#hebergements article a:nth-child(1) figure figcaption h4,
-#hebergements article a:nth-child(2) figure figcaption h4,
-#hebergements article a:nth-child(3) figure figcaption h4,
-#hebergements article a:nth-child(4) figure figcaption h4,
-#hebergements article a:nth-child(5) figure figcaption h4,
-#hebergements article a:nth-child(6) figure figcaption h4 {
-    margin: -1rem 0 0 0.5rem;
+#hebergements h4 {
+    margin: 0.5rem 0 0 0.5rem;
     padding-left: 0.6rem;
     font-size: 1.32rem;
     font-weight: 700;
 }
 
-#hebergements article a:nth-child(1) figure figcaption p,
-#hebergements article a:nth-child(2) figure figcaption p,
-#hebergements article a:nth-child(3) figure figcaption p,
-#hebergements article a:nth-child(4) figure figcaption p,
-#hebergements article a:nth-child(5) figure figcaption p,
-#hebergements article a:nth-child(6) figure figcaption p {
+#hebergements p {
     margin: 0.4rem 0 0.5rem 0;
     font-size: 1.15rem;
     font-weight: 300;
@@ -389,73 +354,25 @@ main {
 
             /*  Les etoiles des carte    */
 
-#hebergements article a:nth-child(1) figure figcaption div,
-#hebergements article a:nth-child(2) figure figcaption div,
-#hebergements article a:nth-child(3) figure figcaption div,
-#hebergements article a:nth-child(4) figure figcaption div,
-#hebergements article a:nth-child(5) figure figcaption div,
-#hebergements article a:nth-child(6) figure figcaption div {
-    font-size: 1rem;
+#hebergements .etoiles {
+    font-size: 0.9rem;
     padding: 0 0 0 1rem;
     margin: 0.2rem 0 0.2rem 0;
-}
-
-                /*  1ere carte, 3ème et 5ème carte  */
-
-#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(1),
-#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(2),
-#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(3),
-#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(4),
-#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(1),
-#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(2),
-#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(3),
-#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(4),
-#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(1),
-#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(2),
-#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(3),
-#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(4) {
-    color: #0065FC;
-}
-
-#hebergements article a:nth-child(1) figure figcaption div svg:nth-child(5),
-#hebergements article a:nth-child(3) figure figcaption div svg:nth-child(5),
-#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(5),
-#hebergements article a:nth-child(5) figure figcaption div svg:nth-child(5) {
     color: #DEEBFF;
 }
 
-                /*  2eme carte et 6ème carte  */
-#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(1),
-#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(3),
-#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(2),
-#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(4),
-#hebergements article a:nth-child(2) figure figcaption div svg:nth-child(5),
-#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(1),
-#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(2),
-#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(3),
-#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(4),
-#hebergements article a:nth-child(6) figure figcaption div svg:nth-child(5) {
+.blue {
     color: #0065FC;
-}
-
-                /*  4ème carte  */
-#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(1),
-#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(3),
-#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(2) {
-        color: #0065FC;
-    }
-#hebergements article a:nth-child(4) figure figcaption div svg:nth-child(4) {
-    color: #DEEBFF;
 }
 
     /*  "afficher plus" section hebergement    */
 
-#hebergements div {
+#hebergements .link {
     padding: 1rem 0 1rem 0;
     margin-bottom: 0.6rem;
 }
 
-#hebergements div a {
+.link a {
     padding: 3.5rem;
     font-size: 1.45rem;
     color: black;
