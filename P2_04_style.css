@@ -722,11 +722,11 @@ body header nav {
 
     /*  Formulaire de recherche */
 
-body main form div div {
+.icons {
     width: 0.2rem;
 }
 
-body main form div div svg {
+.icons svg {
     width: 0.75rem;
 }
 
@@ -743,7 +743,7 @@ body main form div div svg {
 
     /*  Filtres */
 
-#filtres > h2 {
+#filtres h2 {
     font-size: 1.1rem;
     padding-left: 0rem;
 }
@@ -752,15 +752,15 @@ body main form div div svg {
     padding-left: 1.5rem;
 }
 
-#filtres ul li {
+#filtres li {
     font-size: 1.2rem;
 }
 
-#filtres ul li span {
+#filtres span {
     padding: 0.8rem;
 }
 
-body main div.infoIcon {
+.infoIcon {
     font-size: 1rem;
 }
 
