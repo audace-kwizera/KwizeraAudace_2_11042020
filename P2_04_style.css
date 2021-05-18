@@ -915,10 +915,10 @@ footer li {
 
 /*===========================*/
 /*
-**  Laptop
-**  Tablette
+**  Big Laptop
+**  Desktop
 ** LP Responsiveness
-**  Smartphone big and tablette
+**  
  */
 /*===========================*/
 @media all and (max-width: 1439px) {
@@ -958,448 +958,288 @@ footer li {
 
 
 /*===========================*/
-/*mobile responsive
+/*Big tablette
 ## LP Responsiveness
-/* Smartphone
+/* Laptop
  * iPad Pro */
 /*===========================*/	
 @media all and (max-width: 1179px) {
-
-body {
-    padding: 0;
-    margin: 0;
-    width: auto;
-}
         
         /*  L'en-tête   */
+    
         
-    #titre {
-        padding: 1rem;
-        position: absolute;
-        width: 30%;
-    }
-        
-    #titre img {
-        width: 6rem;
-    }
-        
-    body header nav {
+header nav {
         display: flex;
         justify-content: flex-end;
         padding: 1rem;
         width: 100%;
-    }
+}
         
-    #menu {
+#menu {
         flex-wrap: wrap-reverse;
         flex-direction: row;
         padding: 0;    
         width: 61%;
-    }
+}
     
-    #menu li  {
+#menu li  {
         display: flex;
         width: 20%;
         justify-content: flex-end;
         margin: 0
-    }
+}
     
-    #menu li:nth-child(1) {
+#menu .lienMenuHebergement {
         margin: 0;
         padding: 0;
         order: 1;
-    }
+}
     
-    #menu li:nth-child(2) {
+#menu .lienMenuActivite {
         padding: 0;
         margin: 0;
         order: 2;
-    }
+}
     
-    #menu li:nth-child(3) {
+#menu .lienMenuSinscrire {
         order: 3;
-    }
-    
-    #menu li a {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        padding: 10%;
-        font-size: 1.1rem;
-    }
+}
         
-    /*  Le corps    */
+/*  Le corps    */
         
-    body main {
-        padding: 0;
-        margin: 0;
-    }
+body main {
+    padding: 0;
+    margin: 0;
+}
         
     /*  slogan  */
         
     #slogan {
-        font-size: 0.9rem;
+        font-size: 1.3rem;
         margin-bottom: 5%;
         padding-left: 5%;
         padding-right: 0%;
     }
         
-    #slogan h1 {
-        margin-bottom: 2%;
-    } 
+#slogan h1 {
+    margin-bottom: 2%;
+} 
         
         /*  Recherche   */
         
-    body main form {
+form {
         padding-left: 5%;
-    }
+}
         
-    .buttonRechercher {
+.buttonRechercher {
     display: none;
-    }
+}
         
-    .buttonLoupe {
-        visibility: visible;
-        border-radius: 15px;
-        padding: 1rem;
-        position: relative;
-        right: 1rem;
-    }
-        
-    #recherche {
-        padding: 0.5% 0 0.5rem 0.5rem;
-        width: 14rem;
-        border-right: 0;
-        font-size: 1.1rem;
-    }
+.buttonLoupe {
+    visibility: visible;
+    border-radius: 15px;
+    padding: 1rem;
+    position: relative;
+    right: 1rem;
+}
         
         /*  Filtres */
         
-    #filtres {
-        padding-left: 5%;
-        padding-bottom: 0%;
-        margin: 0;
-        flex-wrap: wrap;
-    }
+#filtres {
+    padding-left: 5%;
+    padding-bottom: 0%;
+    margin: 0;
+    flex-wrap: wrap;
+}
         
-    #filtres h2 {
-        margin: 0;
-        font-size: 1rem;
-        width: 30%;
-        padding: 0;
-    }
-        
-    #filtres ul {
+#filtres ul {
         margin-top: 2%;
         padding: 0;
         flex-wrap: wrap;
         width: 100%;
-    }
+}
     
-    #filtres ul li {
+#filtres ul li {
         margin: 1rem 0;
         font-size: 1rem;
         width: 25%;
-    }
+}
         
             /*  Infos dans le header    */
         
-    .infoIcon {
-            padding: 0 1% 5% 5%;
-    }
-        
-    body main div.infoIcon p {
-            font-size: 0.8rem;
-    }
+.infoIcon {
+            padding: 0 1% 3% 5%;
+}
         
             /*  section */
-        
-    body main div.sectionAsideSection {
-        flex-direction: column;
-    }
-        
+
                 /*  hebergements    */
         
-    #hebergements {
+#hebergements {
         flex-direction: column;
         width: 100%;
         order: 2;
         margin: 0;
         background-color: transparent;
         padding-bottom: 0;
-    }
-        
-    #hebergements h3 {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1.3rem;
-        padding: 0 0 1rem 1.5rem;
-        }
-        
+}
         
                     /*  Les cartes  */
         
-    #hebergements article a:nth-child(1),
-    #hebergements article a:nth-child(2),
-    #hebergements article a:nth-child(3),
-    #hebergements article a:nth-child(4),
-    #hebergements article a:nth-child(5),
-    #hebergements article a:nth-child(6) {
-        padding: 1%;
-        width: 25%;
-        margin: 0;
-        height: 13rem;
-    }
-        
-    #hebergements article a:nth-child(1) figure,
-    #hebergements article a:nth-child(2) figure,
-    #hebergements article a:nth-child(3) figure,
-    #hebergements article a:nth-child(4) figure,
-    #hebergements article a:nth-child(5) figure,
-    #hebergements article a:nth-child(6) figure {
-        height: 100%;
-    }
-        
-        
-    #hebergements article a:nth-child(1) figure figcaption h4,
-    #hebergements article a:nth-child(2) figure figcaption h4,
-    #hebergements article a:nth-child(3) figure figcaption h4,
-    #hebergements article a:nth-child(4) figure figcaption h4,
-    #hebergements article a:nth-child(5) figure figcaption h4,
-    #hebergements article a:nth-child(6) figure figcaption h4 {
-        font-size: 1.1rem;
-    }
-        
-    #hebergements article a:nth-child(1) figure figcaption p,
-    #hebergements article a:nth-child(2) figure figcaption p,
-    #hebergements article a:nth-child(3) figure figcaption p,
-    #hebergements article a:nth-child(4) figure figcaption p,
-    #hebergements article a:nth-child(5) figure figcaption p,
-    #hebergements article a:nth-child(6) figure figcaption p {
-        font-size: 0.95rem;
-    }
-        
-                    /*  Les étoiles */
-        
-    #hebergements article a:nth-child(1) figure figcaption div,
-    #hebergements article a:nth-child(2) figure figcaption div,
-    #hebergements article a:nth-child(3) figure figcaption div,
-    #hebergements article a:nth-child(4) figure figcaption div,
-    #hebergements article a:nth-child(5) figure figcaption div,
-    #hebergements article a:nth-child(6) figure figcaption div {
-        padding-left: 5%;
-        font-size: 0.8rem;
-        margin-top: 0.7rem;
-    }
-        
-                    /*  Les liens   */
-        
-    #hebergements div {
-        padding-bottom: 0%;
-    }
-        
-    #hebergements div a {
-        padding: 3.5rem 1.5rem;
-        font-size: 1.1rem;
-    }
-        
+.cartesHebergements a {
+    padding: 1%;
+    width: 25%;
+    margin: 0;
+    height: 14.5rem;
+}
+
                 /*  Les plus populaires */
         
-    aside {
-        border-radius: 0;
-    }
+aside {
+    border-radius: 0;
+}
+
+.asideTitle {
+    justify-content: space-between;
+    padding: 3% 5% 0 5%;
+}
+
+.asideTitle .logoLink {
+    margin: 0;
+    padding: 2% 0;
+    position: static;
+}
+
+.cartesLesPlusPopulaires {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4%;
+}
         
-    body main div.sectionAsideSection aside article {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 4%;
-    }
+aside {
+    width: 100%;
+    order: 1;
+    margin: 0;
+}
         
-    body main div.sectionAsideSection aside {
-        width: 100%;
-        order: 1;
-        margin: 0;
-    }
+.asideTitle h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
         
-    body main div.sectionAsideSection aside div {
-        justify-content: space-between;
-        padding: 3% 5% 0 5%;
-    }
-        
-    body main div.sectionAsideSection aside div h3 {
-        margin-top: 0;
-        font-size: 1.3rem;
-        padding: 1rem;
-    }
-        
-    body main div.sectionAsideSection aside div div {
-        position: static;
-        margin: 0;
-    }
-        
-    body main div.sectionAsideSection aside article a:nth-child(1),
-    body main div.sectionAsideSection aside article a:nth-child(2),
-    body main div.sectionAsideSection aside article a:nth-child(3) {
-        width: 30%;
-        padding: 1%;
-        height: 8rem;
-    }
+.cartesLesPlusPopulaires a {
+    width: 30%;
+    padding: 1%;
+    height: 8rem;
+}
         
                     /*  Les cartes  */
         
-    body main div.sectionAsideSection aside article a:nth-child(1) figure,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure {
-        margin: 0;
-        width: 100%;
-        height: 108%;
-    }
-        
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
-        font-size: 1.05rem;
-    }
-        
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
-        font-size: 0.95rem;
-    }
-        
+.cartesLesPlusPopulaires figure {
+    margin: 0;
+    width: 100%;
+    height: 108%;
+}
+
+.imageCarteBasPopulaires {
+    width: 50%;
+}
+
+aside .titreCarteBasPopulaires,
+aside .texteCarteBasPopulaires {
+    padding-left: 5%;
+}
+
+.etoilesCarteBasPolpulaire {
+    margin-left: 5%;
+}
+
+
                     /*  Les étoiles */
         
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
-        padding: 0;
-        font-size: 0.7rem;
-        margin-top: 2.5em;
-    }           
+aside .etoiles {
+    padding: 0;
+    font-size: 0.7rem;
+    margin-top: 2.5em;
+}           
         
                 /*  Les activités   */
         
-    #activites {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        order: 3;
-        margin: 0;
-        padding: 0;
-    }
+#activites {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    order: 3;
+    margin: 0;
+    padding: 0;
+}
         
-    #activites h3 {
-        margin-top: 0;
-        font-size: 1.3rem;
-        padding: 2rem 0 1rem 1.5rem;
-    }
+#activites h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    padding: 2rem 0 1rem 1.5rem;
+}
         
-    #activites article {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        height: 100%;
-        width: auto;
-    }
+#activites article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: auto;
+}
         
                     /*  Les cartes  */
         
-    .activiteColonnesCartes,
-    .activitegrandecarte {
-        width: 92%;
-        padding: 4%;
-        width: 40%;
-        height: 25rem;
-    }
+.activiteColonnesCartes,
+.activitegrandecarte {
+    width: 92%;
+    padding: 4%;
+    width: 40%;
+    height: 25rem;
+}
+               
+#activites .lesGrandesCartes {
+    height: 98%;
+    width: 100%;
+}
         
-    #activites article div:nth-child(1) a figure,
-    #activites article div:nth-child(3) a figure {
-        width: 100%;
-        height: 100%;
-    }
-    
-    #activites article div:nth-child(2) a:nth-child(1), 
-    #activites article div:nth-child(2) a:nth-child(2),
-    #activites article div:nth-child(4) a:nth-child(1), 
-    #activites article div:nth-child(4) a:nth-child(2)  {
-        height: 50%;
-        padding-top: 0;
-        width: 100%;
-    }
+#activites .cartesColonnes {
+    height: 92%;
+    width: 100%; 
+}
         
-    #activites article div:nth-child(2) a:nth-child(1),
-    #activites article div:nth-child(4) a:nth-child(1) {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
+#activites .premiereCarte,
+#activites .quatriemeCarte {
+    height: 84%;
+    object-position: 0rem;
+}
         
-    #activites article div:nth-child(1) a figure,
-    #activites article div:nth-child(3) a figure {
-        height: 100%;
-        width: 100%;
-    }
+#activites .deuxiemeImageCarte,
+#activites .troisiemeImageCarte,
+#activites .cinquiemeImageCarte,
+#activites .sixiemeImageCarte {
+    height: 65%;
+    object-position: 0rem;
+}
         
-    #activites article div:nth-child(2) a:nth-child(1) figure,
-    #activites article div:nth-child(2) a:nth-child(2) figure,
-    #activites article div:nth-child(4) a:nth-child(1) figure,
-    #activites article div:nth-child(4) a:nth-child(2) figure {
-        height: 92%;
-        width: 100%; 
-    }
-        
-    #activites article div:nth-child(1) a figure img,
-    #activites article div:nth-child(3) a figure img {
-        height: 84%;
-        object-position: 0rem;
-    }
-        
-    #activites article div:nth-child(2) a:nth-child(1) figure img,
-    #activites article div:nth-child(2) a:nth-child(2) figure img,
-    #activites article div:nth-child(4) a:nth-child(1) figure img,
-    #activites article div:nth-child(4) a:nth-child(2) figure img {
-        height: 65%;
-        object-position: 0rem;
-    }
-        
-    #activites article div:nth-child(1) a figure figcaption h4,
-    #activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
-    #activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
-    #activites article div:nth-child(3) a figure figcaption h4,
-    #activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
-    #activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
-        font-size: 1.1rem;
-    }
+#activites h4 {
+    font-size: 1.1rem;
+}
         
                 /*  footer  */
-    footer {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 100%;
-    }       
+footer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}       
         
-    body footer div:nth-child(1),
-    body footer div:nth-child(2),
-    body footer div:nth-child(3) {
-        padding: 0;
-        margin: 0;
-    }
-        
-    body footer div:nth-child(1) h5,
-    body footer div:nth-child(2) h5,
-    body footer div:nth-child(3) h5 {
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
-        
-    body footer div a {
-        font-size: 1rem
-    }
-        
-    body footer div li {
-        margin-bottom: 0.5rem;
-    }
-    }
+.footerlist {
+    padding: 0;
+    margin: 0;
+}  
+}
             
             
             /*===========================*/
@@ -1411,7 +1251,8 @@ body {
 
 
 /*===========================*/
-/*mobile responsive
+/*Tablette
+/*Big Smartphone
 ## LP Responsiveness
 */
 /*===========================*/	
