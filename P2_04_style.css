@@ -1258,490 +1258,140 @@ footer {
 /*===========================*/	
 @media all and (max-width: 920px) {
 
-body {
-    padding: 0;
-    margin: 0;
-    width: auto;
-}
-    
+
     /*  L'en-tête   */
-    
-#titre {
-    padding: 1rem;
-    position: absolute;
-    width: 30%;
-}
-    
-#titre img {
-    width: 6rem;
-}
-    
-body header nav {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1rem;
-    width: 100%;
-}
-    
-#menu {
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
-    padding: 0;    
-    width: 61%;
+
+#menu .lienMenuSinscrire {
+    padding-top: 2%;
+    padding-right: 10%;
 }
 
-#menu li  {
-    display: flex;
-    width: 20%;
-    justify-content: flex-end;
-    margin: 0
-}
-
-#menu li:nth-child(1) {
-    margin: 0;
-    padding: 0;
-    order: 1;
-}
-
-#menu li:nth-child(2) {
-    padding: 0;
-    margin: 0;
-    order: 2;
-}
-
-#menu li:nth-child(3) {
-    order: 3;
-}
-
-#menu li a {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+#menu li.lienMenuHebergement a.mobileBorder,
+#menu li.lienMenuActivite a.mobileBorder {
     padding: 10%;
-    font-size: 1.1rem;
 }
     
 /*  Le corps    */
     
-body main {
-    padding: 0;
-    margin: 0;
-}
-    
 /*  slogan  */
     
-#slogan {
-    font-size: 0.9rem;
-    margin-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 0%;
+main #slogan {
+    margin-bottom: 1%;
 }
-    
-#slogan h1 {
-    margin-bottom: 2%;
-} 
-    
-    /*  Recherche   */
-    
-body main form {
-    padding-left: 5%;
-}
-    
-.buttonRechercher {
-display: none;
-}
-    
-.buttonLoupe {
-    visibility: visible;
-    border-radius: 15px;
-    padding: 1rem;
-    position: relative;
-    right: 1rem;
-}
-    
-#recherche {
-    padding: 0.5% 0 0.5rem 0.5rem;
-    width: 14rem;
-    border-right: 0;
-    font-size: 1.1rem;
-}
-    
-    /*  Filtres */
-    
+
 #filtres {
     padding-left: 5%;
     padding-bottom: 0%;
     margin: 0;
     flex-wrap: wrap;
 }
-    
-#filtres h2 {
-    margin: 0;
+
+#filtres li {
+    margin: 1rem 0;
     font-size: 1rem;
-    width: 30%;
-    padding: 0;
+    width: 50%;
 }
-    
-#filtres ul {
-    margin-top: 2%;
-    padding: 0;
-    flex-wrap: wrap;
+
+#filtres ul li:nth-child(4) {
+    margin: 1rem 0;
+    font-size: 1rem;
     width: 100%;
 }
 
-#filtres ul li {
-    margin: 1rem 0;
-    font-size: 1rem;
-    width: 30%;
-}
-    
-        /*  Infos dans le header    */
-    
-.infoIcon {
-        padding: 0 1% 5% 5%;
-}
-    
-body main div.infoIcon p {
-        font-size: 0.8rem;
-}
-    
         /*  section */
-    
-body main div.sectionAsideSection {
-    flex-direction: column;
-}
     
             /*  hebergements    */
     
-#hebergements {
-    flex-direction: column;
-    width: 100%;
-    order: 2;
-    margin: 0;
-    background-color: transparent;
-    padding-bottom: 0;
-}
-    
-#hebergements h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1.3rem;
-    padding: 0 0 1rem 1.5rem;
-    }
-    
-    
                 /*  Les cartes  */
-    
-#hebergements article a:nth-child(1),
-#hebergements article a:nth-child(2),
-#hebergements article a:nth-child(3),
-#hebergements article a:nth-child(4),
-#hebergements article a:nth-child(5),
-#hebergements article a:nth-child(6) {
+
+#hebergements .cartesHebergements {
+    flex-direction: row;
+    flex-wrap: wrap;
+}                
+
+#hebergements .cartesHebergements a {
     padding: 5%;
-    width: 40%;
+    width: 35%;
     margin: 0;
     height: 13rem;
 }
     
-#hebergements article a:nth-child(1) figure,
-#hebergements article a:nth-child(2) figure,
-#hebergements article a:nth-child(3) figure,
-#hebergements article a:nth-child(4) figure,
-#hebergements article a:nth-child(5) figure,
-#hebergements article a:nth-child(6) figure {
-    height: 100%;
-}
-    
-    
-#hebergements article a:nth-child(1) figure figcaption h4,
-#hebergements article a:nth-child(2) figure figcaption h4,
-#hebergements article a:nth-child(3) figure figcaption h4,
-#hebergements article a:nth-child(4) figure figcaption h4,
-#hebergements article a:nth-child(5) figure figcaption h4,
-#hebergements article a:nth-child(6) figure figcaption h4 {
-    font-size: 1.1rem;
-}
-    
-#hebergements article a:nth-child(1) figure figcaption p,
-#hebergements article a:nth-child(2) figure figcaption p,
-#hebergements article a:nth-child(3) figure figcaption p,
-#hebergements article a:nth-child(4) figure figcaption p,
-#hebergements article a:nth-child(5) figure figcaption p,
-#hebergements article a:nth-child(6) figure figcaption p {
-    font-size: 0.95rem;
-}
-    
-                /*  Les étoiles */
-    
-#hebergements article a:nth-child(1) figure figcaption div,
-#hebergements article a:nth-child(2) figure figcaption div,
-#hebergements article a:nth-child(3) figure figcaption div,
-#hebergements article a:nth-child(4) figure figcaption div,
-#hebergements article a:nth-child(5) figure figcaption div,
-#hebergements article a:nth-child(6) figure figcaption div {
-    padding-left: 5%;
-    font-size: 0.8rem;
-    margin-top: 0.7rem;
+.cartesHebergements figure {
+    height: 120%;
 }
     
                 /*  Les liens   */
     
-#hebergements div {
-    padding-bottom: 0%;
-}
-    
-#hebergements div a {
-    padding: 3.5rem 1.5rem;
-    font-size: 1.1rem;
+#hebergements .link {
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
     
             /*  Les plus populaires */
     
 aside {
-    border-radius: 0;
+    padding: 5%;
+}   
+
+.asideTitle {
+    padding: 0;
 }
-    
-body main div.sectionAsideSection aside article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 4%;
-}
-    
-body main div.sectionAsideSection aside {
-    width: 100%;
-    order: 1;
-    margin: 0;
-}
-    
-body main div.sectionAsideSection aside div {
-    justify-content: space-between;
-    padding: 3% 5% 0 5%;
-}
-    
-body main div.sectionAsideSection aside div h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-    padding: 1rem;
-}
-    
-body main div.sectionAsideSection aside div div {
-    position: static;
-    margin: 0;
-}
-    
-body main div.sectionAsideSection aside article a:nth-child(1),
-body main div.sectionAsideSection aside article a:nth-child(2),
-body main div.sectionAsideSection aside article a:nth-child(3) {
+
+.cartesLesPlusPopulaires a {
     width: 42%;
-    padding: 4%;
+    padding: 2%;
     height: 8rem;
 }
     
                 /*  Les cartes  */
     
-body main div.sectionAsideSection aside article a:nth-child(1) figure,
-body main div.sectionAsideSection aside article a:nth-child(2) figure,
-body main div.sectionAsideSection aside article a:nth-child(3) figure {
+.cartesLesPlusPopulaires figure {
     margin: 0;
     width: 100%;
-    height: 108%;
+    height: 107%;
 }
-    
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
-    font-size: 1.05rem;
-}
-    
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
-    font-size: 0.95rem;
-}
-    
-                /*  Les étoiles */
-    
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
-    padding: 0;
-    font-size: 0.7rem;
-    margin-top: 2.5em;
-}           
-    
             /*  Les activités   */
-    
-#activites {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    order: 3;
-    margin: 0;
-    padding: 0;
-}
-    
-#activites h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-    padding: 0 0 1rem 1.5rem;
-}
-    
-#activites article {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 100%;
-    width: auto;
-}
     
                 /*  Les cartes  */
     
-.activiteColonnesCartes,
-.activitegrandecarte {
-    width: 92%;
-    padding: 4%;
-    width: 40%;
-    height: 25rem;
-}
-    
-#activites article div:nth-child(1) a figure,
-#activites article div:nth-child(3) a figure {
-    width: 100%;
-    height: 100%;
-}
-
-#activites article div:nth-child(2) a:nth-child(1), 
-#activites article div:nth-child(2) a:nth-child(2),
-#activites article div:nth-child(4) a:nth-child(1), 
-#activites article div:nth-child(4) a:nth-child(2)  {
+#activites .activiteColonnesCartes a {
     height: 50%;
     padding-top: 0;
     width: 100%;
 }
-    
-#activites article div:nth-child(2) a:nth-child(1),
-#activites article div:nth-child(4) a:nth-child(1) {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-    
-#activites article div:nth-child(1) a figure,
-#activites article div:nth-child(3) a figure {
-    height: 100%;
-    width: 100%;
-}
-    
-#activites article div:nth-child(2) a:nth-child(1) figure,
-#activites article div:nth-child(2) a:nth-child(2) figure,
-#activites article div:nth-child(4) a:nth-child(1) figure,
-#activites article div:nth-child(4) a:nth-child(2) figure {
-    height: 92%;
-    width: 100%; 
-}
-    
-#activites article div:nth-child(1) a figure img,
-#activites article div:nth-child(3) a figure img {
-    height: 84%;
-    object-position: 0rem;
-}
-    
-#activites article div:nth-child(2) a:nth-child(1) figure img,
-#activites article div:nth-child(2) a:nth-child(2) figure img,
-#activites article div:nth-child(4) a:nth-child(1) figure img,
-#activites article div:nth-child(4) a:nth-child(2) figure img {
-    height: 65%;
-    object-position: 0rem;
-}
-    
-#activites article div:nth-child(1) a figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
-#activites article div:nth-child(3) a figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
-    font-size: 1.1rem;
-}
-    
-            /*  footer  */
-footer {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-}       
-    
-body footer div:nth-child(1),
-body footer div:nth-child(2),
-body footer div:nth-child(3) {
-    padding: 0;
-    margin: 0;
-}
-    
-body footer div:nth-child(1) h5,
-body footer div:nth-child(2) h5,
-body footer div:nth-child(3) h5 {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-    
-body footer div a {
-    font-size: 1rem
-}
-    
-body footer div li {
-    margin-bottom: 0.5rem;
+
+#activites .tailleGrandeCarte figure {
+    height: 101.5%;
+    width: 101.5%;
 }
 }
         
         
         /*===========================*/
-    /*(min-width: 768px) and (max-width: 839px) */
+    /*(min-width: 765px) and (max-width: 920px) */
     /*===========================*/
     
     /*=============================*/
     
 
 /*===========================*/
-/*mobile responsive
+/*Petite Tablette
 ## LP Responsiveness
-/* Smartphone
- * iPhone 6/7/8 */
+/* 
+ * */
 /*===========================*/	
-@media all and (max-width: 765px) {
+@media all and (max-width: 764px) {
 
-body {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    justify-content: stretch;
-    width: auto;
-}
+
 
 /*  L'en-tête   */
 
-#titre {
-    padding: 1rem;
-    position: absolute;
-}
-
-#titre img {
-    width: 6rem;
-}
-
 body header nav {
     display: flex;
-    padding: 1rem;
+    padding: 3%;
 }
 
-#menu {
-    flex-wrap: wrap-reverse;
-    flex-direction: row-reverse;
-    padding: 0;    
-}
-
-#menu li:nth-child(3) {
+#menu .lienMenuSinscrire {
     display: flex;
     margin: 0;
     width: 100%;
@@ -1749,436 +1399,55 @@ body header nav {
     order: 3;
 } 
 
-#menu li:nth-child(2),
-#menu li:nth-child(1) {
+#menu li {
     display: flex;
     margin: 0;
     width: 50%;
     justify-content: center;
 }
 
-#menu li:nth-child(2) {
-    order: 1;
-}
-
-#menu li:nth-child(1) {
+#menu .lienMenuActivite {
     order: 2;
 }
 
-#menu li:nth-child(3) a {
-    padding-top: 2%;
-    font-size: 1.1rem;
+#menu .lienMenuHebergement {
+    order: 1;
 }
 
-#menu li:nth-child(2) a,
-#menu li:nth-child(1) a {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 25%;
+#menu .lienMenuSinscrire a {
+    padding-top: 2%;
     font-size: 1.1rem;
-    padding-left: 1rem;
 }
 
 #menu li:nth-child(2) a {
 }
 
-#menu li:nth-child(3) a {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
 /*  Le corps    */
-
-body main {
-    padding: 0;
-    margin: 0;
-}
-
-    /*  slogan  */
-
-#slogan {
-    font-size: 0.9rem;
-    margin-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 0%;
-}
-
-#slogan h1 {
-    margin-bottom: 2%;
-} 
-
-    /*  Recherche   */
-
-body main form {
-    padding-left: 5%;
-}
-
-.buttonRechercher {
-    display: none;
-}
-
-.buttonLoupe {
-    visibility: visible;
-    border-radius: 15px;
-    padding: 1rem;
-    position: relative;
-    right: 1rem;
-}
-
-#recherche {
-    padding: 0.5% 0 0.5rem 0.5rem;
-    width: 14rem;
-    border-right: 0;
-    font-size: 1.1rem;
-}
 
     /*  Filtres */
 
-#filtres {
-    padding-left: 5%;
-    padding-bottom: 0%;
-    margin: 0;
-    flex-wrap: wrap;
-}
 
-#filtres h2 {
-    margin: 0;
-    font-size: 1rem;
-    width: 100%;
-    padding: 0;
-}
-
-#filtres ul {
-    margin-top: 2%;
-    padding: 0;
-    flex-wrap: wrap;
-}
-
-#filtres ul li:nth-child(1),
-#filtres ul li:nth-child(3),
-#filtres ul li:nth-child(4) {
+#filtres ul li {
     margin: 1rem 0;
     font-size: 1rem;
-    width: 54%;
-}
-
-#filtres ul li:nth-child(2) {
-    margin: 1rem 0;
-    font-size: 1rem;
-    width: 45%;
-}
-
-#filtres ul li:nth-child(4) {
-    margin: 1rem 0;
-    font-size: 1rem;
-    width: 100%;
+    width: 50%;
 }
 
     /*  Infos dans le header    */
 
 .infoIcon {
-    padding: 0 1% 5% 5%;
-}
-
-body main div.infoIcon p {
-    font-size: 0.8rem;
+    padding: 0 1% 1% 5%;
 }
 
     /*  section */
 
-body main div.sectionAsideSection {
-    flex-direction: column;
-}
 
         /*  hebergements    */
 
-#hebergements {
-    flex-direction: column;
-    width: 100%;
-    order: 2;
-    margin: 0;
-    background-color: transparent;
-}
-
-#hebergements h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1.3rem;
-    padding: 0 0 1rem 1.5rem;
-}
-
-
             /*  Les cartes  */
 
-#hebergements article {
-    flex-direction: column;
-    padding: 0%;
-}
-
-#hebergements article a:nth-child(1),
-#hebergements article a:nth-child(2),
-#hebergements article a:nth-child(3),
-#hebergements article a:nth-child(4),
-#hebergements article a:nth-child(5),
-#hebergements article a:nth-child(6) {
-    padding: 5%;
-    width: 90%;
-    margin: 0;
-    height: 13rem;
-}
-
-#hebergements article a:nth-child(1) figure,
-#hebergements article a:nth-child(2) figure,
-#hebergements article a:nth-child(3) figure,
-#hebergements article a:nth-child(4) figure,
-#hebergements article a:nth-child(5) figure,
-#hebergements article a:nth-child(6) figure {
-    height: 100%;
-}
-
-
-#hebergements article a:nth-child(1) figure figcaption h4,
-#hebergements article a:nth-child(2) figure figcaption h4,
-#hebergements article a:nth-child(3) figure figcaption h4,
-#hebergements article a:nth-child(4) figure figcaption h4,
-#hebergements article a:nth-child(5) figure figcaption h4,
-#hebergements article a:nth-child(6) figure figcaption h4 {
-    font-size: 1.1rem;
-}
-
-#hebergements article a:nth-child(1) figure figcaption p,
-#hebergements article a:nth-child(2) figure figcaption p,
-#hebergements article a:nth-child(3) figure figcaption p,
-#hebergements article a:nth-child(4) figure figcaption p,
-#hebergements article a:nth-child(5) figure figcaption p,
-#hebergements article a:nth-child(6) figure figcaption p {
-    font-size: 0.95rem;
-}
-
-            /*  Les étoiles */
-
-#hebergements article a:nth-child(1) figure figcaption div,
-#hebergements article a:nth-child(2) figure figcaption div,
-#hebergements article a:nth-child(3) figure figcaption div,
-#hebergements article a:nth-child(4) figure figcaption div,
-#hebergements article a:nth-child(5) figure figcaption div,
-#hebergements article a:nth-child(6) figure figcaption div {
-    padding-left: 5%;
-    font-size: 0.8rem;
-    margin-top: 0.7rem;
-}
-
-            /*  Les liens   */
-
-#hebergements div {
-    padding-bottom: 0%;
-}
-
-#hebergements div a {
-    padding: 3.5rem 1.5rem;
-    font-size: 1.1rem;
-}
-
-        /*  Les plus populaires */
-
-aside {
-    border-radius: 0;
-}
-
-body main div.sectionAsideSection aside article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 4%;
-}
-
-body main div.sectionAsideSection aside {
-    width: 100%;
-    order: 1;
-    margin: 0;
-}
-
-body main div.sectionAsideSection aside div {
-    justify-content: space-between;
-    padding: 5% 5% 2% 5%;
-}
-
-body main div.sectionAsideSection aside div h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-    padding: 1rem;
-}
-
-body main div.sectionAsideSection aside div div {
-    position: static;
-    margin: 0;
-}
-
-body main div.sectionAsideSection aside article a:nth-child(1),
-body main div.sectionAsideSection aside article a:nth-child(2),
-body main div.sectionAsideSection aside article a:nth-child(3) {
-    width: 92%;
-    padding: 4%;
-    height: 8rem;
-}
-
-            /*  Les cartes  */
-
-body main div.sectionAsideSection aside article a:nth-child(1) figure,
-body main div.sectionAsideSection aside article a:nth-child(2) figure,
-body main div.sectionAsideSection aside article a:nth-child(3) figure {
-    margin: 0;
-    width: 100%;
-    height: 108%;
-}
-
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
-    font-size: 1.05rem;
-}
-
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
-    font-size: 0.95rem;
-}
-
-            /*  Les étoiles */
-
-body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
-body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
-body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
-    padding: 0;
-    font-size: 0.7rem;
-    margin-top: 2.5em;
-}           
-
-        /*  Les activités   */
-
-#activites {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    order: 3;
-    margin: 0;
-    padding: 0;
-}
-
-#activites h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-    padding: 0 0 1rem 1.5rem;
-}
-
-#activites article {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
-}
-
-            /*  Les cartes  */
-
-.activiteColonnesCartes,
-.activitegrandecarte {
-    width: 92%;
-    padding: 4%;
-}
-
-.activitegrandecarte {
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.activiteColonnesCartes {
-    height: 25rem;
-}
-
-#activites article div:nth-child(2) a:nth-child(1), 
-#activites article div:nth-child(2) a:nth-child(2),
-#activites article div:nth-child(4) a:nth-child(1), 
-#activites article div:nth-child(4) a:nth-child(2)  {
-    height: 50%;
-    padding-top: 0;
-}
-
-#activites article div:nth-child(2) a:nth-child(1),
-#activites article div:nth-child(4) a:nth-child(1) {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.activitegrandecarte {
-    height: 12rem;
-    padding: 4%;
-}
-
-#activites article div:nth-child(1) a figure,
-#activites article div:nth-child(3) a figure {
-    height: 100%;
-    width: 100%;
-}
-
-#activites article div:nth-child(2) a:nth-child(1) figure,
-#activites article div:nth-child(2) a:nth-child(2) figure,
-#activites article div:nth-child(4) a:nth-child(1) figure,
-#activites article div:nth-child(4) a:nth-child(2) figure {
-    height: 92%;
-    width: 100%; 
-}
-
-#activites article div:nth-child(1) a figure img,
-#activites article div:nth-child(3) a figure img {
-    height: 67%;
-    object-position: 0rem;
-}
-
-#activites article div:nth-child(2) a:nth-child(1) figure img,
-#activites article div:nth-child(2) a:nth-child(2) figure img,
-#activites article div:nth-child(4) a:nth-child(1) figure img,
-#activites article div:nth-child(4) a:nth-child(2) figure img {
-    height: 65%;
-    object-position: 0rem;
-}
-
-#activites article div:nth-child(1) a figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
-#activites article div:nth-child(3) a figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
-#activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
-    font-size: 1.1rem;
-}
-
-        /*  footer  */
-footer {
-    flex-direction: column;
-    width: 100%;
-}       
-
-body footer div:nth-child(1),
-body footer div:nth-child(2),
-body footer div:nth-child(3) {
-    padding-left: 10%;
-    margin: 0;
-}
-
-body footer div:nth-child(1) h5,
-body footer div:nth-child(2) h5,
-body footer div:nth-child(3) h5 {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-body footer div a {
-    font-size: 1rem
-}
-
-body footer div li {
-    margin-bottom: 0.5rem;
+#hebergements figure {
+    height: 115%;
 }
 }
 	
@@ -2190,484 +1459,69 @@ body footer div li {
 /*=============================*/
 
 /*===========================*/
-/*mobile responsive
+/*Mini Tablette
 ## LP Responsiveness
-/* Smartphone
- * iPhone 6/7/8 */
+/* Big Smartphone
+ *  */
 /*===========================*/	
-@media all and (max-width: 465px) {
-
-    body {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-        justify-content: stretch;
-        width: auto;
-    }
+@media all and (max-width: 640px) {
     
     /*  L'en-tête   */
     
-    #titre {
-        padding: 1rem;
-        position: absolute;
-    }
-    
-    #titre img {
-        width: 6rem;
-    }
-    
-    body header nav {
-        display: flex;
-        padding: 1rem;
-    }
-    
-    #menu {
-        flex-wrap: wrap-reverse;
-        flex-direction: row-reverse;
-        padding: 0;    
-    }
-    
-    #menu li:nth-child(3) {
-        display: flex;
-        margin: 0;
-        width: 100%;
-        justify-content: flex-end;
-        order: 3;
-    } 
-    
-    #menu li:nth-child(2),
-    #menu li:nth-child(1) {
-        display: flex;
-        margin: 0;
-        width: 50%;
-        justify-content: center;
-    }
-    
-    #menu li:nth-child(2) {
-        order: 1;
-    }
-    
-    #menu li:nth-child(1) {
-        order: 2;
-    }
-    
-    #menu li:nth-child(3) a {
-        padding-top: 2%;
-        font-size: 1.1rem;
-    }
-    
-    #menu li:nth-child(2) a,
-    #menu li:nth-child(1) a {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        padding-top: 25%;
-        font-size: 1.1rem;
-        padding-left: 1rem;
-    }
-    
-    #menu li:nth-child(2) a {
-    }
-    
-    #menu li:nth-child(3) a {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-    }
+body header nav {
+    padding-bottom: 0;
+}
     
     /*  Le corps    */
     
-    body main {
-        padding: 0;
-        margin: 0;
-    }
-    
-        /*  slogan  */
-    
-    #slogan {
-        font-size: 0.9rem;
-        margin-bottom: 10%;
-        padding-left: 5%;
-        padding-right: 0%;
-    }
-    
-    #slogan h1 {
-        margin-bottom: 2%;
-    } 
-    
-        /*  Recherche   */
-    
-    body main form {
-        padding-left: 5%;
-    }
-    
-    .buttonRechercher {
-        display: none;
-    }
-    
-    .buttonLoupe {
-        visibility: visible;
-        border-radius: 15px;
-        padding: 1rem;
-        position: relative;
-        right: 1rem;
-    }
-    
-    #recherche {
-        padding: 0.5% 0 0.5rem 0.5rem;
-        width: 14rem;
-        border-right: 0;
-        font-size: 1.1rem;
-    }
-    
-        /*  Filtres */
-    
-    #filtres {
-        padding-left: 5%;
-        padding-bottom: 0%;
-        margin: 0;
-        flex-wrap: wrap;
-    }
-    
-    #filtres h2 {
-        margin: 0;
-        font-size: 1rem;
-        width: 100%;
-        padding: 0;
-    }
-    
-    #filtres ul {
-        margin-top: 2%;
-        padding: 0;
-        flex-wrap: wrap;
-    }
-    
-    #filtres ul li:nth-child(1),
-    #filtres ul li:nth-child(3),
-    #filtres ul li:nth-child(4) {
-        margin: 1rem 0;
-        font-size: 1rem;
-        width: 54%;
-    }
-    
-    #filtres ul li:nth-child(2) {
-        margin: 1rem 0;
-        font-size: 1rem;
-        width: 45%;
-    }
-    
-    #filtres ul li:nth-child(4) {
-        margin: 1rem 0;
-        font-size: 1rem;
-        width: 100%;
-    }
-    
-        /*  Infos dans le header    */
-    
-    .infoIcon {
-        padding: 0 1% 5% 5%;
-    }
-    
-    body main div.infoIcon p {
-        font-size: 0.8rem;
-    }
-    
         /*  section */
     
-    body main div.sectionAsideSection {
-        flex-direction: column;
-    }
-    
-            /*  hebergements    */
-    
-    #hebergements {
-        flex-direction: column;
-        width: 100%;
-        order: 2;
-        margin: 0;
-        background-color: transparent;
-    }
-    
-    #hebergements h3 {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1.3rem;
-        padding: 0 0 1rem 1.5rem;
-    }
-    
-    
-                /*  Les cartes  */
-    
-    #hebergements article {
-        flex-direction: column;
-        padding: 0%;
-    }
-    
-    #hebergements article a:nth-child(1),
-    #hebergements article a:nth-child(2),
-    #hebergements article a:nth-child(3),
-    #hebergements article a:nth-child(4),
-    #hebergements article a:nth-child(5),
-    #hebergements article a:nth-child(6) {
-        padding: 5%;
-        width: 90%;
-        margin: 0;
-        height: 13rem;
-    }
-    
-    #hebergements article a:nth-child(1) figure,
-    #hebergements article a:nth-child(2) figure,
-    #hebergements article a:nth-child(3) figure,
-    #hebergements article a:nth-child(4) figure,
-    #hebergements article a:nth-child(5) figure,
-    #hebergements article a:nth-child(6) figure {
-        height: 100%;
-    }
-    
-    
-    #hebergements article a:nth-child(1) figure figcaption h4,
-    #hebergements article a:nth-child(2) figure figcaption h4,
-    #hebergements article a:nth-child(3) figure figcaption h4,
-    #hebergements article a:nth-child(4) figure figcaption h4,
-    #hebergements article a:nth-child(5) figure figcaption h4,
-    #hebergements article a:nth-child(6) figure figcaption h4 {
-        font-size: 1.1rem;
-    }
-    
-    #hebergements article a:nth-child(1) figure figcaption p,
-    #hebergements article a:nth-child(2) figure figcaption p,
-    #hebergements article a:nth-child(3) figure figcaption p,
-    #hebergements article a:nth-child(4) figure figcaption p,
-    #hebergements article a:nth-child(5) figure figcaption p,
-    #hebergements article a:nth-child(6) figure figcaption p {
-        font-size: 0.95rem;
-    }
-    
-                /*  Les étoiles */
-    
-    #hebergements article a:nth-child(1) figure figcaption div,
-    #hebergements article a:nth-child(2) figure figcaption div,
-    #hebergements article a:nth-child(3) figure figcaption div,
-    #hebergements article a:nth-child(4) figure figcaption div,
-    #hebergements article a:nth-child(5) figure figcaption div,
-    #hebergements article a:nth-child(6) figure figcaption div {
-        padding-left: 5%;
-        font-size: 0.8rem;
-        margin-top: 0.7rem;
-    }
-    
-                /*  Les liens   */
-    
-    #hebergements div {
-        padding-bottom: 0%;
-    }
-    
-    #hebergements div a {
-        padding: 3.5rem 1.5rem;
-        font-size: 1.1rem;
-    }
-    
             /*  Les plus populaires */
-    
-    aside {
-        border-radius: 0;
-    }
-    
-    body main div.sectionAsideSection aside article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 4%;
-    }
-    
-    body main div.sectionAsideSection aside {
-        width: 100%;
-        order: 1;
-        margin: 0;
-    }
-    
-    body main div.sectionAsideSection aside div {
-        justify-content: space-between;
-        padding: 5% 5% 2% 5%;
-    }
-    
-    body main div.sectionAsideSection aside div h3 {
-        margin-top: 0;
-        font-size: 1.3rem;
-        padding: 1rem;
-    }
-    
-    body main div.sectionAsideSection aside div div {
-        position: static;
-        margin: 0;
-    }
-    
-    body main div.sectionAsideSection aside article a:nth-child(1),
-    body main div.sectionAsideSection aside article a:nth-child(2),
-    body main div.sectionAsideSection aside article a:nth-child(3) {
-        width: 92%;
-        padding: 4%;
-        height: 8rem;
-    }
-    
-                /*  Les cartes  */
-    
-    body main div.sectionAsideSection aside article a:nth-child(1) figure,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure {
-        margin: 0;
-        width: 100%;
-        height: 108%;
-    }
-    
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption h4,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption h4,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption h4 {
-        font-size: 1.05rem;
-    }
-    
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption p,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption p,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption p {
-        font-size: 0.95rem;
-    }
-    
-                /*  Les étoiles */
-    
-    body main div.sectionAsideSection aside article a:nth-child(1) figure figcaption div,
-    body main div.sectionAsideSection aside article a:nth-child(2) figure figcaption div,
-    body main div.sectionAsideSection aside article a:nth-child(3) figure figcaption div {
-        padding: 0;
-        font-size: 0.7rem;
-        margin-top: 2.5em;
-    }           
-    
+
+
+.cartesLesPlusPopulaires a {
+    width: 46%;
+    padding: 2%;
+    height: 8rem;
+}
+
             /*  Les activités   */
     
-    #activites {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        order: 3;
-        margin: 0;
-        padding: 0;
-    }
-    
-    #activites h3 {
-        margin-top: 0;
-        font-size: 1.3rem;
-        padding: 0 0 1rem 1.5rem;
-    }
-    
-    #activites article {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;
-    }
-    
+
+  
                 /*  Les cartes  */
     
-    .activiteColonnesCartes,
+
     .activitegrandecarte {
-        width: 92%;
-        padding: 4%;
-    }
-    
-    .activitegrandecarte {
+        width: 80%;
+        padding: 5% 10% 5% 10%;
         padding-top: 5%;
         padding-bottom: 5%;
-    }
-    
-    .activiteColonnesCartes {
-        height: 25rem;
-    }
-    
-    #activites article div:nth-child(2) a:nth-child(1), 
-    #activites article div:nth-child(2) a:nth-child(2),
-    #activites article div:nth-child(4) a:nth-child(1), 
-    #activites article div:nth-child(4) a:nth-child(2)  {
-        height: 50%;
-        padding-top: 0;
-    }
-    
-    #activites article div:nth-child(2) a:nth-child(1),
-    #activites article div:nth-child(4) a:nth-child(1) {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    
-    .activitegrandecarte {
-        height: 12rem;
-        padding: 4%;
-    }
-    
-    #activites article div:nth-child(1) a figure,
-    #activites article div:nth-child(3) a figure {
         height: 100%;
+    }
+
+    #activites .activiteColonnesCartes {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding: 5%;
+        height: 20rem;
+    }
+    
+   
+    
+    #activites .activiteColonnesCartes a {
+        height: 100%;
+        width: 90%;
+        padding: 5%;
+    }
+
+    
+    #activites .activiteColonnesCartes figure {
+        height: 80%;
         width: 100%;
     }
-    
-    #activites article div:nth-child(2) a:nth-child(1) figure,
-    #activites article div:nth-child(2) a:nth-child(2) figure,
-    #activites article div:nth-child(4) a:nth-child(1) figure,
-    #activites article div:nth-child(4) a:nth-child(2) figure {
-        height: 92%;
-        width: 100%; 
-    }
-    
-    #activites article div:nth-child(1) a figure img,
-    #activites article div:nth-child(3) a figure img {
-        height: 67%;
-        object-position: 0rem;
-    }
-    
-    #activites article div:nth-child(2) a:nth-child(1) figure img,
-    #activites article div:nth-child(2) a:nth-child(2) figure img,
-    #activites article div:nth-child(4) a:nth-child(1) figure img,
-    #activites article div:nth-child(4) a:nth-child(2) figure img {
-        height: 65%;
-        object-position: 0rem;
-    }
-    
-    #activites article div:nth-child(1) a figure figcaption h4,
-    #activites article div:nth-child(2) a:nth-child(1) figure figcaption h4,
-    #activites article div:nth-child(2) a:nth-child(2) figure figcaption h4,
-    #activites article div:nth-child(3) a figure figcaption h4,
-    #activites article div:nth-child(4) a:nth-child(1) figure figcaption h4,
-    #activites article div:nth-child(4) a:nth-child(2) figure figcaption h4 {
-        font-size: 1.1rem;
-    }
-    
-            /*  footer  */
-    footer {
-        flex-direction: column;
-        width: 100%;
-    }       
-    
-    body footer div:nth-child(1),
-    body footer div:nth-child(2),
-    body footer div:nth-child(3) {
-        padding-left: 10%;
-        margin: 0;
-    }
-    
-    body footer div:nth-child(1) h5,
-    body footer div:nth-child(2) h5,
-    body footer div:nth-child(3) h5 {
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
-    
-    body footer div a {
-        font-size: 1rem
-    }
-    
-    body footer div li {
-        margin-bottom: 0.5rem;
-    }
-    }
+}
         
         
         /*===========================*/
@@ -2683,7 +1537,7 @@ body footer div li {
 /* Petit Smartphone
  * iPhone 5 */
 /*===========================*/	
-@media all and (max-width: 320px) {
+@media all and (max-width: 540px) {
 
 body {
     display: flex;
