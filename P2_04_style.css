@@ -685,9 +685,9 @@ body footer a {
 /*===========================*/
 /*
 **  Laptop
-**  Tablette
+**  Desktop
 ** LP Responsiveness
-**  Smartphone big and tablette
+**  
  */
 /*===========================*/
 @media all and (max-width: 1600px) {
@@ -958,7 +958,7 @@ footer li {
 
 
 /*===========================*/
-/*Big tablette
+/*Très Big tablette
 ## LP Responsiveness
 /* Laptop
  * iPad Pro */
@@ -1251,7 +1251,7 @@ footer {
 
 
 /*===========================*/
-/*Tablette
+/*Grande Tablette
 /*Big Smartphone
 ## LP Responsiveness
 */
@@ -1375,7 +1375,7 @@ aside {
     
 
 /*===========================*/
-/*Petite Tablette
+/*Tablette
 ## LP Responsiveness
 /* 
  * */
@@ -1492,35 +1492,35 @@ body header nav {
                 /*  Les cartes  */
     
 
-    .activitegrandecarte {
-        width: 80%;
-        padding: 5% 10% 5% 10%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        height: 100%;
-    }
+.activitegrandecarte {
+    width: 80%;
+    padding: 5% 10% 5% 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+}
 
-    #activites .activiteColonnesCartes {
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        padding: 5%;
-        height: 20rem;
-    }
+#activites .activiteColonnesCartes {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 5%;
+    height: 20rem;
+}
     
    
     
-    #activites .activiteColonnesCartes a {
-        height: 100%;
-        width: 90%;
-        padding: 5%;
-    }
+#activites .activiteColonnesCartes a {
+    height: 100%;
+    width: 90%;
+        adding: 5%;
+}
 
     
-    #activites .activiteColonnesCartes figure {
-        height: 80%;
-        width: 100%;
-    }
+#activites .activiteColonnesCartes figure {
+    height: 80%;
+    width: 100%;
+}
 }
         
         
@@ -1936,7 +1936,7 @@ footer h5 {
     
         
         /*===========================*/
-    /*(min-width: 481px) and (max-width: 540px) */
+    /*(min-width: 392px) and (max-width: 480px) */
     /*===========================*/
     
     /*=============================*/
@@ -1946,7 +1946,7 @@ footer h5 {
 /*Smartphone
 /*  */
 /*===========================*/	
-@media all and (max-width: 392px) {
+@media all and (max-width: 391px) {
 
 
     /*  Le corps    */
@@ -2127,7 +2127,213 @@ aside .cartesLesPlusPopulaires .etoiles {
     
         
         /*===========================*/
-    /*(min-width: 481px) and (max-width: 540px) */
+    /*(min-width: 360px) and (max-width: 540px) */
+    /*===========================*/
+    
+    /*=============================*/
+
+
+/*===========================*/
+/*Petit Smartphone
+/*  */
+/*===========================*/	
+@media all and (max-width: 360px) {
+
+
+    /*  Le corps    */
+
+        /*  Recherche   */
+
+#recherche {
+    width: 11rem;
+    font-size: 0.9rem;
+}
+
+        /*  Filtres */
+
+ /*  Filtres */
+
+    
+#filtres .buttonfiltres {
+    font-size: 0.9rem;
+    padding-top: 6%;
+    padding-bottom: 5.6%;
+}  
+
+#filtres .filtreFamilial,
+#filtres .filtreEconomique,
+#filtres .filtreRomantique,
+#filtres .filtreAnimaux {
+    padding-top: 8%;
+    padding-bottom: 7%;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+#filtres .filtreFamilial,
+#filtres .filtreRomantique {
+    margin-left: -1.9rem;
+}
+
+#filtres .filtreEconomique {
+    margin-left: -1.5rem;
+  
+}
+
+#filtres .filtreAnimaux {
+    margin-left: -1.8rem;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}    
+    
+        /*  section */
+    
+            /*  hebergements    */
+
+#hebergements h3 {
+    font-size: 1.3rem;
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
+    
+            /*  Les plus populaires */               
+
+.asideTitle h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    padding: 10% 0% 0% 7%;
+    margin-bottom: 8%;
+}
+    
+                /*  Les cartes  */
+aside .cartesLesPlusPopulaires a {
+    width: 88%;
+    padding: 3.5% 6% 3.5% 6%;
+    height: 8rem;
+}     
+}
+    
+        
+        /*===========================*/
+    /*(min-width: 300px) and (max-width: 360px) */
+    /*===========================*/
+    
+    /*=============================*/
+
+
+/*===========================*/
+/*Mini Smartphone
+/*  */
+/*===========================*/	
+@media all and (max-width: 300px) {
+
+
+    /*  Le corps    */
+
+        /*  Recherche   */
+
+#recherche {
+    width: 9rem;
+    font-size: 0.6rem;
+}
+    
+.buttonLoupe {
+padding: 0.8rem;
+right: 1rem;
+font-size: 0.8rem;
+}
+
+        /*  Filtres */
+
+ /*  Filtres */
+
+#filtres .icone {
+    padding: 0.2rem;
+}
+    
+#filtres .buttonfiltres {
+    font-size: 0.9rem;
+    padding-top: 6%;
+    padding-bottom: 5.6%;
+}  
+
+#filtres .filtreFamilial,
+#filtres .filtreEconomique,
+#filtres .filtreRomantique,
+#filtres .filtreAnimaux {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 0.6rem;
+    width: 100%;
+}
+
+#filtres .filtreFamilial,
+#filtres .filtreRomantique {
+    margin-left: -1rem;
+}
+
+#filtres .filtreEconomique {
+    margin-left: -1rem;
+  
+}
+
+#filtres .filtreAnimaux {
+    margin-left: -1rem;
+    padding-top: 2.6%;
+    padding-bottom: 1%;
+}    
+
+        /*  Infos dans le header    */
+    
+body main div.infoIcon p {
+    font-size: 0.6rem;
+}
+        /*  section */
+    
+            /*  hebergements    */
+
+#hebergements h3 {
+    font-size: 1rem;
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
+    
+            /*  Les plus populaires */               
+
+.asideTitle h3 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    padding: 10% 0% 0% 7%;
+    margin-bottom: 8%;
+}
+    
+                /*  Les cartes  */
+aside .cartesLesPlusPopulaires a {
+    width: 88%;
+    padding: 3.5% 6% 3.5% 6%;
+    height: 8rem;
+} 
+
+aside .cartesLesPlusPopulaires figure {
+    height: 80%;
+}
+
+aside .cartesLesPlusPopulaires h4 {
+    font-size: 65%;
+}
+
+aside .cartesLesPlusPopulaires p {
+    font-size: 60%;
+}
+
+aside .cartesLesPlusPopulaires .etoiles {
+    font-size: 30%;
+}
+}
+    
+        
+        /*===========================*/
+    /*(min-width: 0px) and (max-width: 300px) */
     /*===========================*/
     
     /*=============================*/
