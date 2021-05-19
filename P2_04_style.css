@@ -216,6 +216,12 @@ body header nav {
     font-size: 1.47rem;
 }
 
+.buttonfiltres:hover {
+    background-color: #0065FC;
+    color: white;
+    border: none;
+}
+
 /*  Le corps de page */
 
     /*  icone d'info    */
