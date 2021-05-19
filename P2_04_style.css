@@ -1733,3 +1733,210 @@ footer li {
     
     /*=============================*/
 
+
+    /*===========================*/
+/*Tres petite Tablette
+/*  */
+/*===========================*/	
+@media all and (max-width: 479px) {
+
+
+    /*  Le corps    */
+    
+    /*  Recherche   */
+
+/*  Infos dans le header    */
+    
+.infoIcon {
+    padding: 0 1% 5% 5%;
+}
+    
+body main div.infoIcon p {
+    font-size: 0.8rem;
+}
+    
+        /*  section */
+    
+            /*  hebergements    */
+
+#hebergements h3 {
+    font-size: 1.5rem;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+                /*  Les cartes  */
+    
+#hebergements .cartesHebergements a {
+    padding: 0 7% 0 7%;
+    width: 86%;
+    margin: 0;
+    height: 15rem;
+}
+    
+#hebergements figure {
+    height: 90%;
+}
+    
+            /*  Les liens   */
+
+#hebergements .link a {
+    padding: 3.5rem 1.5rem;
+    font-size: 1.1rem;
+}
+    
+            /*  Les plus populaires */               
+
+.asideTitle h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    padding: 10% 0% 0% 7%;
+}
+
+.asideTitle .logoLink {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 11% 9% 5% 9%;
+    position: static;
+}
+    
+                /*  Les cartes  */
+aside .cartesLesPlusPopulaires a {
+    width: 88%;
+    padding: 3.5% 6% 3.5% 6%;
+    height: 8.5rem;
+} 
+
+aside .titreCarteBasPopulaires {
+    padding-left: 10%!important;
+}
+
+aside .cartesLesPlusPopulaires h4 {
+    font-size: 1.05rem;
+    padding-left: 2%;
+}
+    
+aside .cartesLesPlusPopulaires p {
+    font-size: 1rem;
+    padding-left: 2%;
+}
+
+aside .texteCarteBasPopulaires {
+    padding-left: 10%!important;
+}
+
+.derniereCarteLesPlusPopulaires {
+    margin-bottom: 5%;
+}
+    
+                /*  Les étoiles */
+    
+aside .cartesLesPlusPopulaires .etoiles {
+    margin-top: 2rem;
+    padding-left: 2%;
+    font-size: 0.8rem;
+}           
+
+.etoilesCarteBasPolpulaire {
+    padding-left: 5%!important;
+}
+    
+aside .imageCarteBasPopulaires {
+    width: 40%;
+}
+
+    /*  Les activités */
+
+#activites article {
+    padding: 0;
+}
+    
+#activites div {
+    height: 13.5rem;
+    padding: 0;
+}
+
+#activites h3 {
+    font-size: 1.4rem;
+    padding-bottom: 8%;
+}
+
+#activites h4 {
+    font-size: 1rem;
+}
+    
+            /*  Les cartes  */
+
+#activites .activitegrandecarte {
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}            
+           
+#activites .activiteColonnesCartes {
+    flex-direction: column;
+    height: 100%;
+    width: 91%;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+
+#activites .activiteColonnesCartes .tailleDesLiensCartesColonnes,
+#activites .tailleGrandeCarte {
+    height: 13rem;
+}
+
+#activites .activiteColonnesCartes .tailleDesLiensCartesColonnes {
+    padding-top: 0%;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+#activites .activiteColonnesCartes .troisiemeCarte,
+#activites .activiteColonnesCartes .sixiemeCarte {
+    padding-top: 1.1%;
+    padding-bottom: 1.1%;
+}
+
+#activites .activiteColonnesCartes .sixiemeCarte {
+    padding-bottom: 9%;
+}
+
+#activites .activiteColonnesCartes .cartesColonnes,
+.tailleGrandeCarte figure {
+    height: 100%;
+}
+
+#activites .cartesColonnes .tailleDesImagesCartesColonnes,
+#activites .tailleGrandeCarte img {
+    height: 72%;     
+}          
+            /*  footer  */
+    
+    
+
+footer h5 {
+    padding-top: 5%;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+    
+.footerlist a {
+    font-size: 1.1rem;
+}
+    
+.footerlist li {
+    margin-bottom: 1rem;
+}
+}
+    
+        
+        /*===========================*/
+    /*(min-width: 481px) and (max-width: 540px) */
+    /*===========================*/
+    
+    /*=============================*/
