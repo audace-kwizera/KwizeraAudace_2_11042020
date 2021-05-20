@@ -337,9 +337,8 @@ main {
     width: 100%;
     margin: auto;
     border-radius: 25px;
-    border-color: white;
+    background-color: white;
     box-shadow: 3px 5px 15px 3px rgba(128, 128, 128, 0.3);
-    /*box-shadow: 2px 3px 13px rgba(128, 128, 128, 0.1), -4px -3px 13px rgba(128, 128, 128, .1);*/
 }
 
     /* Les cartes */
@@ -1744,7 +1743,7 @@ body header nav {
     
 #activites .activiteColonnesCartes figure {
     height: 80%;
-    width: 100%;
+    width: 90%;
 }
 }
         
