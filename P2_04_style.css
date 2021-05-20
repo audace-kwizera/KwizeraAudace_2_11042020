@@ -92,25 +92,67 @@ header {
     padding: 3rem 3.5rem;
 }
 
-#menu {
+#menu,
+#menuInscription {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-body header nav {
-    padding: 2.7rem 5rem;
+#menu {
+    width: 55%;
+    padding-left: 0%;
+    margin-top: 0;
 }
 
-#menu li {
+#menuInscription {
+    width: 30%;
+    justify-content: flex-end;
+    padding: 0;
+    margin-top: 0;
+}
+
+body header nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 3rem 2.5rem 0;
+}
+
+#menu li,
+#menuInscription li {
     margin-left: 6rem;
     margin-right: 0;
     font-size: 1.3rem;
 }
 
-#menu li a {
+#menu li {
+    margin-left: 4rem;
+    margin-top: 3.4rem;
+}
+
+#menuInscription li {
+    width: 25%;
+    justify-content: flex-end;
+    padding-top: 3.4rem;
+    margin-top: 0;
+}
+
+#menu li a,
+#menuInscription li a {
     color: #0065FC;
 }
+
+#menu .lienMenuHebergement {
+    margin-top: 0;
+    padding-top: 3rem;
+    border-top: #0065FC 4px solid;
+    margin: 0;
+}
+
+#menu li a {
+    margin-top: 2rem;
+}
+
 
 #slogan {
     padding-right: 1%;
@@ -710,13 +752,31 @@ body footer a {
 }
 
 body header nav {
-    padding: 2.5rem 3rem 2.5rem 0;
+    padding: 0rem 3rem 2.5rem 0;
     width: 5;
 }
 
-#menu li {
+#menu li,
+#menuInscription li {
+    margin-left: 6rem;
+    margin-right: 0;
     font-size: 1.1rem;
+}
+
+#menu li {
     margin-left: 4rem;
+    margin-top: 3.4rem;
+}
+
+#menuInscription li {
+    width: 25%;
+    justify-content: flex-end;
+    padding-top: 3.4rem;
+    margin-top: 0;
+}
+
+#menu li.lienMenuHebergement {
+    margin:0;
 }
 
 /*  Le corps de page */
@@ -937,6 +997,10 @@ footer li {
     width: 6.5rem;
 }
 
+#menu li.lienMenuHebergement {
+    margin: 0;
+}
+
 /*  Le corps de page */
 
     /*  Les activités */
@@ -979,15 +1043,17 @@ footer li {
 header nav {
         display: flex;
         justify-content: flex-end;
-        padding: 1rem;
         width: 100%;
+        flex-wrap: wrap;
+        padding: 0rem 3rem 2.5rem 0;
 }
         
 #menu {
         flex-wrap: wrap-reverse;
         flex-direction: row;
         padding: 0;    
-        width: 61%;
+        width: 70%;
+        justify-content: flex-end;
 }
     
 #menu li  {
@@ -1008,10 +1074,29 @@ header nav {
         margin: 0;
         order: 2;
 }
+
+#menu > li.lienMenuActivite > a {
+    padding-top: 0.4rem;
+}
+
+#menu #lienMenuInscription {
+    width: 20%;
+    justify-content: flex-start;
+}
     
 #menu .lienMenuSinscrire {
-        order: 3;
+    width: 25%;
+    justify-content: flex-end;
+    padding-top: 3.5rem;
+    margin-top: 0;
+    order: 3;
 }
+
+#menu .mobileBorder {
+    margin-top: 3rem;
+}
+
+
         
 /*  Le corps    */
         
@@ -1278,6 +1363,81 @@ footer {
 #menu li.lienMenuActivite a.mobileBorder {
     padding: 10%;
 }
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0rem 3rem 2.5rem 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+    
+#menu {
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    padding: 0;    
+    width: 70%;
+    justify-content: flex-end;
+}
+
+#menu li  {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    margin: 0
+}
+
+#menu .lienMenuHebergement {
+    margin: 0;
+    padding: 0;
+    order: 1;
+    margin-right: -3rem;
+    font-size: 1rem;
+    width: 50%;
+}
+
+#menu li.lienMenuHebergement a {
+    padding-top: 0;
+    margin-top: 2rem;
+}
+
+#menu .lienMenuActivite {
+    padding: 0;
+    margin: 0;
+    order: 2;
+    font-size: 1rem;
+    width: 50%;
+}
+
+#menu li.lienMenuActivite a {
+    padding-top: 0rem;
+    margin-top: 2.5rem;
+}
+
+#menuInscription {
+    width: 30%;
+    justify-content: flex-end;
+    padding: 0;
+    margin-top: 0;
+}
+
+#menu #lienMenuInscription {
+width: 20%;
+justify-content: flex-start;
+}
+
+#menu .lienMenuSinscrire {
+width: 70%;
+justify-content: flex-start;
+padding: 3.5rem 0 0 0;
+margin-top: 0.2rem;
+order: 3;
+}
+
+#menu .mobileBorder {
+margin-top: 3.5rem;
+}
+    
     
 /*  Le corps    */
     
@@ -1394,40 +1554,102 @@ aside {
 
 /*  L'en-tête   */
 
+header {
+    flex-wrap: wrap;
+}
+
+header #titre {
+    padding-bottom: 0;
+}
+
 body header nav {
     display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0;
+    padding-right: 0;
     padding: 3%;
 }
 
 #menu .lienMenuSinscrire {
-    display: flex;
-    margin: 0;
-    width: 100%;
-    justify-content: flex-end;
-    order: 3;
-} 
-
-#menu li {
-    display: flex;
-    margin: 0;
-    width: 50%;
-    justify-content: center;
+    padding-top: 2%;
+    padding-right: 10%;
 }
 
-#menu .lienMenuActivite {
-    order: 2;
+#menu li.lienMenuHebergement a.mobileBorder,
+#menu li.lienMenuActivite a.mobileBorder {
+    padding: 10%;
+}
+
+body header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+    
+#menu {
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    padding: 0;    
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#menu li  {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    margin: 0
 }
 
 #menu .lienMenuHebergement {
+    margin: 0;
+    padding: 0;
     order: 1;
+    border-top: none;
+    border-bottom: #0065FC 4px solid;
+    margin-right: -3rem;
+    font-size: 1rem;
+    width: 50%;
 }
 
-#menu .lienMenuSinscrire a {
-    padding-top: 2%;
-    font-size: 1.1rem;
+#menu li.lienMenuHebergement a {
+    padding-top: 0;
+    width: 100%;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
-#menu li:nth-child(2) a {
+#menu .lienMenuActivite {
+    padding: 0;
+    margin: 0;
+    order: 2;
+    font-size: 1rem;
+    width: 50%;
+    border-bottom: #F2F2F2 4px solid;
+}
+
+#menu li.lienMenuActivite a {
+    padding-top: 0;
+    width: 100%;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: black;
+}
+
+#menuInscription {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: -9%;
+    position: relative;
+    align-items: center;
+}
+
+#menuInscription li {
+    padding-top: 2rem;
 }
 
 /*  Le corps    */
@@ -1477,7 +1699,7 @@ body header nav {
     /*  L'en-tête   */
     
 body header nav {
-    padding-bottom: 0;
+    padding: 0;
 }
     
     /*  Le corps    */
@@ -1547,14 +1769,17 @@ body header nav {
 @media all and (max-width: 540px) {
 
 
-    
+#menuInscription {
+    margin-top: 5%;
+}
+
     /*  L'en-tête   */
     
 #titre {
         padding: 1rem;
         position: absolute;
 }
-    
+
     /*  Le corps    */
     
     /*  slogan  */
@@ -1708,12 +1933,44 @@ aside .cartesLesPlusPopulaires .etoiles {
 aside .imageCarteBasPopulaires {
     width: 40%;
 }
+
+                /*  Les activites   */
+
+.activitegrandecarte {
+    width: 80%;
+    padding: 5% 10% 5% 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+}
+
+#activites .activiteColonnesCartes {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 5%;
+    height: 20rem;
+}
+    
+   
+    
+#activites .activiteColonnesCartes a {
+    height: 100%;
+    width: 90%;
+    padding: 5%;
+}
+
+    
+#activites .activiteColonnesCartes figure {
+    height: 80%;
+    width: 100%;
+}
            
             /*  footer  */
-    footer {
-        flex-direction: column;
-        width: auto;
-    }       
+footer {
+    flex-direction: column;
+    width: auto;
+}       
     
 footer .footerlist {
     padding-left: 10%;
@@ -1890,6 +2147,7 @@ aside .imageCarteBasPopulaires {
     width: 91%;
     padding-left: 5%;
     padding-right: 4%;
+    background-color: transparent;
 }
 
 #activites .activiteColonnesCartes .tailleDesLiensCartesColonnes,
