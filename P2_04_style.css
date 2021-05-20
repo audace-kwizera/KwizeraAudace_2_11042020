@@ -181,6 +181,7 @@ body header nav {
 
 .icons {
     border-radius: 15px 0 0 15px;
+    background-color: #F2F2F2;
 }
 
 #recherche {
@@ -650,7 +651,6 @@ aside .etoilesCarteBasPolpulaire {
 
 .premiereCarte {
     height: 87%;
-    object-position: -20rem;
 }
 
 .quatriemeCarte {
