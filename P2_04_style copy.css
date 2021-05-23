@@ -1420,7 +1420,115 @@ aside {
         
         /*=============================*/
 
+/*===========================*/
+/*
+Petites Tablettes 
+/* 
+ * */
+/*===========================*/	
+@media all and (max-width: 764px) {
 
+
+
+    /*  L'en-tête   */
+    
+header {
+    flex-wrap: wrap;
+}
+    
+header #titre {
+    padding-bottom: 0;
+}
+    
+body header nav {
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+}
+    
+#menu .lienMenuSinscrire {
+    padding-top: 2%;
+    padding-right: 10%;
+}
+    
+#menu li.lienMenuHebergement a.mobileBorder,
+#menu li.lienMenuActivite a.mobileBorder {
+    padding: 10%;
+}
+        
+#menu {
+    width: 100%;
+}
+    
+#menu .lienMenuHebergement,
+#menu .lienMenuActivite:hover {
+    border-top: none;
+    border-bottom: #F2F2F2 4px solid;
+}
+
+#menu .lienMenuHebergement:hover,
+#menu .lienMenuActivite:hover {
+    border-top: none;
+    border-bottom: #0065FC 4px solid;
+}
+    
+#menu li.lienMenuHebergement a {
+    width: 100%;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+    
+#menu .lienMenuActivite {
+    border-bottom: #F2F2F2 4px solid;
+}
+    
+#menu li.lienMenuActivite a {
+    width: 100%;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: black;
+}
+    
+#menuInscription {
+    width: 100%;
+    margin-top: -9%;
+    position: relative;
+    align-items: center;
+}
+    
+#menuInscription li {
+    padding-top: 2rem;
+}
+    
+    /*  Le corps    */
+    
+        /*  Infos dans le header    */
+    
+.infoIcon {
+    padding: 0 1% 1% 5%;
+}
+    
+        /*  section */
+    
+    
+            /*  hebergements    */
+    
+                /*  Les cartes  */
+    
+#hebergements figure {
+    height: 115%;
+}
+}
+        
+        
+        /*===========================*/
+    /*(min-width: 321px) and (max-width: 765px) */
+    /*===========================*/
+    
+    /*=============================*/
 
 
 
@@ -1593,151 +1701,7 @@ aside {
 
     
 
-/*===========================*/
-/*Tablette
-## LP Responsiveness
-/* 
- * */
-/*===========================*/	
-@media all and (max-width: 764px) {
 
-
-
-/*  L'en-tête   */
-
-header {
-    flex-wrap: wrap;
-}
-
-header #titre {
-    padding-bottom: 0;
-}
-
-body header nav {
-    display: flex;
-    flex-direction: column-reverse;
-    padding-left: 0;
-    padding-right: 0;
-    padding: 3%;
-}
-
-#menu .lienMenuSinscrire {
-    padding-top: 2%;
-    padding-right: 10%;
-}
-
-#menu li.lienMenuHebergement a.mobileBorder,
-#menu li.lienMenuActivite a.mobileBorder {
-    padding: 10%;
-}
-
-body header nav {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
-    width: 100%;
-    flex-wrap: wrap;
-}
-    
-#menu {
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
-    padding: 0;    
-    width: 100%;
-    justify-content: flex-end;
-}
-
-#menu li  {
-    display: flex;
-    width: 20%;
-    justify-content: flex-end;
-    margin: 0
-}
-
-#menu .lienMenuHebergement {
-    margin: 0;
-    padding: 0;
-    order: 1;
-    border-top: none;
-    border-bottom: #0065FC 4px solid;
-    margin-right: -3rem;
-    font-size: 1rem;
-    width: 50%;
-}
-
-#menu li.lienMenuHebergement a {
-    padding-top: 0;
-    width: 100%;
-    margin-top: 1rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
-}
-
-#menu .lienMenuActivite {
-    padding: 0;
-    margin: 0;
-    order: 2;
-    font-size: 1rem;
-    width: 50%;
-    border-bottom: #F2F2F2 4px solid;
-}
-
-#menu li.lienMenuActivite a {
-    padding-top: 0;
-    width: 100%;
-    margin-top: 1rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
-    color: black;
-}
-
-#menuInscription {
-    width: 100%;
-    justify-content: flex-end;
-    margin-top: -9%;
-    position: relative;
-    align-items: center;
-}
-
-#menuInscription li {
-    padding-top: 2rem;
-}
-
-/*  Le corps    */
-
-    /*  Filtres */
-
-
-#filtres ul li {
-    margin: 1rem 0;
-    font-size: 1rem;
-    width: 50%;
-}
-
-    /*  Infos dans le header    */
-
-.infoIcon {
-    padding: 0 1% 1% 5%;
-}
-
-    /*  section */
-
-
-        /*  hebergements    */
-
-            /*  Les cartes  */
-
-#hebergements figure {
-    height: 115%;
-}
-}
-	
-	
-	/*===========================*/
-/*(min-width: 321px) and (max-width: 765px) */
-/*===========================*/
-
-/*=============================*/
 
 /*===========================*/
 /*Mini Tablette
