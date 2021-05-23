@@ -1722,9 +1722,7 @@ footer a {
 footer li {
     margin-bottom: 0.3rem;
 }
-}
-        
-            
+}      
             /*===========================*/
         /*(min-width: 481px) and (max-width: 540px) */
         /*===========================*/
@@ -1732,184 +1730,7 @@ footer li {
         /*=============================*/
 
 
-
-
-
-
-
-
-
-
-
-/*  L'en-tête   */
-
-
-
-
-
-    /*  Barre de Recherche  */
-
-
-    /*  icones des filtres  */
-
-    /*  filtres  */
-
-
-/*  Le corps de page */
-
-    /*  icone d'info    */
-    /*  placement body  */
-
-
-    /*  icone hebergement    */
-
-
-
-    /* Section hebergements */
-
-    
-
-    /* Titre section hebergement */
-
-
-
-
-    /* carte section hebergement */
-
-
-
-
-    /* Les cartes */
-
-
-        /*  Les images des hebergements */
-
-
-
-        /*  Les descriptions des hebergements */
-
-
-
-        /*  Les etoiles des hebergements    */
-
-            /*  Les etoiles des carte    */
-
-
-
-    /*  "afficher plus" section hebergement    */
-
-        
-    /*  icone les plus populaires    */
-
-
-
-    /*  Titre les plus populaires   */
-
-    /*  Logo les plus populaires   */
-
-
-
-    /*  Les cartes les plus populaires  */
-
-
-
-    /*  Images les plus populaires  */
-
-
-
-
-
-    /*  contenu cartes les plus populaires  */
-
-    /*  etoiles cartes les plus populaires  */
-
-
-
-
-    /*  Les activités   */
-
-
-
-        /*  Titre les activités    */
-
-
-
-        /*  Les cartes des activites    */
-
-
-
-        /*  Titre des cartes    */
-
-
-
-
-        /*  Taille Grandes cartes   */
-
-
-
-
-            /*  Taille des Cartes colonnes  */
-
-
-
-            /*  Taille Moyennes cartes  */
-
-                
-
-           
-
-        /*  Grandes carte   */  
-
-
-        /*  Moyennes cartes  */
-
-
-
-        /*  Petites cartes  */
-
-
-
-/*  Le pied de page */
-
-
-
-    /*  les listes  */
-
-
-
-        /*  Les titres  */
-
-
-
-
-
-
-
-
-
-/*===================   RESPONSIVE  =========================*/
-
-/*=============================*/
-
-/*=============================*/
-
-
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-    /*===========================*/
+/*===========================*/
 /*Grands Smartphone
 /*  */
 /*===========================*/	
@@ -1921,31 +1742,18 @@ footer li {
     /*  Recherche   */
 
 /*  Infos dans le header    */
-    
-.infoIcon {
-    padding: 0 1% 5% 5%;
-}
-    
-body main div.infoIcon p {
-    font-size: 0.8rem;
-}
+  
     
         /*  section */
     
             /*  hebergements    */
 
-#hebergements h3 {
-    font-size: 1.5rem;
-    padding-top: 2%;
-    padding-bottom: 4%;
-}
 
                 /*  Les cartes  */
     
 #hebergements .cartesHebergements a {
     padding: 0 7% 0 7%;
     width: 86%;
-    margin: 0;
     height: 15rem;
 }
     
@@ -1956,7 +1764,6 @@ body main div.infoIcon p {
             /*  Les liens   */
 
 #hebergements .link a {
-    padding: 3.5rem 1.5rem;
     font-size: 1.1rem;
 }
     
@@ -1971,9 +1778,7 @@ body main div.infoIcon p {
 .asideTitle .logoLink {
     display: flex;
     justify-content: flex-end;
-    margin: 0;
     padding: 11% 9% 5% 9%;
-    position: static;
 }
     
                 /*  Les cartes  */
@@ -2008,17 +1813,12 @@ aside .texteCarteBasPopulaires {
                 /*  Les étoiles */
     
 aside .cartesLesPlusPopulaires .etoiles {
-    margin-top: 2rem;
     padding-left: 2%;
     font-size: 0.8rem;
 }           
 
 .etoilesCarteBasPolpulaire {
     padding-left: 5%!important;
-}
-    
-aside .imageCarteBasPopulaires {
-    width: 40%;
 }
 
     /*  Les activités */
@@ -2045,7 +1845,6 @@ aside .imageCarteBasPopulaires {
 
 #activites .activitegrandecarte {
     flex-direction: column;
-    height: 100%;
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;
@@ -2109,9 +1908,8 @@ footer h5 {
     margin-bottom: 1rem;
 }
 }
-    
-        
-        /*===========================*/
+
+ /*===========================*/
     /*(min-width: 392px) and (max-width: 480px) */
     /*===========================*/
     
@@ -2122,7 +1920,7 @@ footer h5 {
 /*Smartphone
 /*  */
 /*===========================*/	
-@media all and (max-width: 391px) {
+@media all and (max-width: 378px) {
 
 
     /*  Le corps    */
@@ -2307,6 +2105,187 @@ aside .cartesLesPlusPopulaires .etoiles {
     /*===========================*/
     
     /*=============================*/
+
+
+
+
+
+
+
+/*  L'en-tête   */
+
+
+
+
+
+    /*  Barre de Recherche  */
+
+
+    /*  icones des filtres  */
+
+    /*  filtres  */
+
+
+/*  Le corps de page */
+
+    /*  icone d'info    */
+    /*  placement body  */
+
+
+    /*  icone hebergement    */
+
+
+
+    /* Section hebergements */
+
+    
+
+    /* Titre section hebergement */
+
+
+
+
+    /* carte section hebergement */
+
+
+
+
+    /* Les cartes */
+
+
+        /*  Les images des hebergements */
+
+
+
+        /*  Les descriptions des hebergements */
+
+
+
+        /*  Les etoiles des hebergements    */
+
+            /*  Les etoiles des carte    */
+
+
+
+    /*  "afficher plus" section hebergement    */
+
+        
+    /*  icone les plus populaires    */
+
+
+
+    /*  Titre les plus populaires   */
+
+    /*  Logo les plus populaires   */
+
+
+
+    /*  Les cartes les plus populaires  */
+
+
+
+    /*  Images les plus populaires  */
+
+
+
+
+
+    /*  contenu cartes les plus populaires  */
+
+    /*  etoiles cartes les plus populaires  */
+
+
+
+
+    /*  Les activités   */
+
+
+
+        /*  Titre les activités    */
+
+
+
+        /*  Les cartes des activites    */
+
+
+
+        /*  Titre des cartes    */
+
+
+
+
+        /*  Taille Grandes cartes   */
+
+
+
+
+            /*  Taille des Cartes colonnes  */
+
+
+
+            /*  Taille Moyennes cartes  */
+
+                
+
+           
+
+        /*  Grandes carte   */  
+
+
+        /*  Moyennes cartes  */
+
+
+
+        /*  Petites cartes  */
+
+
+
+/*  Le pied de page */
+
+
+
+    /*  les listes  */
+
+
+
+        /*  Les titres  */
+
+
+
+
+
+
+
+
+
+/*===================   RESPONSIVE  =========================*/
+
+/*=============================*/
+
+/*=============================*/
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+       
+
+
+
 
 
 /*===========================*/
