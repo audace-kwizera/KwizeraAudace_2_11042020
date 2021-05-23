@@ -721,7 +721,560 @@ body footer a {
 
 /*============================= RESPONSIVE  ======================================*/
 
+/*===========================*/
+/*
+**  Laptop
+**  Grands Desktop
+** LP Responsiveness
+**  
+ */
+/*===========================*/
+@media all and (max-width: 1600px) {
 
+/*  En  tête    */
+#titre {
+        padding: 2rem 3rem;
+    }
+
+#titre img {
+    width: 6.5rem;
+}
+
+#menu li,
+#menuInscription li {
+    font-size: 1.1rem;
+}
+
+/*  Le corps de page */
+
+    /*  Slogan  */
+
+.sloganTitre  {
+    font-size: 1.22em
+}
+
+.sloganParagraphe {
+    font-size: 1rem;
+}
+
+    /*  Formulaire de recherche */
+
+.icons {
+    width: 0.2rem;
+}
+
+.icons svg {
+    width: 0.75rem;
+}
+
+#recherche {
+    width: 14.2rem;
+    font-size: 1.1rem;
+}
+
+.buttonRechercher {
+    font-size: 1rem;
+    padding: 1%;
+    width: 8rem;
+}
+
+    /*  Filtres */
+
+#filtres h2 {
+    font-size: 1.1rem;
+    padding-left: 0rem;
+}
+
+#filtres ul {
+    padding-left: 1.5rem;
+}
+
+#filtres li {
+    font-size: 1.2rem;
+}
+
+#filtres span {
+    padding: 0.8rem;
+}
+
+.infoIcon {
+    font-size: 1rem;
+}
+
+    /*  Les hebergement */ 
+
+#hebergements {
+    height: 100%;
+}
+
+#hebergements h3 {
+    font-size: 1.3rem;
+    padding-left: 4%;
+    margin-top: 0;
+}
+
+.link a {
+    font-size: 1.1rem;
+    padding: 2rem;
+}
+
+        /*  Les cartes  */
+
+.cartesHebergements a {
+    margin-bottom: 2rem;
+}
+
+.cartesHebergements figure {
+    height: 14rem;
+}
+
+#hebergements h4 {
+    font-size: 1rem;
+}
+
+#hebergements p {
+    font-size: 0.9rem;
+}
+
+        /*  Les etoiles */
+
+.etoiles {
+    margin: 0;
+}
+
+    /*  Les plus populaires */
+
+.cartesLesPlusPopulaires {
+    height: 100%;
+}
+
+.asideTitle {
+    justify-content: center;
+}
+
+.asideTitle h3 {
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    width: 80%;
+}
+
+.asideTitle .logoLink {
+    margin: 2.5rem 0 0 0;
+    padding: 0;
+    width: 34%;
+}
+
+        /*  Les cartes  */
+.cartesLesPlusPopulaires figure {
+    height: 8rem;
+    margin-bottom: -0.5rem;
+    margin: 10%;
+}
+
+.cartesLesPlusPopulaires h4 {
+    font-size: 1rem;
+}
+
+.cartesLesPlusPopulaires p {
+    font-size: 0.9rem;
+}
+
+.cartesLesPlusPopulaires .etoiles {
+    margin-top: 1em;
+}
+
+    /*  Les activités */
+
+#activites h3 {
+    font-size: 1.4rem;
+    padding-left: 0;
+    padding-bottom: 4%;
+}
+
+
+#activites div {
+    height: 28.5rem;
+}
+
+        /*  Les cartes  */
+
+.deuxiemeCarte figure,
+.cinquiemeCarte figure {
+    height: 100%;
+}
+        
+.troisiemeCarte figure,
+.sixiemeCarte figure {
+    height: 98%;
+}
+
+.tailleGrandeCarte figure {
+    height: 101%;
+}       
+
+#activites h4 {
+    font-size: 1rem;
+}
+
+    /*  Pied de page    */
+
+footer h5 {
+    font-size: 1.1rem;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+}
+
+.footerlist a {
+    font-size: 1rem;
+}
+}
+	
+	/*===========================*/
+/*(min-width: 1440px) and (max-width: 1600px) */
+/*===========================*/
+
+/*===========================*/
+/*
+**  Petit Desktop et Grands Laptop
+**  
+ */
+/*===========================*/
+@media all and (max-width: 1439px) {
+
+    /*  En  tête    */
+
+#titre img {
+    width: 6.5rem;
+}
+
+#menu li.lienMenuHebergement {
+    margin: 0;
+}
+
+/*  Le corps de page */
+
+    /*  Les cartes activités */
+
+.troisiemeCarte figure {
+    height: 104%;
+}
+
+.sixiemeCarte figure {
+    height: 103.5%;
+}   
+}
+	
+	
+	/*===========================*/
+/*(min-width: 1180px) and (max-width: 1439px) */
+/*===========================*/
+
+
+/*===========================*/
+/*Très Big tablette
+## LP Responsiveness
+/* Laptop
+ * iPad Pro */
+/*===========================*/	
+@media all and (max-width: 1179px) {
+        
+    /*  L'en-tête   */
+
+    
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+}
+    
+#menu {
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    padding: 0;    
+    width: 70%;
+    justify-content: flex-end;
+}
+
+#menu li  {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    margin: 0
+}
+
+#menu .lienMenuHebergement {
+    padding: 0;
+    order: 1;
+}
+
+#menu .lienMenuActivite {
+    padding: 0;
+    margin: 0;
+    order: 2;
+}
+
+#menu li.lienMenuActivite a {
+padding-top: 0.4rem;
+}
+
+#menu #lienMenuInscription {
+width: 20%;
+justify-content: flex-start;
+}
+
+#menu .lienMenuSinscrire {
+width: 25%;
+justify-content: flex-end;
+padding-top: 3.5rem;
+margin-top: 0;
+order: 3;
+}
+
+#menu .mobileBorder {
+margin-top: 3rem;
+}
+
+
+    
+/*  Le corps    */
+    
+body main {
+padding: 0;
+margin: 0;
+}
+    
+/*  slogan  */
+    
+#slogan {
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 0%;
+}
+    
+#slogan h1 {
+margin-bottom: 2%;
+} 
+    
+    /*  Recherche   */
+    
+form {
+    padding-left: 5%;
+}
+    
+.buttonRechercher {
+display: none;
+}
+    
+.buttonLoupe {
+visibility: visible;
+border-radius: 15px;
+padding: 1rem;
+position: relative;
+right: 1rem;
+}
+    
+    /*  Filtres */
+    
+#filtres {
+padding-left: 5%;
+padding-bottom: 0%;
+margin: 0;
+flex-wrap: wrap;
+}
+    
+#filtres ul {
+    margin-top: 2%;
+    padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#filtres ul li {
+    margin: 1rem 0;
+    font-size: 1rem;
+    width: 25%;
+}
+    
+        /*  Infos dans le header    */
+    
+.infoIcon {
+        padding: 0 1% 3% 5%;
+}
+    
+        /*  section */
+
+            /*  hebergements    */
+    
+#hebergements {
+    width: 100%;
+    order: 2;
+    margin: 0;
+    background-color: transparent;
+    padding-bottom: 0;
+}
+    
+                /*  Les cartes  */
+    
+.cartesHebergements a {
+padding: 1%;
+width: 25%;
+margin: 0;
+height: 14.5rem;
+}
+
+            /*  Les plus populaires */
+    
+aside {
+border-radius: 0;
+}
+
+.asideTitle {
+justify-content: space-between;
+padding: 3% 5% 0 5%;
+}
+
+.asideTitle .logoLink {
+margin: 0;
+padding: 2% 0;
+position: static;
+}
+
+.cartesLesPlusPopulaires {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 4%;
+}
+    
+aside {
+width: 100%;
+order: 1;
+margin: 0;
+}
+    
+.asideTitle h3 {
+margin-top: 0;
+padding: 1rem;
+}
+    
+.cartesLesPlusPopulaires a {
+width: 30%;
+padding: 1%;
+height: 8rem;
+}
+    
+                /*  Les cartes  */
+    
+.cartesLesPlusPopulaires figure {
+margin: 0;
+width: 100%;
+height: 108%;
+}
+
+.imageCarteBasPopulaires {
+width: 50%;
+}
+
+aside .titreCarteBasPopulaires,
+aside .texteCarteBasPopulaires {
+padding-left: 5%;
+}
+
+.etoilesCarteBasPolpulaire {
+margin-left: 5%;
+}
+
+
+                /*  Les étoiles */
+    
+aside .etoiles {
+padding: 0;
+font-size: 0.7rem;
+margin-top: 2.5em;
+}           
+    
+            /*  Les activités   */
+    
+#activites {
+width: auto;
+order: 3;
+margin: 0;
+padding: 0;
+}
+    
+#activites h3 {
+margin-top: 0;
+font-size: 1.3rem;
+padding: 2rem 0 1rem 1.5rem;
+}
+    
+#activites article {
+justify-content: center;
+height: 100%;
+width: auto;
+}
+    
+                /*  Les cartes  */
+    
+.activiteColonnesCartes,
+.activitegrandecarte {
+width: 92%;
+padding: 4%;
+width: 40%;
+height: 25rem;
+}
+           
+#activites .lesGrandesCartes {
+height: 98%;
+width: 100%;
+}
+    
+#activites .cartesColonnes {
+height: 92%;
+width: 100%; 
+}
+    
+#activites .premiereCarte,
+#activites .quatriemeCarte {
+height: 84%;
+object-position: 0rem;
+}
+    
+#activites .deuxiemeImageCarte,
+#activites .troisiemeImageCarte,
+#activites .cinquiemeImageCarte,
+#activites .sixiemeImageCarte {
+height: 65%;
+object-position: 0rem;
+}
+    
+#activites h4 {
+font-size: 1.1rem;
+}
+    
+            /*  footer  */
+footer {
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+}       
+    
+.footerlist {
+padding: 0;
+margin: 0;
+}  
+}
+        
+        
+        /*===========================*/
+    /*(min-width: 921px) and (max-width: 1024px) */
+    /*===========================*/
+    
+    /*=============================*/
 
 
 
@@ -877,296 +1430,10 @@ body footer a {
 
 
 
-/*===================   RESPONSIVE  =========================*/
-/*=============================*/
 
-/*===========================*/
-/*
-**  Laptop
-**  Desktop
-** LP Responsiveness
-**  
- */
-/*===========================*/
-@media all and (max-width: 1600px) {
 
-    /*  En  tête    */
-#titre {
-        padding: 2rem 3rem;
-    }
 
-#titre img {
-    width: 6.5rem;
-}
 
-body header nav {
-    padding: 0rem 3rem 2.5rem 0;
-}
-
-#menu li,
-#menuInscription li {
-    margin-left: 6rem;
-    margin-right: 0;
-    font-size: 1.1rem;
-}
-
-#menu li {
-    margin-left: 4rem;
-    margin-top: 3.4rem;
-}
-
-#menuInscription li {
-    width: 25%;
-    justify-content: flex-end;
-    padding-top: 3.4rem;
-    margin-top: 0;
-}
-
-#menu li.lienMenuHebergement {
-    margin:0;
-}
-
-/*  Le corps de page */
-#slogan h1 {
-    font-size: 1.22em
-}
-
-#slogan p {
-    font-size: 1rem;
-}
-
-    /*  Formulaire de recherche */
-
-.icons {
-    width: 0.2rem;
-}
-
-.icons svg {
-    width: 0.75rem;
-}
-
-#recherche {
-    width: 14.2rem;
-    font-size: 1.1rem;
-}
-
-.buttonRechercher {
-    font-size: 1rem;
-    padding: 1%;
-    width: 8rem;
-}
-
-    /*  Filtres */
-
-#filtres h2 {
-    font-size: 1.1rem;
-    padding-left: 0rem;
-}
-
-#filtres ul {
-    padding-left: 1.5rem;
-}
-
-#filtres li {
-    font-size: 1.2rem;
-}
-
-#filtres span {
-    padding: 0.8rem;
-}
-
-.infoIcon {
-    font-size: 1rem;
-}
-
-    /*  Les hebergement */ 
-
-#hebergements {
-    height: 100%;
-}
-
-#hebergements h3 {
-    font-size: 1.3rem;
-    padding-left: 4%;
-    margin-top: 0;
-}
-
-.link a {
-    font-size: 1.1rem;
-    padding: 2rem;
-}
-
-        /*  Les cartes  */
-
-.cartesHebergements a {
-    margin-bottom: 2rem;
-}
-
-.cartesHebergements figure {
-    height: 14rem;
-}
-
-#hebergements h4 {
-    font-size: 1rem;
-}
-
-#hebergements p {
-    font-size: 0.9rem;
-}
-
-        /*  Les etoiles */
-
-.etoiles {
-    font-size: 0.9rem;
-    margin: 0;
-}
-
-    /*  Les plus populaires */
-
-.cartesLesPlusPopulaires {
-    height: 100%;
-}
-
-.asideTitle {
-    justify-content: center;
-}
-
-.asideTitle h3 {
-    font-size: 1.3rem;
-    margin-top: 2.5rem;
-    width: 80%;
-}
-
-.asideTitle .logoLink {
-    margin: 2.5rem 0 0 0;
-    padding: 0;
-    width: 34%;
-}
-
-        /*  Les cartes  */
-.cartesLesPlusPopulaires figure {
-    height: 8rem;
-    margin-bottom: -0.5rem;
-    margin: 10%;
-}
-
-.cartesLesPlusPopulaires h4 {
-    font-size: 1rem;
-}
-
-.cartesLesPlusPopulaires p {
-    font-size: 0.9rem;
-}
-
-.cartesLesPlusPopulaires .etoiles {
-    font-size: 0.9rem;
-    margin-top: 1em;
-}
-
-    /*  Les activités */
-
-#activites h3 {
-    font-size: 1.4rem;
-    padding-left: 0;
-    padding-bottom: 4%;
-}
-
-
-#activites div {
-    height: 28.5rem;
-}
-
-        /*  Les cartes  */
-
-.deuxiemeCarte figure {
-    height: 100%;
-}
-        
-.troisiemeCarte figure {
-    height: 98%;
-}
-
-.cinquiemeCarte figure {
-    height: 100%;
-}
-
-.sixiemeCarte figure {
-    height: 98%;
-    
-}
-
-.tailleGrandeCarte figure {
-    height: 101%;
-}       
-
-.tailleGrandeCarte img {
-    object-position: -8rem;
-}
-
-#activites h4 {
-    font-size: 1rem;
-}
-
-    /*  Pied de page    */
-
-footer h5 {
-    font-size: 1.1rem;
-}
-
-footer li {
-    margin-bottom: 0.5rem;
-}
-
-.footerlist a {
-    font-size: 1rem;
-}
-}
-	
-	
-	/*===========================*/
-/*(min-width: 1440px) and (max-width: 1600px) */
-/*===========================*/
-
-
-/*===========================*/
-/*
-**  Big Laptop
-**  Desktop
-** LP Responsiveness
-**  
- */
-/*===========================*/
-@media all and (max-width: 1439px) {
-
-    /*  En  tête    */
-
-#titre img {
-    width: 6.5rem;
-}
-
-#menu li.lienMenuHebergement {
-    margin: 0;
-}
-
-/*  Le corps de page */
-
-    /*  Les activités */
-    
-            /*  Les cartes  */
-    
-.troisiemeCarte figure {
-    height: 104%;
-}
-
-.sixiemeCarte figure {
-    height: 103.5%;
-}   
-}
-	
-	
-	/*===========================*/
-/*(min-width: 1180px) and (max-width: 1439px) */
-/*===========================*/
 
 
 /*===================   RESPONSIVE  =========================*/
@@ -1176,317 +1443,7 @@ footer li {
 /*=============================*/
 
 
-/*===========================*/
-/*Très Big tablette
-## LP Responsiveness
-/* Laptop
- * iPad Pro */
-/*===========================*/	
-@media all and (max-width: 1179px) {
-        
-        /*  L'en-tête   */
-    
-        
-header nav {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        flex-wrap: wrap;
-        padding: 0rem 3rem 2.5rem 0;
-}
-        
-#menu {
-        flex-wrap: wrap-reverse;
-        flex-direction: row;
-        padding: 0;    
-        width: 70%;
-        justify-content: flex-end;
-}
-    
-#menu li  {
-        display: flex;
-        width: 20%;
-        justify-content: flex-end;
-        margin: 0
-}
-    
-#menu .lienMenuHebergement {
-        margin: 0;
-        padding: 0;
-        order: 1;
-}
-    
-#menu .lienMenuActivite {
-        padding: 0;
-        margin: 0;
-        order: 2;
-}
 
-#menu > li.lienMenuActivite > a {
-    padding-top: 0.4rem;
-}
-
-#menu #lienMenuInscription {
-    width: 20%;
-    justify-content: flex-start;
-}
-    
-#menu .lienMenuSinscrire {
-    width: 25%;
-    justify-content: flex-end;
-    padding-top: 3.5rem;
-    margin-top: 0;
-    order: 3;
-}
-
-#menu .mobileBorder {
-    margin-top: 3rem;
-}
-
-
-        
-/*  Le corps    */
-        
-body main {
-    padding: 0;
-    margin: 0;
-}
-        
-    /*  slogan  */
-        
-    #slogan {
-        font-size: 1.3rem;
-        margin-bottom: 5%;
-        padding-left: 5%;
-        padding-right: 0%;
-    }
-        
-#slogan h1 {
-    margin-bottom: 2%;
-} 
-        
-        /*  Recherche   */
-        
-form {
-        padding-left: 5%;
-}
-        
-.buttonRechercher {
-    display: none;
-}
-        
-.buttonLoupe {
-    visibility: visible;
-    border-radius: 15px;
-    padding: 1rem;
-    position: relative;
-    right: 1rem;
-}
-        
-        /*  Filtres */
-        
-#filtres {
-    padding-left: 5%;
-    padding-bottom: 0%;
-    margin: 0;
-    flex-wrap: wrap;
-}
-        
-#filtres ul {
-        margin-top: 2%;
-        padding: 0;
-        flex-wrap: wrap;
-        width: 100%;
-}
-    
-#filtres ul li {
-        margin: 1rem 0;
-        font-size: 1rem;
-        width: 25%;
-}
-        
-            /*  Infos dans le header    */
-        
-.infoIcon {
-            padding: 0 1% 3% 5%;
-}
-        
-            /*  section */
-
-                /*  hebergements    */
-        
-#hebergements {
-        flex-direction: column;
-        width: 100%;
-        order: 2;
-        margin: 0;
-        background-color: transparent;
-        padding-bottom: 0;
-}
-        
-                    /*  Les cartes  */
-        
-.cartesHebergements a {
-    padding: 1%;
-    width: 25%;
-    margin: 0;
-    height: 14.5rem;
-}
-
-                /*  Les plus populaires */
-        
-aside {
-    border-radius: 0;
-}
-
-.asideTitle {
-    justify-content: space-between;
-    padding: 3% 5% 0 5%;
-}
-
-.asideTitle .logoLink {
-    margin: 0;
-    padding: 2% 0;
-    position: static;
-}
-
-.cartesLesPlusPopulaires {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 4%;
-}
-        
-aside {
-    width: 100%;
-    order: 1;
-    margin: 0;
-}
-        
-.asideTitle h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-    padding: 1rem;
-}
-        
-.cartesLesPlusPopulaires a {
-    width: 30%;
-    padding: 1%;
-    height: 8rem;
-}
-        
-                    /*  Les cartes  */
-        
-.cartesLesPlusPopulaires figure {
-    margin: 0;
-    width: 100%;
-    height: 108%;
-}
-
-.imageCarteBasPopulaires {
-    width: 50%;
-}
-
-aside .titreCarteBasPopulaires,
-aside .texteCarteBasPopulaires {
-    padding-left: 5%;
-}
-
-.etoilesCarteBasPolpulaire {
-    margin-left: 5%;
-}
-
-
-                    /*  Les étoiles */
-        
-aside .etoiles {
-    padding: 0;
-    font-size: 0.7rem;
-    margin-top: 2.5em;
-}           
-        
-                /*  Les activités   */
-        
-#activites {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    order: 3;
-    margin: 0;
-    padding: 0;
-}
-        
-#activites h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-    padding: 2rem 0 1rem 1.5rem;
-}
-        
-#activites article {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 100%;
-    width: auto;
-}
-        
-                    /*  Les cartes  */
-        
-.activiteColonnesCartes,
-.activitegrandecarte {
-    width: 92%;
-    padding: 4%;
-    width: 40%;
-    height: 25rem;
-}
-               
-#activites .lesGrandesCartes {
-    height: 98%;
-    width: 100%;
-}
-        
-#activites .cartesColonnes {
-    height: 92%;
-    width: 100%; 
-}
-        
-#activites .premiereCarte,
-#activites .quatriemeCarte {
-    height: 84%;
-    object-position: 0rem;
-}
-        
-#activites .deuxiemeImageCarte,
-#activites .troisiemeImageCarte,
-#activites .cinquiemeImageCarte,
-#activites .sixiemeImageCarte {
-    height: 65%;
-    object-position: 0rem;
-}
-        
-#activites h4 {
-    font-size: 1.1rem;
-}
-        
-                /*  footer  */
-footer {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-}       
-        
-.footerlist {
-    padding: 0;
-    margin: 0;
-}  
-}
-            
-            
-            /*===========================*/
-        /*(min-width: 921px) and (max-width: 1024px) */
-        /*===========================*/
-        
-        /*=============================*/
     
 
 
