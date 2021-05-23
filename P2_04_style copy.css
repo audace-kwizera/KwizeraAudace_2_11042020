@@ -1920,7 +1920,7 @@ footer h5 {
 /*Smartphone
 /*  */
 /*===========================*/	
-@media all and (max-width: 378px) {
+@media all and (max-width: 390px) {
 
 
     /*  Le corps    */
@@ -1970,14 +1970,6 @@ footer h5 {
 
 /*  Infos dans le header    */
     
-.infoIcon {
-    padding: 0 1% 5% 5%;
-}
-    
-body main div.infoIcon p {
-    font-size: 0.9rem;
-}
-    
         /*  section */
     
             /*  hebergements    */
@@ -1991,14 +1983,7 @@ body main div.infoIcon p {
                 /*  Les cartes  */
     
 #hebergements .cartesHebergements a {
-    padding: 0 7% 0 7%;
-    width: 86%;
-    margin: 0;
     height: 13.5rem;
-}
-    
-#hebergements figure {
-    height: 90%;
 }
 
  /*  Les images des hebergements */
@@ -2007,7 +1992,7 @@ body main div.infoIcon p {
     width: auto;
     border-radius: 25px 25px 0 0;
     height: 58%;
-    padding: 0.5% 0.5% 0.5% 0.5%;
+    padding: 0.5%;
     object-fit: cover;
 }
 
@@ -2030,50 +2015,33 @@ body main div.infoIcon p {
     color: #DEEBFF;
 }
             
-.blue {
-    color: #0065FC;
-}
-    
+
             /*  Les plus populaires */               
 
 .asideTitle h3 {
-    margin-top: 0;
     font-size: 1.2rem;
-    padding: 10% 0% 0% 7%;
 }
 
 .asideTitle .logoLink {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
     padding: 11% 9% 3% 9%;
-    position: static;
 }
     
                 /*  Les cartes  */
 aside .cartesLesPlusPopulaires a {
-    width: 88%;
-    padding: 3.5% 6% 3.5% 6%;
     height: 8rem;
 } 
 
-
-
 aside .cartesLesPlusPopulaires h4 {
     font-size: 0.9rem;
-    padding-left: 2%;
 }
     
 aside .cartesLesPlusPopulaires p {
     font-size: 0.8rem;
-    padding-left: 2%;
 }
 
                 /*  Les étoiles */
     
 aside .cartesLesPlusPopulaires .etoiles {
-    margin-top: 2rem;
-    padding-left: 2%;
     font-size: 0.7rem;
 }           
 
@@ -2081,7 +2049,6 @@ aside .cartesLesPlusPopulaires .etoiles {
 
 #activites h3 {
     font-size: 1.3rem;
-    padding-bottom: 8%;
 }
 
             /*  Les cartes  */
@@ -2105,187 +2072,6 @@ aside .cartesLesPlusPopulaires .etoiles {
     /*===========================*/
     
     /*=============================*/
-
-
-
-
-
-
-
-/*  L'en-tête   */
-
-
-
-
-
-    /*  Barre de Recherche  */
-
-
-    /*  icones des filtres  */
-
-    /*  filtres  */
-
-
-/*  Le corps de page */
-
-    /*  icone d'info    */
-    /*  placement body  */
-
-
-    /*  icone hebergement    */
-
-
-
-    /* Section hebergements */
-
-    
-
-    /* Titre section hebergement */
-
-
-
-
-    /* carte section hebergement */
-
-
-
-
-    /* Les cartes */
-
-
-        /*  Les images des hebergements */
-
-
-
-        /*  Les descriptions des hebergements */
-
-
-
-        /*  Les etoiles des hebergements    */
-
-            /*  Les etoiles des carte    */
-
-
-
-    /*  "afficher plus" section hebergement    */
-
-        
-    /*  icone les plus populaires    */
-
-
-
-    /*  Titre les plus populaires   */
-
-    /*  Logo les plus populaires   */
-
-
-
-    /*  Les cartes les plus populaires  */
-
-
-
-    /*  Images les plus populaires  */
-
-
-
-
-
-    /*  contenu cartes les plus populaires  */
-
-    /*  etoiles cartes les plus populaires  */
-
-
-
-
-    /*  Les activités   */
-
-
-
-        /*  Titre les activités    */
-
-
-
-        /*  Les cartes des activites    */
-
-
-
-        /*  Titre des cartes    */
-
-
-
-
-        /*  Taille Grandes cartes   */
-
-
-
-
-            /*  Taille des Cartes colonnes  */
-
-
-
-            /*  Taille Moyennes cartes  */
-
-                
-
-           
-
-        /*  Grandes carte   */  
-
-
-        /*  Moyennes cartes  */
-
-
-
-        /*  Petites cartes  */
-
-
-
-/*  Le pied de page */
-
-
-
-    /*  les listes  */
-
-
-
-        /*  Les titres  */
-
-
-
-
-
-
-
-
-
-/*===================   RESPONSIVE  =========================*/
-
-/*=============================*/
-
-/*=============================*/
-
-
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-    
-        
-       
-
-
-
 
 
 /*===========================*/
@@ -2492,3 +2278,183 @@ aside .cartesLesPlusPopulaires .etoiles {
     /*===========================*/
     
     /*=============================*/
+
+
+
+
+/*  L'en-tête   */
+
+
+
+
+
+    /*  Barre de Recherche  */
+
+
+    /*  icones des filtres  */
+
+    /*  filtres  */
+
+
+/*  Le corps de page */
+
+    /*  icone d'info    */
+    /*  placement body  */
+
+
+    /*  icone hebergement    */
+
+
+
+    /* Section hebergements */
+
+    
+
+    /* Titre section hebergement */
+
+
+
+
+    /* carte section hebergement */
+
+
+
+
+    /* Les cartes */
+
+
+        /*  Les images des hebergements */
+
+
+
+        /*  Les descriptions des hebergements */
+
+
+
+        /*  Les etoiles des hebergements    */
+
+            /*  Les etoiles des carte    */
+
+
+
+    /*  "afficher plus" section hebergement    */
+
+        
+    /*  icone les plus populaires    */
+
+
+
+    /*  Titre les plus populaires   */
+
+    /*  Logo les plus populaires   */
+
+
+
+    /*  Les cartes les plus populaires  */
+
+
+
+    /*  Images les plus populaires  */
+
+
+
+
+
+    /*  contenu cartes les plus populaires  */
+
+    /*  etoiles cartes les plus populaires  */
+
+
+
+
+    /*  Les activités   */
+
+
+
+        /*  Titre les activités    */
+
+
+
+        /*  Les cartes des activites    */
+
+
+
+        /*  Titre des cartes    */
+
+
+
+
+        /*  Taille Grandes cartes   */
+
+
+
+
+            /*  Taille des Cartes colonnes  */
+
+
+
+            /*  Taille Moyennes cartes  */
+
+                
+
+           
+
+        /*  Grandes carte   */  
+
+
+        /*  Moyennes cartes  */
+
+
+
+        /*  Petites cartes  */
+
+
+
+/*  Le pied de page */
+
+
+
+    /*  les listes  */
+
+
+
+        /*  Les titres  */
+
+
+
+
+
+
+
+
+
+/*===================   RESPONSIVE  =========================*/
+
+/*=============================*/
+
+/*=============================*/
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+       
+
+
+
+
+
