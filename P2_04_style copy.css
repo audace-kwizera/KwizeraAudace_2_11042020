@@ -1504,7 +1504,15 @@ body header nav {
 }
     
     /*  Le corps    */
-    
+
+    /*  filtres */
+
+#filtres ul li {
+    margin: 1rem 0;
+    font-size: 1rem;
+    width: 50%;
+}
+
         /*  Infos dans le header    */
     
 .infoIcon {
@@ -1512,7 +1520,6 @@ body header nav {
 }
     
         /*  section */
-    
     
             /*  hebergements    */
     
@@ -1530,6 +1537,199 @@ body header nav {
     
     /*=============================*/
 
+/*===========================*/
+/*Tres petite Tablette
+/*  */
+/*===========================*/	
+@media all and (max-width: 680px) {
+
+
+#menuInscription {
+    margin-top: 5%;
+}
+    
+        /*  L'en-tête   */
+        
+#titre {
+        padding: 1rem;
+        position: absolute;
+}
+    
+        /*  Le corps    */
+        
+        /*  slogan  */
+        
+#slogan {
+        font-size: 0.9rem;
+        margin-bottom: 10%;
+}
+        
+#slogan h1 {
+        font-size: 1.1rem;
+} 
+        
+        /*  Recherche   */
+        
+            /*  Filtres */
+        
+#filtres li {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+    width: 54%;
+}
+
+#filtres .filtreFamilial,
+#filtres .filtreAnimaux {
+    margin-left: -2rem;
+    font-size: 1rem;
+}
+        
+#filtres .filtreFamilial {
+    width: 45%;
+}
+        
+#filtres .filtreAnimaux {
+    width: 100%;
+}
+    
+#filtres ul li span svg {
+    height: 0.8rem;
+}
+    
+.buttonfiltres {
+    margin-left: -1rem;
+}
+        
+    /*  Infos dans le header    */
+        
+body main div.infoIcon p {
+    font-size: 0.8rem;
+}
+
+            /*  section */
+        
+body main div.sectionAsideSection {
+    flex-direction: column;
+}       
+                /*  hebergements    */
+     
+#hebergements h3 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    padding: 0 0 1rem 1.5rem;
+}
+                    /*  Les cartes  */
+        
+#hebergements article {
+    flex-direction: column;
+    padding: 0%;
+}
+        
+#hebergements .cartesHebergements a {
+    width: 40%;
+    height: 15rem;
+}
+        
+#hebergements figure {
+    height: 98%;
+}
+                /*  Les liens   */
+        
+#hebergements div a {
+    padding: 3.5rem 1.5rem;
+    font-size: 0.9rem;
+}
+        
+                /*  Les plus populaires */
+    
+aside {
+    padding: 0;
+}            
+    
+aside .cartesLesPlusPopulaires a {
+    width: 92%;
+    padding: 4%;
+    height: 11rem;
+}
+        
+                    /*  Les cartes  */
+        
+aside .cartesLesPlusPopulaires h4 {
+    font-size: 1.3rem;
+}
+        
+aside .cartesLesPlusPopulaires p {
+    font-size: 1.1rem;
+}
+        
+                    /*  Les étoiles */
+        
+aside .cartesLesPlusPopulaires .etoiles {
+    margin-top: 2rem;
+}           
+        
+aside .imageCarteBasPopulaires {
+    width: 40%;
+}
+    
+                    /*  Les activites   */
+    
+.activitegrandecarte {
+    width: 80%;
+    padding: 5% 10% 5% 10%;
+    height: 100%;
+}
+    
+#activites .activiteColonnesCartes {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 5%;
+    height: 20rem;
+}
+        
+#activites .activiteColonnesCartes a {
+    width: 90%;
+    padding: 5%;
+    height: 100%;
+}
+    
+        
+#activites .activiteColonnesCartes figure {
+    height: 80%;
+    width: 100%;
+}
+               
+                /*  footer  */
+footer {
+    flex-direction: column;
+    width: auto;
+}       
+        
+footer .footerlist {
+    padding-left: 10%;
+}
+        
+footer h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+        
+footer a {
+    font-size: 0.9rem
+}
+        
+footer li {
+    margin-bottom: 0.3rem;
+}
+}
+        
+            
+            /*===========================*/
+        /*(min-width: 481px) and (max-width: 540px) */
+        /*===========================*/
+        
+        /*=============================*/
 
 
 
@@ -1703,321 +1903,17 @@ body header nav {
 
 
 
-/*===========================*/
-/*Mini Tablette
-## LP Responsiveness
-/* 
- *  */
-/*===========================*/	
-@media all and (max-width: 640px) {
-    
-    /*  L'en-tête   */
-    
-body header nav {
-    padding: 0;
-}
-    
-    /*  Le corps    */
-    
-        /*  section */
-    
-            /*  Les plus populaires */
-
-
-.cartesLesPlusPopulaires a {
-    width: 46%;
-    padding: 2%;
-    height: 8rem;
-}
-
-            /*  Les activités   */
-    
-
-  
-                /*  Les cartes  */
-    
-
-.activitegrandecarte {
-    width: 80%;
-    padding: 5% 10% 5% 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    height: 100%;
-}
-
-#activites .activiteColonnesCartes {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    padding: 5%;
-    height: 20rem;
-}
-    
-   
-    
-#activites .activiteColonnesCartes a {
-    height: 100%;
-    width: 90%;
-}
-
-    
-#activites .activiteColonnesCartes figure {
-    height: 80%;
-    width: 90%;
-}
-}
-        
-        
-        /*===========================*/
-    /*(min-width: 321px) and (max-width: 465px) */
-    /*===========================*/
-    
-    /*=============================*/
 
 
 
-/*===========================*/
-/*Tres petite Tablette
-/*  */
-/*===========================*/	
-@media all and (max-width: 540px) {
 
-
-#menuInscription {
-    margin-top: 5%;
-}
-
-    /*  L'en-tête   */
-    
-#titre {
-        padding: 1rem;
-        position: absolute;
-}
-
-    /*  Le corps    */
-    
-    /*  slogan  */
-    
-#slogan {
-        font-size: 0.9rem;
-        margin-bottom: 10%;
-        padding-left: 5%;
-        padding-right: 0%;
-}
-    
-#slogan h1 {
-        margin-bottom: 2%;
-        font-size: 1.1rem;
-} 
-    
-    /*  Recherche   */
-    
-        /*  Filtres */
-
-#filtres {
-    padding-left: 5%;
-    padding-bottom: 0%;
-    margin: 0;
-    flex-wrap: wrap;
-}
-    
-#filtres h2 {
-    margin: 0;
-    font-size: 1rem;
-    width: 100%;
-    padding: 0;
-}
-    
-#filtres ul {
-    margin-top: 2%;
-    padding: 0;
-    flex-wrap: wrap;
-}
-    
-#filtres li {
-    margin: 1rem 0;
-    font-size: 0.8rem;
-    width: 54%;
-}
-    
-#filtres .filtreFamilial {
-    margin-left: -2rem;
-    font-size: 1rem;
-    width: 45%;
-}
-    
-#filtres .filtreAnimaux {
-    margin-left: -2rem;
-    font-size: 1rem;
-    width: 100%;
-}
-
-#filtres ul li span svg {
-    height: 0.8rem;
-}
-
-.buttonfiltres {
-    margin-left: -1rem;
-}
-    
-/*  Infos dans le header    */
-    
-.infoIcon {
-    padding: 0 1% 5% 5%;
-}
-    
-body main div.infoIcon p {
-    font-size: 0.8rem;
-}
-    
-        /*  section */
-    
-body main div.sectionAsideSection {
-    flex-direction: column;
-}
-    
-            /*  hebergements    */
- 
-    
-#hebergements h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1.5rem;
-    padding: 0 0 1rem 1.5rem;
-}
-    
-    
-                /*  Les cartes  */
-    
-#hebergements article {
-    flex-direction: column;
-    padding: 0%;
-}
-    
-#hebergements .cartesHebergements a {
-    padding: 5%;
-    width: 40%;
-    margin: 0;
-    height: 15rem;
-}
-    
-#hebergements figure {
-    height: 98%;
-}
-    
-            /*  Les liens   */
-    
-#hebergements div {
-    padding-bottom: 0%;
-}
-    
-#hebergements div a {
-    padding: 3.5rem 1.5rem;
-    font-size: 0.9rem;
-}
-    
-            /*  Les plus populaires */
-
-aside {
-    padding: 0;
-}            
-
-aside .cartesLesPlusPopulaires a {
-    width: 92%;
-    padding: 4%;
-    height: 11rem;
-}
-    
-                /*  Les cartes  */
-    
-aside .cartesLesPlusPopulaires h4 {
-    font-size: 1.3rem;
-}
-    
-aside .cartesLesPlusPopulaires p {
-    font-size: 1.1rem;
-}
-    
-                /*  Les étoiles */
-    
-aside .cartesLesPlusPopulaires .etoiles {
-    margin-top: 2rem;
-}           
-    
-aside .imageCarteBasPopulaires {
-    width: 40%;
-}
-
-                /*  Les activites   */
-
-.activitegrandecarte {
-    width: 80%;
-    padding: 5% 10% 5% 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    height: 100%;
-}
-
-#activites .activiteColonnesCartes {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    padding: 5%;
-    height: 20rem;
-}
-    
-   
-    
-#activites .activiteColonnesCartes a {
-    height: 100%;
-    width: 90%;
-    padding: 5%;
-}
-
-    
-#activites .activiteColonnesCartes figure {
-    height: 80%;
-    width: 100%;
-}
-           
-            /*  footer  */
-footer {
-    flex-direction: column;
-    width: auto;
-}       
-    
-footer .footerlist {
-    padding-left: 10%;
-    margin: 0;
-}
-    
-footer h5 {
-    font-size: 1rem;
-    font-weight: bold;
-}
-    
-footer a {
-    font-size: 0.9rem
-}
-    
-footer li {
-    margin-bottom: 0.3rem;
-}
-}
-    
-        
-        /*===========================*/
-    /*(min-width: 481px) and (max-width: 540px) */
-    /*===========================*/
-    
-    /*=============================*/
 
 
     /*===========================*/
 /*Grands Smartphone
 /*  */
 /*===========================*/	
-@media all and (max-width: 479px) {
+@media all and (max-width: 428px) {
 
 
     /*  Le corps    */
