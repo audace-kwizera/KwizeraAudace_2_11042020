@@ -979,7 +979,7 @@ Grandes Tablette et Laptop
 header nav {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 60%;
     flex-wrap: wrap;
 }
     
@@ -987,14 +987,14 @@ header nav {
     flex-wrap: wrap-reverse;
     flex-direction: row;
     padding: 0;    
-    width: 70%;
+    width: 50%;
     justify-content: flex-end;
 }
 
 #menu li  {
     display: flex;
     width: 20%;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0
 }
 
@@ -1273,7 +1273,11 @@ margin: 0;
 @media all and (max-width: 920px) {
     
         /*  L'en-tête   */
-    
+
+header nav {
+    width: 100%;
+}        
+
 #menu .lienMenuSinscrire {
     padding-top: 2%;
     padding-right: 10%;
@@ -1707,20 +1711,8 @@ footer li {
 /*  */
 /*===========================*/	
 @media all and (max-width: 427px) {
-
-
-    /*  Le corps    */
-    
-    /*  Recherche   */
-
-/*  Infos dans le header    */
   
-    
         /*  section */
-    
-            /*  hebergements    */
-
-
                 /*  Les cartes  */
     
 #hebergements .cartesHebergements a {
@@ -1882,14 +1874,14 @@ footer h5 {
 }
 
     /*===========================*/
-    /*(min-width: 392px) and (max-width: 427px) */
+    /*(min-width: 398px) and (max-width: 427px) */
     /*===========================*/
 
 /*===========================*/
 /*Smartphone
 /*  */
 /*===========================*/	
-@media all and (max-width: 391px) {
+@media all and (max-width: 398px) {
 
     /*  Le corps    */
 
@@ -2106,7 +2098,7 @@ aside .cartesLesPlusPopulaires .etoiles {
 /*Mini Smartphone
 /*  */
 /*===========================*/	
-@media all and (max-width: 300px) {
+@media all and (max-width: 312px) {
 
     /*  Le corps    */
 
