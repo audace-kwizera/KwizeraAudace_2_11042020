@@ -2,10 +2,10 @@
 
 body {
     display: block;
-    max-width: 1440px;
-    margin: 0;
+    max-width: 1440;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    margin: auto;
 }
 
 a {
@@ -305,7 +305,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 66%;
+    width: 65%;
     border-radius: 25px;
 }
 
@@ -725,19 +725,12 @@ body footer a {
 /*===========================*/
 @media all and (max-width: 1179px) {
 
+
+
 /*  En  tête    */
-#titre {
-        padding: 2rem 3rem;
-    }
 
-#titre img {
-    width: 6.5rem;
-}
 
-#menu li,
-#menuInscription li {
-    font-size: 1.1rem;
-}
+
 
 /*  Le corps de page */
 
@@ -944,65 +937,6 @@ Grandes Tablette et Laptop
 /*===========================*/	
 @media all and (max-width: 1179px) {
         
-    /*  L'en-tête   */
-
-    
-header nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 60%;
-    flex-wrap: wrap;
-}
-    
-#menu {
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
-    padding: 0;    
-    width: 50%;
-    justify-content: flex-end;
-}
-
-#menu li  {
-    display: flex;
-    width: 20%;
-    justify-content: center;
-    margin: 0
-}
-
-#menu .lienMenuHebergement {
-    padding: 0;
-    order: 1;
-}
-
-#menu .lienMenuActivite {
-    padding: 0;
-    margin: 0;
-    order: 2;
-}
-
-#menu li.lienMenuActivite a,
-#menu li.lienMenuHebergement a {
-padding-top: 0.4rem;
-}
-
-#menu #lienMenuInscription {
-width: 20%;
-justify-content: flex-start;
-}
-
-#menu .lienMenuSinscrire {
-width: 25%;
-justify-content: flex-end;
-padding-top: 3.5rem;
-margin-top: 0;
-order: 3;
-}
-
-#menu .mobileBorder {
-margin-top: 3rem;
-}
-
-
     
 /*  Le corps    */
     
@@ -1013,21 +947,17 @@ margin: 0;
     
 /*  slogan  */
     
-#slogan {
-    font-size: 1.3rem;
-    margin-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 0%;
-}
-    
-#slogan h1 {
-margin-bottom: 2%;
+
+#slogan h1,
+#slogan p {
+    margin-bottom: 20px;
+    padding-left: 40px;
 } 
     
     /*  Recherche   */
     
 form {
-    padding-left: 5%;
+    padding-left: 30px;
 }
     
 .buttonRechercher {
@@ -1045,14 +975,14 @@ right: 1rem;
     /*  Filtres */
     
 #filtres {
-padding-left: 5%;
+padding-left: 30px;
 padding-bottom: 0%;
 margin: 0;
 flex-wrap: wrap;
 }
     
 #filtres ul {
-    margin-top: 2%;
+    margin-top: 20px;
     padding: 0;
     flex-wrap: wrap;
     width: 100%;
@@ -1066,9 +996,7 @@ flex-wrap: wrap;
     
         /*  Infos dans le header    */
     
-.infoIcon {
-        padding: 0 1% 3% 5%;
-}
+
     
         /*  section */
 
@@ -1086,7 +1014,6 @@ flex-wrap: wrap;
     
 .cartesHebergements a {
 padding: 1%;
-width: 25%;
 margin: 0;
 height: 14.5rem;
 }
@@ -1104,7 +1031,7 @@ padding: 3% 5% 0 5%;
 
 .asideTitle .logoLink {
 margin: 0;
-padding: 2% 0;
+padding: 20px;
 position: static;
 }
 
@@ -1112,7 +1039,7 @@ position: static;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin-bottom: 4%;
+margin-bottom: 40px;
 }
     
 aside {
@@ -1128,7 +1055,7 @@ padding: 1rem;
     
 .cartesLesPlusPopulaires a {
 width: 30%;
-padding: 1%;
+padding: 10px;
 height: 8rem;
 }
     
@@ -1160,8 +1087,8 @@ margin-left: 5%;
     
 aside .etoiles {
 padding: 0;
-font-size: 0.7rem;
-margin-top: 2.5em;
+font-size: 16px;
+margin-top: 25px;
 }         
 
                 /*  Les activites   */
@@ -1184,14 +1111,14 @@ margin: 0;
 }
 
         /*===========================*/
-    /*(min-width: 921px) and (max-width: 1024px) */
+    /*(min-width: 1024px) and (max-width: 1079px) */
     /*===========================*/
 
 /*===========================*/
 /* Tablettes et Petits Laptop
 */
 /*===========================*/	
-@media all and (max-width: 920px) {
+@media all and (max-width: 1024px) {
     
         /*  L'en-tête   */
 
@@ -1372,7 +1299,7 @@ aside {
 }
             
     /*===========================*/
-    /*(min-width: 765px) and (max-width: 920px) */
+    /*(min-width: 840px) and (max-width: 1024px) */
     /*===========================*/
 
 /*===========================
@@ -1380,7 +1307,7 @@ Petites Tablettes
 /* 
  * */
 /*===========================*/	
-@media all and (max-width: 764px) {
+@media all and (max-width: 839px) {
 
     /*  L'en-tête   */
     
@@ -1480,7 +1407,7 @@ body header nav {
 }
 }       
         /*===========================*/
-    /*(min-width: 680px) and (max-width: 765px) */
+    /*(min-width: 680px) and (max-width: 839px) */
     /*===========================*/
 
 /*===========================*/
