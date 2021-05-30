@@ -1,10 +1,11 @@
 /*  General */
 
 body {
-    width: auto;
-    margin: 0;
+    display: block;
+    max-width: 1440px;
+    margin: auto;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 a {
@@ -959,25 +960,9 @@ footer li {
 
     /*  En  tête    */
 
-#titre img {
-    width: 6.5rem;
-}
 
-#menu li.lienMenuHebergement {
-    margin: 0;
-}
 
-/*  Le corps de page */
 
-    /*  Les cartes activités */
-
-.troisiemeCarte figure {
-    height: 104%;
-}
-
-.sixiemeCarte figure {
-    height: 103.5%;
-}   
 }	
 	
     /*===========================*/
