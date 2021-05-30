@@ -1610,37 +1610,7 @@ body main div.sectionAsideSection {
     font-size: 0.9rem;
 }
         
-                /*  Les plus populaires */
-    
-aside {
-    padding: 0;
-}            
-    
-aside .cartesLesPlusPopulaires a {
-    width: 92%;
-    padding: 4%;
-    height: 11rem;
-}
-        
-                    /*  Les cartes  */
-        
-aside .cartesLesPlusPopulaires h4 {
-    font-size: 1.3rem;
-}
-        
-aside .cartesLesPlusPopulaires p {
-    font-size: 1.1rem;
-}
-        
-                    /*  Les étoiles */
-        
-aside .cartesLesPlusPopulaires .etoiles {
-    margin-top: 2rem;
-}           
-        
-aside .imageCarteBasPopulaires {
-    width: 40%;
-}
+               
     
                     /*  Les activites   */
     
@@ -1696,6 +1666,48 @@ footer li {
     /*===========================*/
     /*(min-width: 428px) and (max-width: 679px) */
     /*===========================*/
+
+
+/*===========================*/
+/*Très grands Smartphone et 
+    Tres petite Tablette
+/*  */
+/*===========================*/	
+@media all and (max-width: 649px) {
+    /*  Les plus populaires */
+    
+ aside {
+    padding: 0;
+}            
+    
+aside .cartesLesPlusPopulaires a {
+    width: 92%;
+    padding: 4%;
+    height: 11rem;
+}
+        
+                    /*  Les cartes  */
+        
+aside .cartesLesPlusPopulaires h4 {
+    font-size: 1.3rem;
+}
+        
+aside .cartesLesPlusPopulaires p {
+    font-size: 1.1rem;
+}
+        
+                    /*  Les étoiles */
+        
+aside .cartesLesPlusPopulaires .etoiles {
+    margin-top: 2rem;
+}           
+        
+aside .imageCarteBasPopulaires {
+    width: 40%;
+}
+}    
+
+
 
 /*===========================*/
 /*Grands Smartphone
