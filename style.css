@@ -1327,17 +1327,18 @@ body header nav {
 }
     
 #menu .lienMenuSinscrire {
-    padding-top: 2%;
-    padding-right: 10%;
+    padding-top: 20px;
+    padding-right: 10px;
 }
     
 #menu li.lienMenuHebergement a.mobileBorder,
 #menu li.lienMenuActivite a.mobileBorder {
-    padding: 10%;
+    padding: 40%;
 }
         
 #menu {
     width: 100%;
+    padding: 0;
 }
     
 #menu .lienMenuHebergement,
@@ -1366,14 +1367,14 @@ body header nav {
 #menu li.lienMenuActivite a {
     width: 100%;
     margin-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 15px;
     text-align: center;
     color: black;
 }
     
 #menuInscription {
     width: 100%;
-    margin-top: -9%;
+    margin-top: -10px;
     position: relative;
     align-items: center;
 }
@@ -1388,15 +1389,13 @@ body header nav {
 
 #filtres ul li {
     margin: 1rem 0;
-    font-size: 1rem;
+    font-size: 16px;
     width: 50%;
 }
 
         /*  Infos dans le header    */
     
-.infoIcon {
-    padding: 0 1% 1% 5%;
-}
+
     
         /*  section */
     
@@ -1407,7 +1406,7 @@ body header nav {
 }
 }       
         /*===========================*/
-    /*(min-width: 680px) and (max-width: 839px) */
+    /*(min-width: 680px) and (max-width: px) */
     /*===========================*/
 
 /*===========================*/
@@ -1418,9 +1417,6 @@ body header nav {
 @media all and (max-width: 679px) {
 
 
-#menuInscription {
-    margin-top: 5%;
-}
     
         /*  L'en-tête   */
         
@@ -1431,24 +1427,13 @@ body header nav {
     
         /*  Le corps    */
         
-        /*  slogan  */
-        
-#slogan {
-        font-size: 0.9rem;
-        margin-bottom: 10%;
-}
-        
-#slogan h1 {
-        font-size: 1.1rem;
-} 
-        
+ 
         /*  Recherche   */
         
             /*  Filtres */
         
 #filtres li {
     margin: 1rem 0;
-    font-size: 0.8rem;
     width: 54%;
 }
 
@@ -1489,7 +1474,7 @@ body main div.sectionAsideSection {
      
 #hebergements h3 {
     margin-bottom: 0;
-    font-size: 1.5rem;
+    font-size: 20px;
     padding: 0 0 1rem 1.5rem;
 }
                     /*  Les cartes  */
@@ -1511,39 +1496,45 @@ body main div.sectionAsideSection {
         
 #hebergements div a {
     padding: 3.5rem 1.5rem;
-    font-size: 0.9rem;
+    font-size: 16px;
+}
+     
+        /* aside    */
+
+aside {
+    padding: 0;
+}            
+    
+aside .cartesLesPlusPopulaires a {
+    width: 92%;
+    padding: 4%;
+    height: 11rem;
 }
         
-               
+                    /*  Les cartes  */
+        
+aside .cartesLesPlusPopulaires h4 {
+    font-size: 18px;
+}
+        
+aside .cartesLesPlusPopulaires p {
+    font-size: 16px;
+}
+        
+                    /*  Les étoiles */
+        
+aside .cartesLesPlusPopulaires .etoiles {
+    margin-top: 2rem;
+}           
+        
+aside .imageCarteBasPopulaires {
+    width: 40%;
+}
+            
     
                     /*  Les activites   */
     
-.activitegrandecarte {
-    width: 80%;
-    padding: 5% 10% 5% 10%;
-    height: 100%;
-}
-    
-#activites .activiteColonnesCartes {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    padding: 5%;
-    height: 20rem;
-}
-        
-#activites .activiteColonnesCartes a {
-    width: 90%;
-    padding: 5%;
-    height: 100%;
-}
-    
-        
-#activites .activiteColonnesCartes figure {
-    height: 80%;
-    width: 100%;
-}
-               
+
                 /*  footer  */
 footer {
     flex-direction: column;
@@ -1577,29 +1568,29 @@ footer li {
     Tres petite Tablette
 /*  */
 /*===========================*/	
-@media all and (max-width: 649px) {
+@media all and (max-width: 520px) {
+
+    /*  Header  */
+
+#menu li.lienMenuHebergement,
+#menu > li.lienMenuActivite {
+    padding-left: 0;
+}
+
+
     /*  Les plus populaires */
-    
+
+
  aside {
     padding: 0;
 }            
     
 aside .cartesLesPlusPopulaires a {
     width: 92%;
-    padding: 4%;
     height: 11rem;
 }
         
-                    /*  Les cartes  */
-        
-aside .cartesLesPlusPopulaires h4 {
-    font-size: 1.3rem;
-}
-        
-aside .cartesLesPlusPopulaires p {
-    font-size: 1.1rem;
-}
-        
+ 
                     /*  Les étoiles */
         
 aside .cartesLesPlusPopulaires .etoiles {
@@ -1609,6 +1600,33 @@ aside .cartesLesPlusPopulaires .etoiles {
 aside .imageCarteBasPopulaires {
     width: 40%;
 }
+
+.activitegrandecarte {
+    width: 80%;
+    padding: 20px;
+    height: 100%;
+}
+    
+#activites .activiteColonnesCartes {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    height: 20rem;
+}
+        
+#activites .activiteColonnesCartes a {
+    width: 90%;
+    padding: 5%;
+    height: 100%;
+}
+    
+        
+#activites .activiteColonnesCartes figure {
+    height: 80%;
+    width: 100%;
+}
+               
 }    
 
 
@@ -1617,8 +1635,9 @@ aside .imageCarteBasPopulaires {
 /*Grands Smartphone
 /*  */
 /*===========================*/	
-@media all and (max-width: 427px) {
+@media all and (max-width: 459px) {
   
+
         /*  section */
                 /*  Les cartes  */
     
