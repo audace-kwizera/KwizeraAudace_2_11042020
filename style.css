@@ -956,15 +956,7 @@ footer li {
 **  Petit Desktop et Grands Laptop
  */
 /*===========================*/
-@media all and (max-width: 1439px) {
 
-    /*  En  tête    */
-
-
-
-
-}	
-	
     /*===========================*/
     /*(min-width: 1180px) and (max-width: 1439px) */
     /*===========================*/
@@ -1186,70 +1178,19 @@ margin-left: 5%;
 
 
                 /*  Les étoiles */
+            
+            
     
 aside .etoiles {
 padding: 0;
 font-size: 0.7rem;
 margin-top: 2.5em;
-}           
-    
-            /*  Les activités   */
-    
+}         
+
+                /*  Les activites   */
+
 #activites {
-width: auto;
-order: 3;
-margin: 0;
-padding: 0;
-}
-    
-#activites h3 {
-margin-top: 0;
-font-size: 1.3rem;
-padding: 2rem 0 1rem 1.5rem;
-}
-    
-#activites article {
-justify-content: center;
-height: 100%;
-width: auto;
-}
-    
-                /*  Les cartes  */
-    
-.activiteColonnesCartes,
-.activitegrandecarte {
-width: 92%;
-padding: 4%;
-width: 40%;
-height: 25rem;
-}
-           
-#activites .lesGrandesCartes {
-height: 98%;
-width: 100%;
-}
-    
-#activites .cartesColonnes {
-height: 92%;
-width: 100%; 
-}
-    
-#activites .premiereCarte,
-#activites .quatriemeCarte {
-height: 84%;
-object-position: 0rem;
-}
-    
-#activites .deuxiemeImageCarte,
-#activites .troisiemeImageCarte,
-#activites .cinquiemeImageCarte,
-#activites .sixiemeImageCarte {
-height: 65%;
-object-position: 0rem;
-}
-    
-#activites h4 {
-font-size: 1.1rem;
+    order: 3;
 }
     
             /*  footer  */
@@ -1392,18 +1333,65 @@ aside {
 .cartesLesPlusPopulaires figure {
     height: 107%;
 }
-                /*  Les cartes des activités   */
-        
-#activites .activiteColonnesCartes a {
-    height: 50%;
-    padding-top: 0;
-    width: 100%;
-}
+
+ /*  Les activités   */
     
-#activites .tailleGrandeCarte figure {
-    height: 101.5%;
-    width: 101.5%;
-}
+ #activites {
+    width: auto;
+    order: 3;
+    margin: 0;
+    padding: 0;
+    }
+        
+    #activites h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    padding: 2rem 0 1rem 1.5rem;
+    }
+        
+    #activites article {
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    }
+        
+                    /*  Les cartes  */
+        
+    .activiteColonnesCartes,
+    .activitegrandecarte {
+    width: 92%;
+    padding: 4%;
+    width: 40%;
+    height: 25rem;
+    }
+               
+    #activites .lesGrandesCartes {
+    height: 98%;
+    width: 100%;
+    }
+        
+    #activites .cartesColonnes {
+    height: 92%;
+    width: 100%; 
+    }
+        
+    #activites .premiereCarte,
+    #activites .quatriemeCarte {
+    height: 84%;
+    object-position: 0rem;
+    }
+        
+    #activites .deuxiemeImageCarte,
+    #activites .troisiemeImageCarte,
+    #activites .cinquiemeImageCarte,
+    #activites .sixiemeImageCarte {
+    height: 65%;
+    object-position: 0rem;
+    }
+        
+    #activites h4 {
+    font-size: 1.1rem;
+    }
 }
             
     /*===========================*/
